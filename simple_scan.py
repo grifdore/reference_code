@@ -41,12 +41,12 @@ class Scanner(object):
         # Create beacon
         self.__service = BeaconService(BLE_DEVICE)
         self.__timeout = None
-    
+
     @property
     def timeout(self):
         """BLE beacon scanner timeout getter."""
         return self.__timeout
-    
+
     @timeout.setter
     def timeout(self, value):
         """BLE beacon scanner timeout setter.
@@ -68,7 +68,7 @@ class Scanner(object):
                 raise ValueError("Beacon scanner timeout cannot exceed "
                         "maximum allowable timeout.")
         self.__timeout = value
-    
+
     @property
     def revisit(self):
         """BLE beacon scanner revisit interval getter."""
@@ -93,7 +93,7 @@ class Scanner(object):
     
     def scan(self, scan_prefix='', timeout=0, revisit=1):
         """Execute BLE beacon scan.
-            
+
         Returns:
             Filtered advertisements by address 
             first, timestamp second, and then remainder of advertisement 
@@ -115,12 +115,12 @@ class Scanner(object):
             if timeout is not None:
                 if (time.monotonic()-start_time) > timeout:
                     run = False
-    
+
 def load_config(parsed_args):
     """Load configuration."""
     config = DEFAULT_CONFIG
     return config
-    
+
 def main(args):
     """Creates beacon and starts scanning.
     
@@ -132,8 +132,7 @@ def main(args):
     advertisements = scanner.scan()
     output = advertisements
     return output
-    
+
 if __name__ == "__main__":
     """Script execution."""
     main(sys.argv)
-    

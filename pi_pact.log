@@ -1,1406 +1,410 @@
-2020-06-27 15:12:34,637   pi_pact      DEBUG      Beacon configuration - {'control_file': 'advertiser_control', 'timeout': 20, 'uuid': '', 'major': 1, 'minor': 1, 'tx_power': 1, 'interval': 200}
-2020-06-27 15:12:34,637   pi_pact      DEBUG      Scanner configuration - {'control_file': 'scanner_control', 'scan_prefix': 'pi_pact_scan', 'timeout': 20, 'revisit': 1, 'filters': {}}
-2020-06-27 15:12:34,637   pi_pact      INFO       Beacon scanner mode selected.
-2020-06-27 15:12:34,639   pi_pact      DEBUG      Using default beacon scanner configuration filters: {}.
-2020-06-27 15:12:34,639   pi_pact      INFO       Initialized beacon scanner.
-2020-06-27 15:12:34,642   pi_pact      INFO       Starting beacon scanner with timeout 20.
-2020-06-27 15:12:34,642   pi_pact      DEBUG      Performing scan #1 at revisit 1.
-2020-06-27 15:12:35,208   pi_pact      DEBUG      Performing scan #2 at revisit 1.
-2020-06-27 15:12:36,762   pi_pact      DEBUG      Performing scan #3 at revisit 1.
-2020-06-27 15:12:37,214   pi_pact      DEBUG      Performing scan #4 at revisit 1.
-2020-06-27 15:12:38,249   pi_pact      DEBUG      Performing scan #5 at revisit 1.
-2020-06-27 15:12:39,218   pi_pact      DEBUG      Performing scan #6 at revisit 1.
-2020-06-27 15:12:40,021   pi_pact      DEBUG      Performing scan #7 at revisit 1.
-2020-06-27 15:12:41,220   pi_pact      DEBUG      Performing scan #8 at revisit 1.
-2020-06-27 15:12:42,262   pi_pact      DEBUG      Performing scan #9 at revisit 1.
-2020-06-27 15:12:43,038   pi_pact      DEBUG      Performing scan #10 at revisit 1.
-2020-06-27 15:12:44,746   pi_pact      DEBUG      Performing scan #11 at revisit 1.
-2020-06-27 15:12:45,126   pi_pact      DEBUG      Performing scan #12 at revisit 1.
-2020-06-27 15:12:46,473   pi_pact      DEBUG      Performing scan #13 at revisit 1.
-2020-06-27 15:12:47,188   pi_pact      DEBUG      Performing scan #14 at revisit 1.
-2020-06-27 15:12:48,014   pi_pact      DEBUG      Performing scan #15 at revisit 1.
-2020-06-27 15:12:49,238   pi_pact      DEBUG      Performing scan #16 at revisit 1.
-2020-06-27 15:12:50,500   pi_pact      DEBUG      Performing scan #17 at revisit 1.
-2020-06-27 15:12:51,030   pi_pact      DEBUG      Performing scan #18 at revisit 1.
-2020-06-27 15:12:52,099   pi_pact      DEBUG      Performing scan #19 at revisit 1.
-2020-06-27 15:12:53,245   pi_pact      DEBUG      Performing scan #20 at revisit 1.
-2020-06-27 15:12:54,170   pi_pact      DEBUG      Performing scan #21 at revisit 1.
-2020-06-27 15:12:55,118   pi_pact      DEBUG      Beacon scanner timed out.
-2020-06-27 15:12:55,119   pi_pact      INFO       Stopping beacon scanner.
-2020-06-27 15:15:34,822   pi_pact      DEBUG      Beacon configuration - {'control_file': 'advertiser_control', 'timeout': 20, 'uuid': '', 'major': 1, 'minor': 1, 'tx_power': 1, 'interval': 200}
-2020-06-27 15:15:34,822   pi_pact      DEBUG      Scanner configuration - {'control_file': 'scanner_control', 'scan_prefix': 'pi_pact_scan', 'timeout': 20, 'revisit': 1, 'filters': {}}
-2020-06-27 15:15:34,823   pi_pact      INFO       Beacon scanner mode selected.
-2020-06-27 15:15:34,824   pi_pact      DEBUG      Using default beacon scanner configuration filters: {}.
-2020-06-27 15:15:34,824   pi_pact      INFO       Initialized beacon scanner.
-2020-06-27 15:15:34,827   pi_pact      INFO       Starting beacon scanner with timeout 20.
-2020-06-27 15:15:34,827   pi_pact      DEBUG      Performing scan #1 at revisit 1.
-2020-06-27 15:15:35,052   pi_pact      DEBUG      Performing scan #2 at revisit 1.
-2020-06-27 15:15:36,333   pi_pact      DEBUG      Performing scan #3 at revisit 1.
-2020-06-27 15:15:37,101   pi_pact      DEBUG      Performing scan #4 at revisit 1.
-2020-06-27 15:15:38,659   pi_pact      DEBUG      Performing scan #5 at revisit 1.
-2020-06-27 15:15:39,074   pi_pact      DEBUG      Performing scan #6 at revisit 1.
-2020-06-27 15:15:40,470   pi_pact      DEBUG      Performing scan #7 at revisit 1.
-2020-06-27 15:15:41,211   pi_pact      DEBUG      Performing scan #8 at revisit 1.
-2020-06-27 15:15:42,373   pi_pact      DEBUG      Performing scan #9 at revisit 1.
-2020-06-27 15:15:43,111   pi_pact      DEBUG      Performing scan #10 at revisit 1.
-2020-06-27 15:15:44,063   pi_pact      DEBUG      Performing scan #11 at revisit 1.
-2020-06-27 15:15:45,151   pi_pact      DEBUG      Performing scan #12 at revisit 1.
-2020-06-27 15:15:46,257   pi_pact      DEBUG      Performing scan #13 at revisit 1.
-2020-06-27 15:15:47,355   pi_pact      DEBUG      Performing scan #14 at revisit 1.
-2020-06-27 15:15:48,454   pi_pact      DEBUG      Performing scan #15 at revisit 1.
-2020-06-27 15:15:49,009   pi_pact      DEBUG      Performing scan #16 at revisit 1.
-2020-06-27 15:15:50,569   pi_pact      DEBUG      Performing scan #17 at revisit 1.
-2020-06-27 15:15:51,012   pi_pact      DEBUG      Performing scan #18 at revisit 1.
-2020-06-27 15:15:52,232   pi_pact      DEBUG      Performing scan #19 at revisit 1.
-2020-06-27 15:15:53,004   pi_pact      DEBUG      Performing scan #20 at revisit 1.
-2020-06-27 15:15:54,379   pi_pact      DEBUG      Performing scan #21 at revisit 1.
-2020-06-27 15:15:55,606   pi_pact      DEBUG      Beacon scanner timed out.
-2020-06-27 15:15:55,607   pi_pact      INFO       Stopping beacon scanner.
-2020-06-27 15:19:02,717   pi_pact      DEBUG      Beacon configuration - {'control_file': 'advertiser_control', 'timeout': 20, 'uuid': '', 'major': 1, 'minor': 1, 'tx_power': 1, 'interval': 200}
-2020-06-27 15:19:02,718   pi_pact      DEBUG      Scanner configuration - {'control_file': 'scanner_control', 'scan_prefix': 'pi_pact_scan', 'timeout': 20, 'revisit': 1, 'filters': {}}
-2020-06-27 15:19:02,718   pi_pact      INFO       Beacon scanner mode selected.
-2020-06-27 15:19:02,719   pi_pact      DEBUG      Using default beacon scanner configuration filters: {}.
-2020-06-27 15:19:02,719   pi_pact      INFO       Initialized beacon scanner.
-2020-06-27 15:19:02,722   pi_pact      INFO       Starting beacon scanner with timeout 20.
-2020-06-27 15:19:02,723   pi_pact      DEBUG      Performing scan #1 at revisit 1.
-2020-06-27 15:19:03,065   pi_pact      DEBUG      Performing scan #2 at revisit 1.
-2020-06-27 15:19:04,057   pi_pact      DEBUG      Performing scan #3 at revisit 1.
-2020-06-27 15:19:06,060   pi_pact      DEBUG      Performing scan #4 at revisit 1.
-2020-06-27 15:19:07,768   pi_pact      DEBUG      Performing scan #5 at revisit 1.
-2020-06-27 15:19:08,025   pi_pact      DEBUG      Performing scan #6 at revisit 1.
-2020-06-27 15:19:09,426   pi_pact      DEBUG      Performing scan #7 at revisit 1.
-2020-06-27 15:19:10,068   pi_pact      DEBUG      Performing scan #8 at revisit 1.
-2020-06-27 15:19:11,178   pi_pact      DEBUG      Performing scan #9 at revisit 1.
-2020-06-27 15:19:12,071   pi_pact      DEBUG      Performing scan #10 at revisit 1.
-2020-06-27 15:19:13,360   pi_pact      DEBUG      Performing scan #11 at revisit 1.
-2020-06-27 15:19:14,078   pi_pact      DEBUG      Performing scan #12 at revisit 1.
-2020-06-27 15:19:15,365   pi_pact      DEBUG      Performing scan #13 at revisit 1.
-2020-06-27 15:19:16,079   pi_pact      DEBUG      Performing scan #14 at revisit 1.
-2020-06-27 15:19:17,280   pi_pact      DEBUG      Performing scan #15 at revisit 1.
-2020-06-27 15:19:18,003   pi_pact      DEBUG      Performing scan #16 at revisit 1.
-2020-06-27 15:19:19,376   pi_pact      DEBUG      Performing scan #17 at revisit 1.
-2020-06-27 15:19:20,270   pi_pact      DEBUG      Performing scan #18 at revisit 1.
-2020-06-27 15:19:21,588   pi_pact      DEBUG      Performing scan #19 at revisit 1.
-2020-06-27 15:19:22,088   pi_pact      DEBUG      Performing scan #20 at revisit 1.
-2020-06-27 15:19:24,093   pi_pact      DEBUG      Beacon scanner timed out.
-2020-06-27 15:19:24,093   pi_pact      INFO       Stopping beacon scanner.
-2020-06-27 15:22:07,749   pi_pact      DEBUG      Beacon configuration - {'control_file': 'advertiser_control', 'timeout': 20, 'uuid': '', 'major': 1, 'minor': 1, 'tx_power': 1, 'interval': 200}
-2020-06-27 15:22:07,750   pi_pact      DEBUG      Scanner configuration - {'control_file': 'scanner_control', 'scan_prefix': 'pi_pact_scan', 'timeout': 20, 'revisit': 1, 'filters': {}}
-2020-06-27 15:22:07,750   pi_pact      INFO       Beacon scanner mode selected.
-2020-06-27 15:22:07,751   pi_pact      DEBUG      Using default beacon scanner configuration filters: {}.
-2020-06-27 15:22:07,751   pi_pact      INFO       Initialized beacon scanner.
-2020-06-27 15:22:07,754   pi_pact      INFO       Starting beacon scanner with timeout 20.
-2020-06-27 15:22:07,755   pi_pact      DEBUG      Performing scan #1 at revisit 1.
-2020-06-27 15:22:07,755   pi_pact      ERROR      Fatal exception encountered
-Traceback (most recent call last):
-  File "pi_pact.py", line 712, in main
-    advertisements = scanner.scan()
-  File "pi_pact.py", line 572, in scan
-    print(scans[-1])
-IndexError: list index out of range
-2020-06-27 15:22:42,053   pi_pact      DEBUG      Beacon configuration - {'control_file': 'advertiser_control', 'timeout': 20, 'uuid': '', 'major': 1, 'minor': 1, 'tx_power': 1, 'interval': 200}
-2020-06-27 15:22:42,053   pi_pact      DEBUG      Scanner configuration - {'control_file': 'scanner_control', 'scan_prefix': 'pi_pact_scan', 'timeout': 20, 'revisit': 1, 'filters': {}}
-2020-06-27 15:22:42,053   pi_pact      INFO       Beacon scanner mode selected.
-2020-06-27 15:22:42,054   pi_pact      DEBUG      Using default beacon scanner configuration filters: {}.
-2020-06-27 15:22:42,054   pi_pact      INFO       Initialized beacon scanner.
-2020-06-27 15:22:42,057   pi_pact      INFO       Starting beacon scanner with timeout 20.
-2020-06-27 15:22:42,058   pi_pact      DEBUG      Performing scan #1 at revisit 1.
-2020-06-27 15:22:44,063   pi_pact      DEBUG      Performing scan #2 at revisit 1.
-2020-06-27 15:22:46,068   pi_pact      DEBUG      Performing scan #3 at revisit 1.
-2020-06-27 15:22:47,681   pi_pact      DEBUG      Performing scan #4 at revisit 1.
-2020-06-27 15:22:48,003   pi_pact      DEBUG      Performing scan #5 at revisit 1.
-2020-06-27 15:22:49,380   pi_pact      DEBUG      Performing scan #6 at revisit 1.
-2020-06-27 15:22:50,391   pi_pact      DEBUG      Performing scan #7 at revisit 1.
-2020-06-27 15:22:51,014   pi_pact      DEBUG      Performing scan #8 at revisit 1.
-2020-06-27 15:22:52,089   pi_pact      DEBUG      Performing scan #9 at revisit 1.
-2020-06-27 15:22:54,094   pi_pact      DEBUG      Performing scan #10 at revisit 1.
-2020-06-27 15:22:56,099   pi_pact      DEBUG      Performing scan #11 at revisit 1.
-2020-06-27 15:22:57,318   pi_pact      DEBUG      Performing scan #12 at revisit 1.
-2020-06-27 15:22:58,336   pi_pact      DEBUG      Performing scan #13 at revisit 1.
-2020-06-27 15:22:59,109   pi_pact      DEBUG      Performing scan #14 at revisit 1.
-2020-06-27 15:23:00,109   pi_pact      DEBUG      Performing scan #15 at revisit 1.
-2020-06-27 15:23:01,180   pi_pact      DEBUG      Performing scan #16 at revisit 1.
-2020-06-27 15:23:02,105   pi_pact      DEBUG      Beacon scanner timed out.
-2020-06-27 15:23:02,106   pi_pact      INFO       Stopping beacon scanner.
-2020-06-27 15:26:16,657   pi_pact      DEBUG      Beacon configuration - {'control_file': 'advertiser_control', 'timeout': -1.0, 'uuid': '', 'major': 1, 'minor': 1, 'tx_power': 1, 'interval': 200}
-2020-06-27 15:26:16,657   pi_pact      DEBUG      Scanner configuration - {'control_file': 'scanner_control', 'scan_prefix': 'pi_pact_scan', 'timeout': -1.0, 'revisit': 1, 'filters': {}}
-2020-06-27 15:26:16,657   pi_pact      INFO       Beacon scanner mode selected.
-2020-06-27 15:26:16,659   pi_pact      ERROR      Fatal exception encountered
-Traceback (most recent call last):
-  File "pi_pact.py", line 711, in main
-    scanner = Scanner(logger, **config['scanner'])
-  File "pi_pact.py", line 356, in __init__
-    setattr(self, key, kwargs[key])
-  File "pi_pact.py", line 429, in timeout
-    raise ValueError("Beacon scanner timeout must be strictly "
-ValueError: Beacon scanner timeout must be strictly positive.
-2020-06-27 15:26:27,998   pi_pact      DEBUG      Beacon configuration - {'control_file': 'advertiser_control', 'timeout': 0.0, 'uuid': '', 'major': 1, 'minor': 1, 'tx_power': 1, 'interval': 200}
-2020-06-27 15:26:27,999   pi_pact      DEBUG      Scanner configuration - {'control_file': 'scanner_control', 'scan_prefix': 'pi_pact_scan', 'timeout': 0.0, 'revisit': 1, 'filters': {}}
-2020-06-27 15:26:27,999   pi_pact      INFO       Beacon scanner mode selected.
-2020-06-27 15:26:28,000   pi_pact      DEBUG      Using default beacon scanner configuration timeout: None.
-2020-06-27 15:26:28,000   pi_pact      DEBUG      Using default beacon scanner configuration filters: {}.
-2020-06-27 15:26:28,000   pi_pact      INFO       Initialized beacon scanner.
-2020-06-27 15:26:28,003   pi_pact      INFO       Starting beacon scanner with timeout None.
-2020-06-27 15:26:28,004   pi_pact      DEBUG      Performing scan #1 at revisit 1.
-2020-06-27 15:26:29,833   pi_pact      DEBUG      Performing scan #2 at revisit 1.
-2020-06-27 15:26:30,100   pi_pact      DEBUG      Performing scan #3 at revisit 1.
-2020-06-27 15:26:31,713   pi_pact      DEBUG      Performing scan #4 at revisit 1.
-2020-06-27 15:26:32,034   pi_pact      DEBUG      Performing scan #5 at revisit 1.
-2020-06-27 15:26:33,510   pi_pact      DEBUG      Performing scan #6 at revisit 1.
-2020-06-27 15:26:34,133   pi_pact      DEBUG      Performing scan #7 at revisit 1.
-2020-06-27 15:26:35,688   pi_pact      DEBUG      Performing scan #8 at revisit 1.
-2020-06-27 15:26:36,313   pi_pact      DEBUG      Performing scan #9 at revisit 1.
-2020-06-27 15:26:37,234   pi_pact      DEBUG      Performing scan #10 at revisit 1.
-2020-06-27 15:26:38,624   pi_pact      DEBUG      Performing scan #11 at revisit 1.
-2020-06-27 15:26:39,097   pi_pact      DEBUG      Performing scan #12 at revisit 1.
-2020-06-27 15:26:40,203   pi_pact      DEBUG      Performing scan #13 at revisit 1.
-2020-06-27 15:26:41,306   pi_pact      DEBUG      Performing scan #14 at revisit 1.
-2020-06-27 15:26:42,044   pi_pact      DEBUG      Performing scan #15 at revisit 1.
-2020-06-27 15:26:43,330   pi_pact      DEBUG      Performing scan #16 at revisit 1.
-2020-06-27 15:26:44,468   pi_pact      DEBUG      Performing scan #17 at revisit 1.
-2020-06-27 15:26:45,276   pi_pact      DEBUG      Performing scan #18 at revisit 1.
-2020-06-27 15:26:46,437   pi_pact      DEBUG      Performing scan #19 at revisit 1.
-2020-06-27 15:26:47,004   pi_pact      DEBUG      Performing scan #20 at revisit 1.
-2020-06-27 15:26:48,840   pi_pact      DEBUG      Performing scan #21 at revisit 1.
-2020-06-27 15:26:49,013   pi_pact      DEBUG      Performing scan #22 at revisit 1.
-2020-06-27 15:26:50,107   pi_pact      DEBUG      Performing scan #23 at revisit 1.
-2020-06-27 15:26:51,009   pi_pact      DEBUG      Performing scan #24 at revisit 1.
-2020-06-27 15:26:53,014   pi_pact      DEBUG      Performing scan #25 at revisit 1.
-2020-06-27 15:26:54,506   pi_pact      DEBUG      Performing scan #26 at revisit 1.
-2020-06-27 15:26:55,027   pi_pact      DEBUG      Performing scan #27 at revisit 1.
-2020-06-27 15:26:56,155   pi_pact      DEBUG      Performing scan #28 at revisit 1.
-2020-06-27 15:26:57,032   pi_pact      DEBUG      Performing scan #29 at revisit 1.
-2020-06-27 15:26:58,105   pi_pact      DEBUG      Performing scan #30 at revisit 1.
-2020-06-27 15:26:59,037   pi_pact      DEBUG      Performing scan #31 at revisit 1.
-2020-06-27 15:27:00,359   pi_pact      DEBUG      Performing scan #32 at revisit 1.
-2020-06-27 15:27:01,040   pi_pact      DEBUG      Performing scan #33 at revisit 1.
-2020-06-27 15:27:03,043   pi_pact      DEBUG      Performing scan #34 at revisit 1.
-2020-06-27 15:27:04,406   pi_pact      DEBUG      Performing scan #35 at revisit 1.
-2020-06-27 15:27:05,026   pi_pact      DEBUG      Performing scan #36 at revisit 1.
-2020-06-27 15:27:07,031   pi_pact      DEBUG      Performing scan #37 at revisit 1.
-2020-06-27 15:27:08,676   pi_pact      DEBUG      Performing scan #38 at revisit 1.
-2020-06-27 15:27:09,059   pi_pact      DEBUG      Performing scan #39 at revisit 1.
-2020-06-27 15:27:10,154   pi_pact      DEBUG      Performing scan #40 at revisit 1.
-2020-06-27 15:27:11,060   pi_pact      DEBUG      Performing scan #41 at revisit 1.
-2020-06-27 15:27:12,097   pi_pact      DEBUG      Performing scan #42 at revisit 1.
-2020-06-27 15:27:13,067   pi_pact      DEBUG      Performing scan #43 at revisit 1.
-2020-06-27 15:27:14,174   pi_pact      DEBUG      Performing scan #44 at revisit 1.
-2020-06-27 15:27:15,076   pi_pact      DEBUG      Performing scan #45 at revisit 1.
-2020-06-27 15:27:16,114   pi_pact      DEBUG      Performing scan #46 at revisit 1.
-2020-06-27 15:27:17,081   pi_pact      DEBUG      Performing scan #47 at revisit 1.
-2020-06-27 15:27:18,189   pi_pact      DEBUG      Performing scan #48 at revisit 1.
-2020-06-27 15:27:19,089   pi_pact      DEBUG      Performing scan #49 at revisit 1.
-2020-06-27 15:27:20,694   pi_pact      DEBUG      Performing scan #50 at revisit 1.
-2020-06-27 15:27:21,041   pi_pact      DEBUG      Performing scan #51 at revisit 1.
-2020-06-27 15:27:22,056   pi_pact      DEBUG      Performing scan #52 at revisit 1.
-2020-06-27 15:27:23,103   pi_pact      DEBUG      Performing scan #53 at revisit 1.
-2020-06-27 15:27:24,229   pi_pact      DEBUG      Performing scan #54 at revisit 1.
-2020-06-27 15:27:25,110   pi_pact      DEBUG      Performing scan #55 at revisit 1.
-2020-06-27 15:27:27,115   pi_pact      DEBUG      Performing scan #56 at revisit 1.
-2020-06-27 15:27:28,218   pi_pact      DEBUG      Performing scan #57 at revisit 1.
-2020-06-27 15:27:30,223   pi_pact      DEBUG      Performing scan #58 at revisit 1.
-2020-06-27 15:27:31,126   pi_pact      DEBUG      Performing scan #59 at revisit 1.
-2020-06-27 15:27:32,345   pi_pact      DEBUG      Performing scan #60 at revisit 1.
-2020-06-27 15:27:33,136   pi_pact      DEBUG      Performing scan #61 at revisit 1.
-2020-06-27 15:27:34,419   pi_pact      DEBUG      Performing scan #62 at revisit 1.
-2020-06-27 15:27:35,434   pi_pact      DEBUG      Performing scan #63 at revisit 1.
-2020-06-27 15:27:36,206   pi_pact      DEBUG      Performing scan #64 at revisit 1.
-2020-06-27 15:27:37,144   pi_pact      DEBUG      Performing scan #65 at revisit 1.
-2020-06-27 15:27:39,149   pi_pact      DEBUG      Performing scan #66 at revisit 1.
-2020-06-27 15:27:41,154   pi_pact      DEBUG      Performing scan #67 at revisit 1.
-2020-06-27 15:27:42,513   pi_pact      DEBUG      Performing scan #68 at revisit 1.
-2020-06-27 15:27:43,154   pi_pact      DEBUG      Performing scan #69 at revisit 1.
-2020-06-27 15:27:44,347   pi_pact      DEBUG      Performing scan #70 at revisit 1.
-2020-06-27 15:27:45,155   pi_pact      DEBUG      Performing scan #71 at revisit 1.
-2020-06-27 15:27:46,257   pi_pact      DEBUG      Performing scan #72 at revisit 1.
-2020-06-27 15:27:47,031   pi_pact      DEBUG      Performing scan #73 at revisit 1.
-2020-06-27 15:27:49,036   pi_pact      DEBUG      Performing scan #74 at revisit 1.
-2020-06-27 15:27:51,041   pi_pact      DEBUG      Performing scan #75 at revisit 1.
-2020-06-27 15:27:52,061   pi_pact      DEBUG      Performing scan #76 at revisit 1.
-2020-06-27 15:27:53,173   pi_pact      DEBUG      Performing scan #77 at revisit 1.
-2020-06-27 15:27:54,868   pi_pact      DEBUG      Performing scan #78 at revisit 1.
-2020-06-27 15:27:55,017   pi_pact      DEBUG      Performing scan #79 at revisit 1.
-2020-06-27 15:27:57,023   pi_pact      DEBUG      Performing scan #80 at revisit 1.
-2020-06-27 15:27:59,028   pi_pact      DEBUG      Performing scan #81 at revisit 1.
-2020-06-27 15:28:00,109   pi_pact      DEBUG      Performing scan #82 at revisit 1.
-2020-06-27 15:28:01,066   pi_pact      DEBUG      Performing scan #83 at revisit 1.
-2020-06-27 15:28:02,590   pi_pact      DEBUG      Performing scan #84 at revisit 1.
-2020-06-27 15:28:03,131   pi_pact      DEBUG      Performing scan #85 at revisit 1.
-2020-06-27 15:28:05,137   pi_pact      DEBUG      Performing scan #86 at revisit 1.
-2020-06-27 15:28:07,142   pi_pact      DEBUG      Performing scan #87 at revisit 1.
-2020-06-27 15:28:08,875   pi_pact      DEBUG      Performing scan #88 at revisit 1.
-2020-06-27 15:28:09,010   pi_pact      DEBUG      Performing scan #89 at revisit 1.
-2020-06-27 15:28:11,015   pi_pact      DEBUG      Performing scan #90 at revisit 1.
-2020-06-27 15:28:12,172   pi_pact      DEBUG      Performing scan #91 at revisit 1.
-2020-06-27 15:28:13,220   pi_pact      DEBUG      Performing scan #92 at revisit 1.
-2020-06-27 15:28:14,837   pi_pact      DEBUG      Performing scan #93 at revisit 1.
-2020-06-27 15:28:15,018   pi_pact      DEBUG      Performing scan #94 at revisit 1.
-2020-06-27 15:28:17,024   pi_pact      DEBUG      Performing scan #95 at revisit 1.
-2020-06-27 15:28:18,780   pi_pact      DEBUG      Performing scan #96 at revisit 1.
-2020-06-27 15:28:19,237   pi_pact      DEBUG      Performing scan #97 at revisit 1.
-2020-06-27 15:28:20,310   pi_pact      DEBUG      Performing scan #98 at revisit 1.
-2020-06-27 15:28:21,064   pi_pact      DEBUG      Performing scan #99 at revisit 1.
-2020-06-27 15:28:22,705   pi_pact      DEBUG      Performing scan #100 at revisit 1.
-2020-06-27 15:28:23,250   pi_pact      DEBUG      Performing scan #101 at revisit 1.
-2020-06-27 15:28:24,880   pi_pact      DEBUG      Performing scan #102 at revisit 1.
-2020-06-27 15:28:25,020   pi_pact      DEBUG      Performing scan #103 at revisit 1.
-2020-06-27 15:28:26,010   pi_pact      DEBUG      Performing scan #104 at revisit 1.
-2020-06-27 15:28:27,255   pi_pact      DEBUG      Performing scan #105 at revisit 1.
-2020-06-27 15:28:28,136   pi_pact      DEBUG      Performing scan #106 at revisit 1.
-2020-06-27 15:28:29,259   pi_pact      DEBUG      Performing scan #107 at revisit 1.
-2020-06-27 15:28:31,264   pi_pact      DEBUG      Performing scan #108 at revisit 1.
-2020-06-27 15:28:33,269   pi_pact      DEBUG      Performing scan #109 at revisit 1.
-2020-06-27 15:28:34,196   pi_pact      DEBUG      Performing scan #110 at revisit 1.
-2020-06-27 15:28:35,119   pi_pact      DEBUG      Performing scan #111 at revisit 1.
-2020-06-27 15:28:37,124   pi_pact      DEBUG      Performing scan #112 at revisit 1.
-2020-06-27 15:28:39,129   pi_pact      DEBUG      Performing scan #113 at revisit 1.
-2020-06-27 15:28:40,008   pi_pact      DEBUG      Performing scan #114 at revisit 1.
-2020-06-27 15:28:42,013   pi_pact      DEBUG      Performing scan #115 at revisit 1.
-2020-06-27 15:28:43,289   pi_pact      DEBUG      Performing scan #116 at revisit 1.
-2020-06-27 15:28:44,071   pi_pact      DEBUG      Performing scan #117 at revisit 1.
-2020-06-27 15:28:45,199   pi_pact      DEBUG      Performing scan #118 at revisit 1.
-2020-06-27 15:28:46,889   pi_pact      DEBUG      Performing scan #119 at revisit 1.
-2020-06-27 15:28:47,013   pi_pact      DEBUG      Performing scan #120 at revisit 1.
-2020-06-27 15:28:48,507   pi_pact      DEBUG      Performing scan #121 at revisit 1.
-2020-06-27 15:28:49,058   pi_pact      DEBUG      Performing scan #122 at revisit 1.
-2020-06-27 15:28:51,063   pi_pact      DEBUG      Performing scan #123 at revisit 1.
-2020-06-27 15:28:52,893   pi_pact      DEBUG      Performing scan #124 at revisit 1.
-2020-06-27 15:28:53,007   pi_pact      DEBUG      Performing scan #125 at revisit 1.
-2020-06-27 15:28:54,552   pi_pact      DEBUG      Performing scan #126 at revisit 1.
-2020-06-27 15:28:55,179   pi_pact      DEBUG      Performing scan #127 at revisit 1.
-2020-06-27 15:28:57,184   pi_pact      DEBUG      Performing scan #128 at revisit 1.
-2020-06-27 15:28:59,189   pi_pact      DEBUG      Performing scan #129 at revisit 1.
-2020-06-27 15:29:01,194   pi_pact      DEBUG      Performing scan #130 at revisit 1.
-2020-06-27 15:29:02,378   pi_pact      DEBUG      Performing scan #131 at revisit 1.
-2020-06-27 15:29:04,151   pi_pact      DEBUG      Performing scan #132 at revisit 1.
-2020-06-27 15:29:05,016   pi_pact      DEBUG      Performing scan #133 at revisit 1.
-2020-06-27 15:29:06,658   pi_pact      DEBUG      Performing scan #134 at revisit 1.
-2020-06-27 15:29:07,357   pi_pact      DEBUG      Performing scan #135 at revisit 1.
-2020-06-27 15:29:08,283   pi_pact      DEBUG      Performing scan #136 at revisit 1.
-2020-06-27 15:29:09,061   pi_pact      DEBUG      Performing scan #137 at revisit 1.
-2020-06-27 15:29:10,356   pi_pact      DEBUG      Performing scan #138 at revisit 1.
-2020-06-27 15:29:11,064   pi_pact      DEBUG      Performing scan #139 at revisit 1.
-2020-06-27 15:29:13,071   pi_pact      DEBUG      Performing scan #140 at revisit 1.
-2020-06-27 15:29:14,375   pi_pact      DEBUG      Performing scan #141 at revisit 1.
-2020-06-27 15:29:15,153   pi_pact      DEBUG      Performing scan #142 at revisit 1.
-2020-06-27 15:29:16,287   pi_pact      DEBUG      Performing scan #143 at revisit 1.
-2020-06-27 15:29:17,058   pi_pact      DEBUG      Performing scan #144 at revisit 1.
-2020-06-27 15:29:18,965   pi_pact      DEBUG      Performing scan #145 at revisit 1.
-2020-06-27 15:29:19,062   pi_pact      DEBUG      Performing scan #146 at revisit 1.
-2020-06-27 15:29:20,902   pi_pact      DEBUG      Performing scan #147 at revisit 1.
-2020-06-27 15:29:21,006   pi_pact      DEBUG      Performing scan #148 at revisit 1.
-2020-06-27 15:29:22,903   pi_pact      DEBUG      Performing scan #149 at revisit 1.
-2020-06-27 15:29:23,047   pi_pact      DEBUG      Performing scan #150 at revisit 1.
-2020-06-27 15:29:24,273   pi_pact      DEBUG      Performing scan #151 at revisit 1.
-2020-06-27 15:29:25,291   pi_pact      DEBUG      Performing scan #152 at revisit 1.
-2020-06-27 15:29:26,428   pi_pact      DEBUG      Performing scan #153 at revisit 1.
-2020-06-27 15:29:27,093   pi_pact      DEBUG      Performing scan #154 at revisit 1.
-2020-06-27 15:29:28,436   pi_pact      DEBUG      Performing scan #155 at revisit 1.
-2020-06-27 15:29:29,421   pi_pact      DEBUG      Performing scan #156 at revisit 1.
-2020-06-27 15:29:30,354   pi_pact      DEBUG      Performing scan #157 at revisit 1.
-2020-06-27 15:29:31,039   pi_pact      DEBUG      Performing scan #158 at revisit 1.
-2020-06-27 15:29:32,021   pi_pact      DEBUG      Performing scan #159 at revisit 1.
-2020-06-27 15:29:33,431   pi_pact      DEBUG      Performing scan #160 at revisit 1.
-2020-06-27 15:29:34,059   pi_pact      DEBUG      Performing scan #161 at revisit 1.
-2020-06-27 15:29:35,433   pi_pact      DEBUG      Performing scan #162 at revisit 1.
-2020-06-27 15:29:36,092   pi_pact      DEBUG      Performing scan #163 at revisit 1.
-2020-06-27 15:29:37,071   pi_pact      DEBUG      Performing scan #164 at revisit 1.
-2020-06-27 15:29:38,182   pi_pact      DEBUG      Performing scan #165 at revisit 1.
-2020-06-27 15:29:39,406   pi_pact      DEBUG      Performing scan #166 at revisit 1.
-2020-06-27 15:29:40,031   pi_pact      DEBUG      Performing scan #167 at revisit 1.
-2020-06-27 15:29:41,447   pi_pact      DEBUG      Performing scan #168 at revisit 1.
-2020-06-27 15:29:42,038   pi_pact      DEBUG      Performing scan #169 at revisit 1.
-2020-06-27 15:29:43,020   pi_pact      DEBUG      Performing scan #170 at revisit 1.
-2020-06-27 15:29:44,671   pi_pact      DEBUG      Performing scan #171 at revisit 1.
-2020-06-27 15:29:45,151   pi_pact      DEBUG      Performing scan #172 at revisit 1.
-2020-06-27 15:29:46,410   pi_pact      DEBUG      Performing scan #173 at revisit 1.
-2020-06-27 15:29:47,098   pi_pact      DEBUG      Performing scan #174 at revisit 1.
-2020-06-27 15:29:48,502   pi_pact      DEBUG      Performing scan #175 at revisit 1.
-2020-06-27 15:29:49,064   pi_pact      DEBUG      Performing scan #176 at revisit 1.
-2020-06-27 15:29:50,710   pi_pact      DEBUG      Performing scan #177 at revisit 1.
-2020-06-27 15:29:51,095   pi_pact      DEBUG      Performing scan #178 at revisit 1.
-2020-06-27 15:29:53,101   pi_pact      DEBUG      Performing scan #179 at revisit 1.
-2020-06-27 15:29:54,568   pi_pact      DEBUG      Performing scan #180 at revisit 1.
-2020-06-27 15:29:55,007   pi_pact      DEBUG      Performing scan #181 at revisit 1.
-2020-06-27 15:29:56,846   pi_pact      DEBUG      Performing scan #182 at revisit 1.
-2020-06-27 15:29:57,022   pi_pact      DEBUG      Performing scan #183 at revisit 1.
-2020-06-27 15:29:58,252   pi_pact      DEBUG      Performing scan #184 at revisit 1.
-2020-06-27 15:29:59,482   pi_pact      DEBUG      Performing scan #185 at revisit 1.
-2020-06-27 15:30:00,260   pi_pact      DEBUG      Performing scan #186 at revisit 1.
-2020-06-27 15:30:01,098   pi_pact      DEBUG      Performing scan #187 at revisit 1.
-2020-06-27 15:30:02,437   pi_pact      DEBUG      Performing scan #188 at revisit 1.
-2020-06-27 15:30:03,089   pi_pact      DEBUG      Performing scan #189 at revisit 1.
-2020-06-27 15:30:04,508   pi_pact      DEBUG      Performing scan #190 at revisit 1.
-2020-06-27 15:30:05,014   pi_pact      DEBUG      Performing scan #191 at revisit 1.
-2020-06-27 15:30:06,082   pi_pact      DEBUG      Performing scan #192 at revisit 1.
-2020-06-27 15:30:07,060   pi_pact      DEBUG      Performing scan #193 at revisit 1.
-2020-06-27 15:30:08,079   pi_pact      DEBUG      Performing scan #194 at revisit 1.
-2020-06-27 15:30:09,337   pi_pact      DEBUG      Performing scan #195 at revisit 1.
-2020-06-27 15:30:10,079   pi_pact      DEBUG      Performing scan #196 at revisit 1.
-2020-06-27 15:30:11,518   pi_pact      DEBUG      Performing scan #197 at revisit 1.
-2020-06-27 15:30:12,232   pi_pact      DEBUG      Performing scan #198 at revisit 1.
-2020-06-27 15:30:13,524   pi_pact      DEBUG      Performing scan #199 at revisit 1.
-2020-06-27 15:30:15,529   pi_pact      DEBUG      Performing scan #200 at revisit 1.
-2020-06-27 15:30:16,602   pi_pact      DEBUG      Performing scan #201 at revisit 1.
-2020-06-27 15:30:17,049   pi_pact      DEBUG      Performing scan #202 at revisit 1.
-2020-06-27 15:30:18,208   pi_pact      DEBUG      Performing scan #203 at revisit 1.
-2020-06-27 15:30:19,217   pi_pact      DEBUG      Performing scan #204 at revisit 1.
-2020-06-27 15:30:20,137   pi_pact      DEBUG      Performing scan #205 at revisit 1.
-2020-06-27 15:30:21,546   pi_pact      DEBUG      Performing scan #206 at revisit 1.
-2020-06-27 15:30:22,103   pi_pact      DEBUG      Performing scan #207 at revisit 1.
-2020-06-27 15:30:23,554   pi_pact      DEBUG      Performing scan #208 at revisit 1.
-2020-06-27 15:30:24,818   pi_pact      DEBUG      Performing scan #209 at revisit 1.
-2020-06-27 15:30:25,076   pi_pact      DEBUG      Performing scan #210 at revisit 1.
-2020-06-27 15:30:26,083   pi_pact      DEBUG      Performing scan #211 at revisit 1.
-2020-06-27 15:30:27,070   pi_pact      DEBUG      Performing scan #212 at revisit 1.
-2020-06-27 15:30:28,531   pi_pact      DEBUG      Performing scan #213 at revisit 1.
-2020-06-27 15:30:29,070   pi_pact      DEBUG      Performing scan #214 at revisit 1.
-2020-06-27 15:30:30,017   pi_pact      DEBUG      Performing scan #215 at revisit 1.
-2020-06-27 15:30:31,582   pi_pact      DEBUG      Performing scan #216 at revisit 1.
-2020-06-27 15:30:32,046   pi_pact      DEBUG      Performing scan #217 at revisit 1.
-2020-06-27 15:30:33,121   pi_pact      DEBUG      Performing scan #218 at revisit 1.
-2020-06-27 15:30:34,200   pi_pact      DEBUG      Performing scan #219 at revisit 1.
-2020-06-27 15:30:35,588   pi_pact      DEBUG      Performing scan #220 at revisit 1.
-2020-06-27 15:30:36,130   pi_pact      DEBUG      Performing scan #221 at revisit 1.
-2020-06-27 15:30:37,082   pi_pact      DEBUG      Performing scan #222 at revisit 1.
-2020-06-27 15:30:38,090   pi_pact      DEBUG      Performing scan #223 at revisit 1.
-2020-06-27 15:30:40,095   pi_pact      DEBUG      Performing scan #224 at revisit 1.
-2020-06-27 15:30:41,401   pi_pact      DEBUG      Performing scan #225 at revisit 1.
-2020-06-27 15:30:42,473   pi_pact      DEBUG      Performing scan #226 at revisit 1.
-2020-06-27 15:30:43,012   pi_pact      DEBUG      Performing scan #227 at revisit 1.
-2020-06-27 15:30:45,017   pi_pact      DEBUG      Performing scan #228 at revisit 1.
-2020-06-27 15:30:46,204   pi_pact      DEBUG      Performing scan #229 at revisit 1.
-2020-06-27 15:30:47,367   pi_pact      DEBUG      Performing scan #230 at revisit 1.
-2020-06-27 15:30:48,021   pi_pact      DEBUG      Performing scan #231 at revisit 1.
-2020-06-27 15:30:49,671   pi_pact      DEBUG      Performing scan #232 at revisit 1.
-2020-06-27 15:30:50,117   pi_pact      DEBUG      Performing scan #233 at revisit 1.
-2020-06-27 15:30:51,011   pi_pact      DEBUG      Performing scan #234 at revisit 1.
-2020-06-27 15:30:52,300   pi_pact      DEBUG      Performing scan #235 at revisit 1.
-2020-06-27 15:30:53,589   pi_pact      DEBUG      Performing scan #236 at revisit 1.
-2020-06-27 15:30:54,650   pi_pact      DEBUG      Performing scan #237 at revisit 1.
-2020-06-27 15:30:55,204   pi_pact      DEBUG      Performing scan #238 at revisit 1.
-2020-06-27 15:30:56,304   pi_pact      DEBUG      Performing scan #239 at revisit 1.
-2020-06-27 15:30:57,639   pi_pact      DEBUG      Performing scan #240 at revisit 1.
-2020-06-27 15:30:58,016   pi_pact      DEBUG      Performing scan #241 at revisit 1.
-2020-06-27 15:30:59,639   pi_pact      DEBUG      Performing scan #242 at revisit 1.
-2020-06-27 15:31:00,023   pi_pact      DEBUG      Performing scan #243 at revisit 1.
-2020-06-27 15:31:02,029   pi_pact      DEBUG      Performing scan #244 at revisit 1.
-2020-06-27 15:31:03,479   pi_pact      DEBUG      Performing scan #245 at revisit 1.
-2020-06-27 15:31:04,039   pi_pact      DEBUG      Performing scan #246 at revisit 1.
-2020-06-27 15:31:05,505   pi_pact      DEBUG      Performing scan #247 at revisit 1.
-2020-06-27 15:31:06,223   pi_pact      DEBUG      Performing scan #248 at revisit 1.
-2020-06-27 15:31:07,138   pi_pact      DEBUG      Performing scan #249 at revisit 1.
-2020-06-27 15:31:08,063   pi_pact      DEBUG      Performing scan #250 at revisit 1.
-2020-06-27 15:31:09,349   pi_pact      DEBUG      Performing scan #251 at revisit 1.
-2020-06-27 15:31:10,079   pi_pact      DEBUG      Performing scan #252 at revisit 1.
-2020-06-27 15:31:11,208   pi_pact      DEBUG      Performing scan #253 at revisit 1.
-2020-06-27 15:31:13,213   pi_pact      DEBUG      Performing scan #254 at revisit 1.
-2020-06-27 15:31:14,262   pi_pact      DEBUG      Performing scan #255 at revisit 1.
-2020-06-27 15:31:15,038   pi_pact      DEBUG      Performing scan #256 at revisit 1.
-2020-06-27 15:31:16,649   pi_pact      DEBUG      Performing scan #257 at revisit 1.
-2020-06-27 15:31:17,240   pi_pact      DEBUG      Performing scan #258 at revisit 1.
-2020-06-27 15:31:18,007   pi_pact      DEBUG      Performing scan #259 at revisit 1.
-2020-06-27 15:31:19,081   pi_pact      DEBUG      Performing scan #260 at revisit 1.
-2020-06-27 15:31:20,476   pi_pact      DEBUG      Performing scan #261 at revisit 1.
-2020-06-27 15:31:21,248   pi_pact      DEBUG      Performing scan #262 at revisit 1.
-2020-06-27 15:31:22,953   pi_pact      DEBUG      Performing scan #263 at revisit 1.
-2020-06-27 15:31:23,029   pi_pact      DEBUG      Performing scan #264 at revisit 1.
-2020-06-27 15:31:24,189   pi_pact      DEBUG      Performing scan #265 at revisit 1.
-2020-06-27 15:31:25,108   pi_pact      DEBUG      Performing scan #266 at revisit 1.
-2020-06-27 15:31:26,033   pi_pact      DEBUG      Performing scan #267 at revisit 1.
-2020-06-27 15:31:27,702   pi_pact      DEBUG      Performing scan #268 at revisit 1.
-2020-06-27 15:31:29,138   pi_pact      DEBUG      Performing scan #269 at revisit 1.
-2020-06-27 15:31:30,361   pi_pact      DEBUG      Performing scan #270 at revisit 1.
-2020-06-27 15:31:31,341   pi_pact      DEBUG      Performing scan #271 at revisit 1.
-2020-06-27 15:31:32,019   pi_pact      DEBUG      Performing scan #272 at revisit 1.
-2020-06-27 15:31:33,301   pi_pact      DEBUG      Performing scan #273 at revisit 1.
-2020-06-27 15:31:34,302   pi_pact      DEBUG      Performing scan #274 at revisit 1.
-2020-06-27 15:31:35,408   pi_pact      DEBUG      Performing scan #275 at revisit 1.
-2020-06-27 15:31:36,150   pi_pact      DEBUG      Performing scan #276 at revisit 1.
-2020-06-27 15:31:37,281   pi_pact      DEBUG      Performing scan #277 at revisit 1.
-2020-06-27 15:31:38,113   pi_pact      DEBUG      Performing scan #278 at revisit 1.
-2020-06-27 15:31:39,014   pi_pact      DEBUG      Performing scan #279 at revisit 1.
-2020-06-27 15:31:40,352   pi_pact      DEBUG      Performing scan #280 at revisit 1.
-2020-06-27 15:31:41,144   pi_pact      DEBUG      Performing scan #281 at revisit 1.
-2020-06-27 15:31:42,453   pi_pact      DEBUG      Performing scan #282 at revisit 1.
-2020-06-27 15:31:43,040   pi_pact      DEBUG      Performing scan #283 at revisit 1.
-2020-06-27 15:31:44,232   pi_pact      DEBUG      Performing scan #284 at revisit 1.
-2020-06-27 15:31:45,150   pi_pact      DEBUG      Performing scan #285 at revisit 1.
-2020-06-27 15:31:46,130   pi_pact      DEBUG      Performing scan #286 at revisit 1.
-2020-06-27 15:31:47,379   pi_pact      DEBUG      Performing scan #287 at revisit 1.
-2020-06-27 15:31:48,417   pi_pact      DEBUG      Performing scan #288 at revisit 1.
-2020-06-27 15:31:49,271   pi_pact      DEBUG      Performing scan #289 at revisit 1.
-2020-06-27 15:31:51,276   pi_pact      DEBUG      Performing scan #290 at revisit 1.
-2020-06-27 15:31:52,794   pi_pact      DEBUG      Performing scan #291 at revisit 1.
-2020-06-27 15:31:53,034   pi_pact      DEBUG      Performing scan #292 at revisit 1.
-2020-06-27 15:31:54,169   pi_pact      DEBUG      Performing scan #293 at revisit 1.
-2020-06-27 15:31:55,772   pi_pact      DEBUG      Performing scan #294 at revisit 1.
-2020-06-27 15:31:56,019   pi_pact      DEBUG      Performing scan #295 at revisit 1.
-2020-06-27 15:31:57,255   pi_pact      DEBUG      Performing scan #296 at revisit 1.
-2020-06-27 15:31:58,001   pi_pact      DEBUG      Performing scan #297 at revisit 1.
-2020-06-27 15:31:59,800   pi_pact      DEBUG      Performing scan #298 at revisit 1.
-2020-06-27 15:32:00,089   pi_pact      DEBUG      Performing scan #299 at revisit 1.
-2020-06-27 15:32:01,731   pi_pact      DEBUG      Performing scan #300 at revisit 1.
-2020-06-27 15:32:02,291   pi_pact      DEBUG      Performing scan #301 at revisit 1.
-2020-06-27 15:32:03,028   pi_pact      DEBUG      Performing scan #302 at revisit 1.
-2020-06-27 15:32:04,729   pi_pact      DEBUG      Performing scan #303 at revisit 1.
-2020-06-27 15:32:05,141   pi_pact      DEBUG      Performing scan #304 at revisit 1.
-2020-06-27 15:32:06,380   pi_pact      DEBUG      Performing scan #305 at revisit 1.
-2020-06-27 15:32:07,179   pi_pact      DEBUG      Performing scan #306 at revisit 1.
-2020-06-27 15:32:09,183   pi_pact      DEBUG      Performing scan #307 at revisit 1.
-2020-06-27 15:32:10,640   pi_pact      DEBUG      Performing scan #308 at revisit 1.
-2020-06-27 15:32:11,080   pi_pact      DEBUG      Performing scan #309 at revisit 1.
-2020-06-27 15:32:12,085   pi_pact      DEBUG      Performing scan #310 at revisit 1.
-2020-06-27 15:32:13,254   pi_pact      DEBUG      Performing scan #311 at revisit 1.
-2020-06-27 15:32:14,033   pi_pact      DEBUG      Performing scan #312 at revisit 1.
-2020-06-27 15:32:15,589   pi_pact      DEBUG      Performing scan #313 at revisit 1.
-2020-06-27 15:32:16,090   pi_pact      DEBUG      Performing scan #314 at revisit 1.
-2020-06-27 15:32:17,843   pi_pact      DEBUG      Performing scan #315 at revisit 1.
-2020-06-27 15:32:18,048   pi_pact      DEBUG      Performing scan #316 at revisit 1.
-2020-06-27 15:32:19,847   pi_pact      DEBUG      Performing scan #317 at revisit 1.
-2020-06-27 15:32:20,052   pi_pact      DEBUG      Performing scan #318 at revisit 1.
-2020-06-27 15:32:21,127   pi_pact      DEBUG      Performing scan #319 at revisit 1.
-2020-06-27 15:32:22,200   pi_pact      DEBUG      Performing scan #320 at revisit 1.
-2020-06-27 15:32:23,599   pi_pact      DEBUG      Performing scan #321 at revisit 1.
-2020-06-27 15:32:24,534   pi_pact      DEBUG      Performing scan #322 at revisit 1.
-2020-06-27 15:32:25,459   pi_pact      DEBUG      Performing scan #323 at revisit 1.
-2020-06-27 15:32:26,206   pi_pact      DEBUG      Performing scan #324 at revisit 1.
-2020-06-27 15:32:27,303   pi_pact      DEBUG      Performing scan #325 at revisit 1.
-2020-06-27 15:32:28,386   pi_pact      DEBUG      Performing scan #326 at revisit 1.
-2020-06-27 15:32:29,101   pi_pact      DEBUG      Performing scan #327 at revisit 1.
-2020-06-27 15:32:30,479   pi_pact      DEBUG      Performing scan #328 at revisit 1.
-2020-06-27 15:32:31,099   pi_pact      DEBUG      Performing scan #329 at revisit 1.
-2020-06-27 15:32:32,741   pi_pact      DEBUG      Performing scan #330 at revisit 1.
-2020-06-27 15:32:33,032   pi_pact      DEBUG      Performing scan #331 at revisit 1.
-2020-06-27 15:32:34,176   pi_pact      DEBUG      Performing scan #332 at revisit 1.
-2020-06-27 15:32:35,732   pi_pact      DEBUG      Performing scan #333 at revisit 1.
-2020-06-27 15:32:36,132   pi_pact      DEBUG      Performing scan #334 at revisit 1.
-2020-06-27 15:32:37,051   pi_pact      DEBUG      Performing scan #335 at revisit 1.
-2020-06-27 15:32:39,056   pi_pact      DEBUG      Performing scan #336 at revisit 1.
-2020-06-27 15:32:40,397   pi_pact      DEBUG      Performing scan #337 at revisit 1.
-2020-06-27 15:32:41,289   pi_pact      DEBUG      Performing scan #338 at revisit 1.
-2020-06-27 15:32:42,601   pi_pact      DEBUG      Performing scan #339 at revisit 1.
-2020-06-27 15:32:43,121   pi_pact      DEBUG      Performing scan #340 at revisit 1.
-2020-06-27 15:32:44,246   pi_pact      DEBUG      Performing scan #341 at revisit 1.
-2020-06-27 15:32:45,351   pi_pact      DEBUG      Performing scan #342 at revisit 1.
-2020-06-27 15:32:46,033   pi_pact      DEBUG      Performing scan #343 at revisit 1.
-2020-06-27 15:32:47,233   pi_pact      DEBUG      Performing scan #344 at revisit 1.
-2020-06-27 15:32:48,758   pi_pact      DEBUG      Performing scan #345 at revisit 1.
-2020-06-27 15:32:49,142   pi_pact      DEBUG      Performing scan #346 at revisit 1.
-2020-06-27 15:32:50,511   pi_pact      DEBUG      Performing scan #347 at revisit 1.
-2020-06-27 15:32:51,133   pi_pact      DEBUG      Performing scan #348 at revisit 1.
-2020-06-27 15:32:52,506   pi_pact      DEBUG      Performing scan #349 at revisit 1.
-2020-06-27 15:32:53,137   pi_pact      DEBUG      Performing scan #350 at revisit 1.
-2020-06-27 15:32:54,061   pi_pact      DEBUG      Performing scan #351 at revisit 1.
-2020-06-27 15:32:55,135   pi_pact      DEBUG      Performing scan #352 at revisit 1.
-2020-06-27 15:32:56,365   pi_pact      DEBUG      Performing scan #353 at revisit 1.
-2020-06-27 15:32:57,349   pi_pact      DEBUG      Performing scan #354 at revisit 1.
-2020-06-27 15:32:58,209   pi_pact      DEBUG      Performing scan #355 at revisit 1.
-2020-06-27 15:32:59,074   pi_pact      DEBUG      Performing scan #356 at revisit 1.
-2020-06-27 15:33:00,272   pi_pact      DEBUG      Performing scan #357 at revisit 1.
-2020-06-27 15:33:01,950   pi_pact      DEBUG      Performing scan #358 at revisit 1.
-2020-06-27 15:33:02,060   pi_pact      DEBUG      Performing scan #359 at revisit 1.
-2020-06-27 15:33:03,951   pi_pact      DEBUG      Performing scan #360 at revisit 1.
-2020-06-27 15:33:04,002   pi_pact      DEBUG      Performing scan #361 at revisit 1.
-2020-06-27 15:33:05,961   pi_pact      DEBUG      Performing scan #362 at revisit 1.
-2020-06-27 15:33:06,031   pi_pact      DEBUG      Performing scan #363 at revisit 1.
-2020-06-27 15:33:07,964   pi_pact      DEBUG      Performing scan #364 at revisit 1.
-2020-06-27 15:33:08,056   pi_pact      DEBUG      Performing scan #365 at revisit 1.
-2020-06-27 15:33:09,013   pi_pact      DEBUG      Performing scan #366 at revisit 1.
-2020-06-27 15:33:10,234   pi_pact      DEBUG      Performing scan #367 at revisit 1.
-2020-06-27 15:33:11,521   pi_pact      DEBUG      Performing scan #368 at revisit 1.
-2020-06-27 15:33:12,140   pi_pact      DEBUG      Performing scan #369 at revisit 1.
-2020-06-27 15:33:13,065   pi_pact      DEBUG      Performing scan #370 at revisit 1.
-2020-06-27 15:33:14,998   pi_pact      DEBUG      Performing scan #371 at revisit 1.
-2020-06-27 15:33:15,037   pi_pact      DEBUG      Performing scan #372 at revisit 1.
-2020-06-27 15:33:16,740   pi_pact      DEBUG      Performing scan #373 at revisit 1.
-2020-06-27 15:33:17,603   pi_pact      DEBUG      Performing scan #374 at revisit 1.
-2020-06-27 15:33:18,194   pi_pact      DEBUG      Performing scan #375 at revisit 1.
-2020-06-27 15:33:19,983   pi_pact      DEBUG      Performing scan #376 at revisit 1.
-2020-06-27 15:33:20,034   pi_pact      DEBUG      Performing scan #377 at revisit 1.
-2020-06-27 15:33:21,234   pi_pact      DEBUG      Performing scan #378 at revisit 1.
-2020-06-27 15:33:23,239   pi_pact      DEBUG      Performing scan #379 at revisit 1.
-2020-06-27 15:33:24,002   pi_pact      DEBUG      Performing scan #380 at revisit 1.
-2020-06-27 15:33:25,002   pi_pact      DEBUG      Performing scan #381 at revisit 1.
-2020-06-27 15:33:26,002   pi_pact      DEBUG      Performing scan #382 at revisit 1.
-2020-06-27 15:33:27,003   pi_pact      DEBUG      Performing scan #383 at revisit 1.
-2020-06-27 15:33:28,003   pi_pact      DEBUG      Performing scan #384 at revisit 1.
-2020-06-27 15:33:29,003   pi_pact      DEBUG      Performing scan #385 at revisit 1.
-2020-06-27 15:33:30,003   pi_pact      DEBUG      Performing scan #386 at revisit 1.
-2020-06-27 15:33:31,004   pi_pact      DEBUG      Performing scan #387 at revisit 1.
-2020-06-27 15:33:32,004   pi_pact      DEBUG      Performing scan #388 at revisit 1.
-2020-06-27 15:33:33,004   pi_pact      DEBUG      Performing scan #389 at revisit 1.
-2020-06-27 15:33:34,005   pi_pact      DEBUG      Performing scan #390 at revisit 1.
-2020-06-27 15:33:35,005   pi_pact      DEBUG      Performing scan #391 at revisit 1.
-2020-06-27 15:33:36,290   pi_pact      DEBUG      Performing scan #392 at revisit 1.
-2020-06-27 15:33:37,008   pi_pact      DEBUG      Performing scan #393 at revisit 1.
-2020-06-27 15:33:38,006   pi_pact      DEBUG      Performing scan #394 at revisit 1.
-2020-06-27 15:33:39,006   pi_pact      DEBUG      Performing scan #395 at revisit 1.
-2020-06-27 15:33:40,007   pi_pact      DEBUG      Performing scan #396 at revisit 1.
-2020-06-27 15:33:41,233   pi_pact      DEBUG      Performing scan #397 at revisit 1.
-2020-06-27 15:33:42,043   pi_pact      DEBUG      Performing scan #398 at revisit 1.
-2020-06-27 15:33:43,007   pi_pact      DEBUG      Performing scan #399 at revisit 1.
-2020-06-27 15:33:44,056   pi_pact      DEBUG      Performing scan #400 at revisit 1.
-2020-06-27 15:33:45,011   pi_pact      DEBUG      Performing scan #401 at revisit 1.
-2020-06-27 15:33:46,011   pi_pact      DEBUG      Performing scan #402 at revisit 1.
-2020-06-27 15:33:47,011   pi_pact      DEBUG      Performing scan #403 at revisit 1.
-2020-06-27 15:33:48,011   pi_pact      DEBUG      Performing scan #404 at revisit 1.
-2020-06-27 15:33:49,012   pi_pact      DEBUG      Performing scan #405 at revisit 1.
-2020-06-27 15:33:50,012   pi_pact      DEBUG      Performing scan #406 at revisit 1.
-2020-06-27 15:33:52,017   pi_pact      DEBUG      Performing scan #407 at revisit 1.
-2020-06-27 15:33:53,012   pi_pact      DEBUG      Performing scan #408 at revisit 1.
-2020-06-27 15:33:54,013   pi_pact      DEBUG      Performing scan #409 at revisit 1.
-2020-06-27 15:33:55,013   pi_pact      DEBUG      Performing scan #410 at revisit 1.
-2020-06-27 15:33:56,015   pi_pact      DEBUG      Performing scan #411 at revisit 1.
-2020-06-27 15:33:57,013   pi_pact      DEBUG      Performing scan #412 at revisit 1.
-2020-06-27 15:33:58,014   pi_pact      DEBUG      Performing scan #413 at revisit 1.
-2020-06-27 15:33:59,015   pi_pact      DEBUG      Performing scan #414 at revisit 1.
-2020-06-27 15:34:00,015   pi_pact      DEBUG      Performing scan #415 at revisit 1.
-2020-06-27 15:34:01,016   pi_pact      DEBUG      Performing scan #416 at revisit 1.
-2020-06-27 15:34:02,016   pi_pact      DEBUG      Performing scan #417 at revisit 1.
-2020-06-27 15:34:03,015   pi_pact      DEBUG      Performing scan #418 at revisit 1.
-2020-06-27 15:34:04,016   pi_pact      DEBUG      Performing scan #419 at revisit 1.
-2020-06-27 15:34:05,016   pi_pact      DEBUG      Performing scan #420 at revisit 1.
-2020-06-27 15:34:06,017   pi_pact      DEBUG      Performing scan #421 at revisit 1.
-2020-06-27 15:34:07,017   pi_pact      DEBUG      Performing scan #422 at revisit 1.
-2020-06-27 15:34:08,019   pi_pact      DEBUG      Performing scan #423 at revisit 1.
-2020-06-27 15:34:09,002   pi_pact      DEBUG      Performing scan #424 at revisit 1.
-2020-06-27 15:34:10,101   pi_pact      DEBUG      Performing scan #425 at revisit 1.
-2020-06-27 15:34:11,021   pi_pact      DEBUG      Performing scan #426 at revisit 1.
-2020-06-27 15:34:12,102   pi_pact      DEBUG      Performing scan #427 at revisit 1.
-2020-06-27 15:34:13,022   pi_pact      DEBUG      Performing scan #428 at revisit 1.
-2020-06-27 15:34:14,021   pi_pact      DEBUG      Performing scan #429 at revisit 1.
-2020-06-27 15:34:15,022   pi_pact      DEBUG      Performing scan #430 at revisit 1.
-2020-06-27 15:34:16,246   pi_pact      DEBUG      Performing scan #431 at revisit 1.
-2020-06-27 15:34:17,024   pi_pact      DEBUG      Performing scan #432 at revisit 1.
-2020-06-27 15:34:18,124   pi_pact      DEBUG      Performing scan #433 at revisit 1.
-2020-06-27 15:34:19,022   pi_pact      DEBUG      Performing scan #434 at revisit 1.
-2020-06-27 15:34:20,024   pi_pact      DEBUG      Performing scan #435 at revisit 1.
-2020-06-27 15:34:21,024   pi_pact      DEBUG      Performing scan #436 at revisit 1.
-2020-06-27 15:34:22,024   pi_pact      DEBUG      Performing scan #437 at revisit 1.
-2020-06-27 15:34:23,025   pi_pact      DEBUG      Performing scan #438 at revisit 1.
-2020-06-27 15:34:24,025   pi_pact      DEBUG      Performing scan #439 at revisit 1.
-2020-06-27 15:34:25,025   pi_pact      DEBUG      Performing scan #440 at revisit 1.
-2020-06-27 15:34:26,025   pi_pact      DEBUG      Performing scan #441 at revisit 1.
-2020-06-27 15:34:27,026   pi_pact      DEBUG      Performing scan #442 at revisit 1.
-2020-06-27 15:34:28,026   pi_pact      DEBUG      Performing scan #443 at revisit 1.
-2020-06-27 15:34:29,026   pi_pact      DEBUG      Performing scan #444 at revisit 1.
-2020-06-27 15:34:30,026   pi_pact      DEBUG      Performing scan #445 at revisit 1.
-2020-06-27 15:34:31,027   pi_pact      DEBUG      Performing scan #446 at revisit 1.
-2020-06-27 15:34:32,027   pi_pact      DEBUG      Performing scan #447 at revisit 1.
-2020-06-27 15:34:33,029   pi_pact      DEBUG      Performing scan #448 at revisit 1.
-2020-06-27 15:34:34,029   pi_pact      DEBUG      Performing scan #449 at revisit 1.
-2020-06-27 15:34:35,028   pi_pact      DEBUG      Performing scan #450 at revisit 1.
-2020-06-27 15:34:36,135   pi_pact      DEBUG      Performing scan #451 at revisit 1.
-2020-06-27 15:34:37,063   pi_pact      DEBUG      Performing scan #452 at revisit 1.
-2020-06-27 15:34:38,032   pi_pact      DEBUG      Performing scan #453 at revisit 1.
-2020-06-27 15:34:39,032   pi_pact      DEBUG      Performing scan #454 at revisit 1.
-2020-06-27 15:34:40,032   pi_pact      DEBUG      Performing scan #455 at revisit 1.
-2020-06-27 15:34:42,033   pi_pact      DEBUG      Performing scan #456 at revisit 1.
-2020-06-27 15:34:43,033   pi_pact      DEBUG      Performing scan #457 at revisit 1.
-2020-06-27 15:34:44,033   pi_pact      DEBUG      Performing scan #458 at revisit 1.
-2020-06-27 15:34:45,374   pi_pact      DEBUG      Performing scan #459 at revisit 1.
-2020-06-27 15:34:46,033   pi_pact      DEBUG      Performing scan #460 at revisit 1.
-2020-06-27 15:34:47,017   pi_pact      DEBUG      Performing scan #461 at revisit 1.
-2020-06-27 15:34:48,116   pi_pact      DEBUG      Performing scan #462 at revisit 1.
-2020-06-27 15:34:49,036   pi_pact      DEBUG      Performing scan #463 at revisit 1.
-2020-06-27 15:34:50,034   pi_pact      DEBUG      Performing scan #464 at revisit 1.
-2020-06-27 15:34:51,036   pi_pact      DEBUG      Performing scan #465 at revisit 1.
-2020-06-27 15:34:52,035   pi_pact      DEBUG      Performing scan #466 at revisit 1.
-2020-06-27 15:34:53,036   pi_pact      DEBUG      Performing scan #467 at revisit 1.
-2020-06-27 15:34:54,037   pi_pact      DEBUG      Performing scan #468 at revisit 1.
-2020-06-27 15:34:55,037   pi_pact      DEBUG      Performing scan #469 at revisit 1.
-2020-06-27 15:34:56,037   pi_pact      DEBUG      Performing scan #470 at revisit 1.
-2020-06-27 15:34:57,037   pi_pact      DEBUG      Performing scan #471 at revisit 1.
-2020-06-27 15:34:58,038   pi_pact      DEBUG      Performing scan #472 at revisit 1.
-2020-06-27 15:34:59,038   pi_pact      DEBUG      Performing scan #473 at revisit 1.
-2020-06-27 15:35:00,039   pi_pact      DEBUG      Performing scan #474 at revisit 1.
-2020-06-27 15:35:01,039   pi_pact      DEBUG      Performing scan #475 at revisit 1.
-2020-06-27 15:35:02,039   pi_pact      DEBUG      Performing scan #476 at revisit 1.
-2020-06-27 15:35:03,175   pi_pact      DEBUG      Performing scan #477 at revisit 1.
-2020-06-27 15:35:04,041   pi_pact      DEBUG      Performing scan #478 at revisit 1.
-2020-06-27 15:35:05,041   pi_pact      DEBUG      Performing scan #479 at revisit 1.
-2020-06-27 15:35:06,042   pi_pact      DEBUG      Performing scan #480 at revisit 1.
-2020-06-27 15:35:07,042   pi_pact      DEBUG      Performing scan #481 at revisit 1.
-2020-06-27 15:35:08,043   pi_pact      DEBUG      Performing scan #482 at revisit 1.
-2020-06-27 15:35:09,023   pi_pact      DEBUG      Performing scan #483 at revisit 1.
-2020-06-27 15:35:11,031   pi_pact      DEBUG      Performing scan #484 at revisit 1.
-2020-06-27 15:35:12,260   pi_pact      DEBUG      Performing scan #485 at revisit 1.
-2020-06-27 15:35:13,045   pi_pact      DEBUG      Performing scan #486 at revisit 1.
-2020-06-27 15:35:14,045   pi_pact      DEBUG      Performing scan #487 at revisit 1.
-2020-06-27 15:35:15,044   pi_pact      DEBUG      Performing scan #488 at revisit 1.
-2020-06-27 15:35:16,046   pi_pact      DEBUG      Performing scan #489 at revisit 1.
-2020-06-27 15:35:17,046   pi_pact      DEBUG      Performing scan #490 at revisit 1.
-2020-06-27 15:35:18,046   pi_pact      DEBUG      Performing scan #491 at revisit 1.
-2020-06-27 15:35:19,046   pi_pact      DEBUG      Performing scan #492 at revisit 1.
-2020-06-27 15:35:20,047   pi_pact      DEBUG      Performing scan #493 at revisit 1.
-2020-06-27 15:35:21,047   pi_pact      DEBUG      Performing scan #494 at revisit 1.
-2020-06-27 15:35:22,047   pi_pact      DEBUG      Performing scan #495 at revisit 1.
-2020-06-27 15:35:23,047   pi_pact      DEBUG      Performing scan #496 at revisit 1.
-2020-06-27 15:35:24,048   pi_pact      DEBUG      Performing scan #497 at revisit 1.
-2020-06-27 15:35:25,049   pi_pact      DEBUG      Performing scan #498 at revisit 1.
-2020-06-27 15:35:26,050   pi_pact      DEBUG      Performing scan #499 at revisit 1.
-2020-06-27 15:35:27,049   pi_pact      DEBUG      Performing scan #500 at revisit 1.
-2020-06-27 15:35:28,049   pi_pact      DEBUG      Performing scan #501 at revisit 1.
-2020-06-27 15:35:29,544   pi_pact      DEBUG      Performing scan #502 at revisit 1.
-2020-06-27 15:35:30,300   pi_pact      DEBUG      Performing scan #503 at revisit 1.
-2020-06-27 15:35:31,074   pi_pact      DEBUG      Performing scan #504 at revisit 1.
-2020-06-27 15:35:33,053   pi_pact      DEBUG      Performing scan #505 at revisit 1.
-2020-06-27 15:35:34,054   pi_pact      DEBUG      Performing scan #506 at revisit 1.
-2020-06-27 15:35:35,054   pi_pact      DEBUG      Performing scan #507 at revisit 1.
-2020-06-27 15:35:36,053   pi_pact      DEBUG      Performing scan #508 at revisit 1.
-2020-06-27 15:35:37,055   pi_pact      DEBUG      Performing scan #509 at revisit 1.
-2020-06-27 15:35:38,055   pi_pact      DEBUG      Performing scan #510 at revisit 1.
-2020-06-27 15:35:39,055   pi_pact      DEBUG      Performing scan #511 at revisit 1.
-2020-06-27 15:35:40,055   pi_pact      DEBUG      Performing scan #512 at revisit 1.
-2020-06-27 15:35:41,034   pi_pact      DEBUG      Performing scan #513 at revisit 1.
-2020-06-27 15:35:42,333   pi_pact      DEBUG      Performing scan #514 at revisit 1.
-2020-06-27 15:35:43,057   pi_pact      DEBUG      Performing scan #515 at revisit 1.
-2020-06-27 15:35:44,057   pi_pact      DEBUG      Performing scan #516 at revisit 1.
-2020-06-27 15:35:45,056   pi_pact      DEBUG      Performing scan #517 at revisit 1.
-2020-06-27 15:35:46,058   pi_pact      DEBUG      Performing scan #518 at revisit 1.
-2020-06-27 15:35:47,058   pi_pact      DEBUG      Performing scan #519 at revisit 1.
-2020-06-27 15:35:48,058   pi_pact      DEBUG      Performing scan #520 at revisit 1.
-2020-06-27 15:35:49,058   pi_pact      DEBUG      Performing scan #521 at revisit 1.
-2020-06-27 15:35:50,058   pi_pact      DEBUG      Performing scan #522 at revisit 1.
-2020-06-27 15:35:51,059   pi_pact      DEBUG      Performing scan #523 at revisit 1.
-2020-06-27 15:35:52,060   pi_pact      DEBUG      Performing scan #524 at revisit 1.
-2020-06-27 15:35:53,060   pi_pact      DEBUG      Performing scan #525 at revisit 1.
-2020-06-27 15:35:54,060   pi_pact      DEBUG      Performing scan #526 at revisit 1.
-2020-06-27 15:35:56,063   pi_pact      DEBUG      Performing scan #527 at revisit 1.
-2020-06-27 15:35:57,063   pi_pact      DEBUG      Performing scan #528 at revisit 1.
-2020-06-27 15:35:58,063   pi_pact      DEBUG      Performing scan #529 at revisit 1.
-2020-06-27 15:35:59,063   pi_pact      DEBUG      Performing scan #530 at revisit 1.
-2020-06-27 15:36:00,064   pi_pact      DEBUG      Performing scan #531 at revisit 1.
-2020-06-27 15:36:01,064   pi_pact      DEBUG      Performing scan #532 at revisit 1.
-2020-06-27 15:36:02,064   pi_pact      DEBUG      Performing scan #533 at revisit 1.
-2020-06-27 15:36:03,066   pi_pact      DEBUG      Performing scan #534 at revisit 1.
-2020-06-27 15:36:04,066   pi_pact      DEBUG      Performing scan #535 at revisit 1.
-2020-06-27 15:36:05,051   pi_pact      DEBUG      Performing scan #536 at revisit 1.
-2020-06-27 15:36:06,367   pi_pact      DEBUG      Performing scan #537 at revisit 1.
-2020-06-27 15:36:07,066   pi_pact      DEBUG      Performing scan #538 at revisit 1.
-2020-06-27 15:36:08,067   pi_pact      DEBUG      Performing scan #539 at revisit 1.
-2020-06-27 15:36:09,067   pi_pact      DEBUG      Performing scan #540 at revisit 1.
-2020-06-27 15:36:10,067   pi_pact      DEBUG      Performing scan #541 at revisit 1.
-2020-06-27 15:36:11,068   pi_pact      DEBUG      Performing scan #542 at revisit 1.
-2020-06-27 15:36:12,068   pi_pact      DEBUG      Performing scan #543 at revisit 1.
-2020-06-27 15:36:13,068   pi_pact      DEBUG      Performing scan #544 at revisit 1.
-2020-06-27 15:36:14,060   pi_pact      DEBUG      Performing scan #545 at revisit 1.
-2020-06-27 15:36:15,185   pi_pact      DEBUG      Performing scan #546 at revisit 1.
-2020-06-27 15:36:16,070   pi_pact      DEBUG      Performing scan #547 at revisit 1.
-2020-06-27 15:36:17,071   pi_pact      DEBUG      Performing scan #548 at revisit 1.
-2020-06-27 15:36:18,070   pi_pact      DEBUG      Performing scan #549 at revisit 1.
-2020-06-27 15:36:19,047   pi_pact      DEBUG      Performing scan #550 at revisit 1.
-2020-06-27 15:36:20,150   pi_pact      DEBUG      Performing scan #551 at revisit 1.
-2020-06-27 15:36:21,073   pi_pact      DEBUG      Performing scan #552 at revisit 1.
-2020-06-27 15:36:22,073   pi_pact      DEBUG      Performing scan #553 at revisit 1.
-2020-06-27 15:36:23,025   pi_pact      DEBUG      Performing scan #554 at revisit 1.
-2020-06-27 15:36:25,029   pi_pact      DEBUG      Performing scan #555 at revisit 1.
-2020-06-27 15:36:26,259   pi_pact      DEBUG      Performing scan #556 at revisit 1.
-2020-06-27 15:36:27,037   pi_pact      DEBUG      Performing scan #557 at revisit 1.
-2020-06-27 15:36:28,352   pi_pact      DEBUG      Performing scan #558 at revisit 1.
-2020-06-27 15:36:29,006   pi_pact      DEBUG      Performing scan #559 at revisit 1.
-2020-06-27 15:36:31,011   pi_pact      DEBUG      Performing scan #560 at revisit 1.
-2020-06-27 15:36:32,444   pi_pact      DEBUG      Performing scan #561 at revisit 1.
-2020-06-27 15:36:33,076   pi_pact      DEBUG      Performing scan #562 at revisit 1.
-2020-06-27 15:36:34,077   pi_pact      DEBUG      Performing scan #563 at revisit 1.
-2020-06-27 15:36:35,242   pi_pact      DEBUG      Performing scan #564 at revisit 1.
-2020-06-27 15:36:36,079   pi_pact      DEBUG      Performing scan #565 at revisit 1.
-2020-06-27 15:36:37,034   pi_pact      DEBUG      Performing scan #566 at revisit 1.
-2020-06-27 15:36:38,457   pi_pact      DEBUG      Performing scan #567 at revisit 1.
-2020-06-27 15:36:39,079   pi_pact      DEBUG      Performing scan #568 at revisit 1.
-2020-06-27 15:36:40,079   pi_pact      DEBUG      Performing scan #569 at revisit 1.
-2020-06-27 15:36:41,079   pi_pact      DEBUG      Performing scan #570 at revisit 1.
-2020-06-27 15:36:42,079   pi_pact      DEBUG      Performing scan #571 at revisit 1.
-2020-06-27 15:36:43,081   pi_pact      DEBUG      Performing scan #572 at revisit 1.
-2020-06-27 15:36:44,081   pi_pact      DEBUG      Performing scan #573 at revisit 1.
-2020-06-27 15:36:45,081   pi_pact      DEBUG      Performing scan #574 at revisit 1.
-2020-06-27 15:36:46,024   pi_pact      DEBUG      Performing scan #575 at revisit 1.
-2020-06-27 15:36:47,083   pi_pact      DEBUG      Performing scan #576 at revisit 1.
-2020-06-27 15:36:48,084   pi_pact      DEBUG      Performing scan #577 at revisit 1.
-2020-06-27 15:36:49,084   pi_pact      DEBUG      Performing scan #578 at revisit 1.
-2020-06-27 15:36:50,084   pi_pact      DEBUG      Performing scan #579 at revisit 1.
-2020-06-27 15:36:51,484   pi_pact      DEBUG      Performing scan #580 at revisit 1.
-2020-06-27 15:36:52,084   pi_pact      DEBUG      Performing scan #581 at revisit 1.
-2020-06-27 15:36:53,085   pi_pact      DEBUG      Performing scan #582 at revisit 1.
-2020-06-27 15:36:54,087   pi_pact      DEBUG      Performing scan #583 at revisit 1.
-2020-06-27 15:36:55,924   pi_pact      DEBUG      Performing scan #584 at revisit 1.
-2020-06-27 15:36:56,020   pi_pact      DEBUG      Performing scan #585 at revisit 1.
-2020-06-27 15:36:57,028   pi_pact      DEBUG      Performing scan #586 at revisit 1.
-2020-06-27 15:36:58,128   pi_pact      DEBUG      Performing scan #587 at revisit 1.
-2020-06-27 15:37:00,088   pi_pact      DEBUG      Performing scan #588 at revisit 1.
-2020-06-27 15:37:01,088   pi_pact      DEBUG      Performing scan #589 at revisit 1.
-2020-06-27 15:37:02,018   pi_pact      DEBUG      Performing scan #590 at revisit 1.
-2020-06-27 15:37:03,157   pi_pact      DEBUG      Performing scan #591 at revisit 1.
-2020-06-27 15:37:04,092   pi_pact      DEBUG      Performing scan #592 at revisit 1.
-2020-06-27 15:37:05,089   pi_pact      DEBUG      Performing scan #593 at revisit 1.
-2020-06-27 15:37:06,090   pi_pact      DEBUG      Performing scan #594 at revisit 1.
-2020-06-27 15:37:07,090   pi_pact      DEBUG      Performing scan #595 at revisit 1.
-2020-06-27 15:37:08,036   pi_pact      DEBUG      Performing scan #596 at revisit 1.
-2020-06-27 15:37:09,091   pi_pact      DEBUG      Performing scan #597 at revisit 1.
-2020-06-27 15:37:10,091   pi_pact      DEBUG      Performing scan #598 at revisit 1.
-2020-06-27 15:37:11,129   pi_pact      DEBUG      Performing scan #599 at revisit 1.
-2020-06-27 15:37:12,149   pi_pact      DEBUG      Performing scan #600 at revisit 1.
-2020-06-27 15:37:13,094   pi_pact      DEBUG      Performing scan #601 at revisit 1.
-2020-06-27 15:37:14,069   pi_pact      DEBUG      Performing scan #602 at revisit 1.
-2020-06-27 15:37:15,688   pi_pact      DEBUG      Performing scan #603 at revisit 1.
-2020-06-27 15:37:16,096   pi_pact      DEBUG      Performing scan #604 at revisit 1.
-2020-06-27 15:37:17,096   pi_pact      DEBUG      Performing scan #605 at revisit 1.
-2020-06-27 15:37:18,095   pi_pact      DEBUG      Performing scan #606 at revisit 1.
-2020-06-27 15:37:19,096   pi_pact      DEBUG      Performing scan #607 at revisit 1.
-2020-06-27 15:37:20,037   pi_pact      DEBUG      Performing scan #608 at revisit 1.
-2020-06-27 15:37:21,227   pi_pact      DEBUG      Performing scan #609 at revisit 1.
-2020-06-27 15:37:22,097   pi_pact      DEBUG      Performing scan #610 at revisit 1.
-2020-06-27 15:37:23,098   pi_pact      DEBUG      Performing scan #611 at revisit 1.
-2020-06-27 15:37:24,385   pi_pact      DEBUG      Performing scan #612 at revisit 1.
-2020-06-27 15:37:25,037   pi_pact      DEBUG      Performing scan #613 at revisit 1.
-2020-06-27 15:37:26,286   pi_pact      DEBUG      Performing scan #614 at revisit 1.
-2020-06-27 15:37:27,098   pi_pact      DEBUG      Performing scan #615 at revisit 1.
-2020-06-27 15:41:24,279   pi_pact      DEBUG      Beacon configuration - {'control_file': 'advertiser_control', 'timeout': 0.0, 'uuid': '', 'major': 1, 'minor': 1, 'tx_power': 1, 'interval': 200}
-2020-06-27 15:41:24,279   pi_pact      DEBUG      Scanner configuration - {'control_file': 'scanner_control', 'scan_prefix': 'pi_pact_scan', 'timeout': 0.0, 'revisit': 1, 'filters': {}}
-2020-06-27 15:41:24,279   pi_pact      INFO       Beacon scanner mode selected.
-2020-06-27 15:41:24,281   pi_pact      DEBUG      Using default beacon scanner configuration timeout: None.
-2020-06-27 15:41:24,281   pi_pact      DEBUG      Using default beacon scanner configuration filters: {}.
-2020-06-27 15:41:24,281   pi_pact      INFO       Initialized beacon scanner.
-2020-06-27 15:41:24,284   pi_pact      INFO       Starting beacon scanner with timeout None.
-2020-06-27 15:41:24,284   pi_pact      DEBUG      Performing scan #1 at revisit 1.
-2020-06-27 15:41:26,289   pi_pact      ERROR      Fatal exception encountered
-Traceback (most recent call last):
-  File "pi_pact.py", line 715, in main
-    advertisements = scanner.scan()
-  File "pi_pact.py", line 573, in scan
-    advertisements = self.process_scans(scans[-1], timestamps[-1])
-  File "pi_pact.py", line 518, in process_scans
-    for (scan, timestamp) in zip_longest(scans, timestamps):
-TypeError: zip_longest argument #2 must support iteration
-2020-06-27 15:48:34,186   pi_pact      DEBUG      Beacon configuration - {'control_file': 'advertiser_control', 'timeout': 0.0, 'uuid': '', 'major': 1, 'minor': 1, 'tx_power': 1, 'interval': 200}
-2020-06-27 15:48:34,186   pi_pact      DEBUG      Scanner configuration - {'control_file': 'scanner_control', 'scan_prefix': 'pi_pact_scan', 'timeout': 0.0, 'revisit': 1, 'filters': {}}
-2020-06-27 15:48:34,186   pi_pact      INFO       Beacon scanner mode selected.
-2020-06-27 15:48:34,187   pi_pact      DEBUG      Using default beacon scanner configuration timeout: None.
-2020-06-27 15:48:34,188   pi_pact      DEBUG      Using default beacon scanner configuration filters: {}.
-2020-06-27 15:48:34,188   pi_pact      INFO       Initialized beacon scanner.
-2020-06-27 15:48:34,191   pi_pact      INFO       Starting beacon scanner with timeout None.
-2020-06-27 15:48:34,191   pi_pact      DEBUG      Performing scan #1 at revisit 1.
-2020-06-27 15:48:35,334   pi_pact      ERROR      Fatal exception encountered
-Traceback (most recent call last):
-  File "pi_pact.py", line 716, in main
-    advertisements = scanner.scan()
-  File "pi_pact.py", line 574, in scan
-    advertisements = self.process_scans(scans[-1], timestamps[-1])
-  File "pi_pact.py", line 518, in process_scans
-    for (scan, timestamp) in zip_longest(scans, timestamps):
-TypeError: zip_longest argument #2 must support iteration
-2020-06-27 15:49:28,653   pi_pact      DEBUG      Beacon configuration - {'control_file': 'advertiser_control', 'timeout': 0.0, 'uuid': '', 'major': 1, 'minor': 1, 'tx_power': 1, 'interval': 200}
-2020-06-27 15:49:28,653   pi_pact      DEBUG      Scanner configuration - {'control_file': 'scanner_control', 'scan_prefix': 'pi_pact_scan', 'timeout': 0.0, 'revisit': 1, 'filters': {}}
-2020-06-27 15:49:28,657   pi_pact      INFO       Beacon scanner mode selected.
-2020-06-27 15:49:28,658   pi_pact      DEBUG      Using default beacon scanner configuration timeout: None.
-2020-06-27 15:49:28,659   pi_pact      DEBUG      Using default beacon scanner configuration filters: {}.
-2020-06-27 15:49:28,659   pi_pact      INFO       Initialized beacon scanner.
-2020-06-27 15:49:28,660   pi_pact      INFO       Starting beacon scanner with timeout None.
-2020-06-27 15:49:28,660   pi_pact      DEBUG      Performing scan #1 at revisit 1.
-2020-06-27 15:49:29,005   pi_pact      ERROR      Fatal exception encountered
-Traceback (most recent call last):
-  File "pi_pact.py", line 716, in main
-    advertisements = scanner.scan()
-  File "pi_pact.py", line 574, in scan
-    advertisements = self.process_scans(scans[-1], timestamps)
-  File "pi_pact.py", line 519, in process_scans
-    for address, payload in scan.items():
-AttributeError: 'str' object has no attribute 'items'
-2020-06-27 15:51:01,801   pi_pact      DEBUG      Beacon configuration - {'control_file': 'advertiser_control', 'timeout': 0.0, 'uuid': '', 'major': 1, 'minor': 1, 'tx_power': 1, 'interval': 200}
-2020-06-27 15:51:01,801   pi_pact      DEBUG      Scanner configuration - {'control_file': 'scanner_control', 'scan_prefix': 'pi_pact_scan', 'timeout': 0.0, 'revisit': 1, 'filters': {}}
-2020-06-27 15:51:01,801   pi_pact      INFO       Beacon scanner mode selected.
-2020-06-27 15:51:01,803   pi_pact      DEBUG      Using default beacon scanner configuration timeout: None.
-2020-06-27 15:51:01,803   pi_pact      DEBUG      Using default beacon scanner configuration filters: {}.
-2020-06-27 15:51:01,803   pi_pact      INFO       Initialized beacon scanner.
-2020-06-27 15:51:01,806   pi_pact      INFO       Starting beacon scanner with timeout None.
-2020-06-27 15:51:01,806   pi_pact      DEBUG      Performing scan #1 at revisit 1.
-2020-06-27 15:51:02,028   pi_pact      DEBUG      Performing scan #2 at revisit 1.
-2020-06-27 15:51:03,141   pi_pact      DEBUG      Performing scan #3 at revisit 1.
-2020-06-27 15:51:04,411   pi_pact      DEBUG      Performing scan #4 at revisit 1.
-2020-06-27 15:51:05,406   pi_pact      DEBUG      Performing scan #5 at revisit 1.
-2020-06-27 15:51:06,406   pi_pact      DEBUG      Performing scan #6 at revisit 1.
-2020-06-27 15:51:07,194   pi_pact      DEBUG      Performing scan #7 at revisit 1.
-2020-06-27 15:51:08,422   pi_pact      DEBUG      Performing scan #8 at revisit 1.
-2020-06-27 15:51:09,098   pi_pact      DEBUG      Performing scan #9 at revisit 1.
-2020-06-27 15:51:10,406   pi_pact      DEBUG      Performing scan #10 at revisit 1.
-2020-06-27 15:51:11,045   pi_pact      DEBUG      Performing scan #11 at revisit 1.
-2020-06-27 15:51:12,433   pi_pact      DEBUG      Performing scan #12 at revisit 1.
-2020-06-27 15:51:13,065   pi_pact      DEBUG      Performing scan #13 at revisit 1.
-2020-06-27 15:51:14,215   pi_pact      DEBUG      Performing scan #14 at revisit 1.
-2020-06-27 15:51:15,267   pi_pact      DEBUG      Performing scan #15 at revisit 1.
-2020-06-27 15:51:16,371   pi_pact      DEBUG      Performing scan #16 at revisit 1.
-2020-06-27 15:51:17,363   pi_pact      DEBUG      Performing scan #17 at revisit 1.
-2020-06-27 15:51:18,030   pi_pact      DEBUG      Performing scan #18 at revisit 1.
-2020-06-27 15:51:20,049   pi_pact      DEBUG      Performing scan #19 at revisit 1.
-2020-06-27 15:51:21,277   pi_pact      DEBUG      Performing scan #20 at revisit 1.
-2020-06-27 15:51:23,297   pi_pact      DEBUG      Performing scan #21 at revisit 1.
-2020-06-27 15:51:24,080   pi_pact      DEBUG      Performing scan #22 at revisit 1.
-2020-06-27 15:51:25,412   pi_pact      DEBUG      Performing scan #23 at revisit 1.
-2020-06-27 15:51:26,165   pi_pact      DEBUG      Performing scan #24 at revisit 1.
-2020-06-27 15:51:27,163   pi_pact      DEBUG      Performing scan #25 at revisit 1.
-2020-06-27 15:51:28,478   pi_pact      DEBUG      Performing scan #26 at revisit 1.
-2020-06-27 15:51:29,418   pi_pact      DEBUG      Performing scan #27 at revisit 1.
-2020-06-27 15:51:31,416   pi_pact      DEBUG      Performing scan #28 at revisit 1.
-2020-06-27 15:51:32,484   pi_pact      DEBUG      Performing scan #29 at revisit 1.
-2020-06-27 15:51:34,487   pi_pact      DEBUG      Performing scan #30 at revisit 1.
-2020-06-27 15:51:35,336   pi_pact      DEBUG      Performing scan #31 at revisit 1.
-2020-06-27 15:51:36,419   pi_pact      DEBUG      Performing scan #32 at revisit 1.
-2020-06-27 15:51:37,287   pi_pact      DEBUG      Performing scan #33 at revisit 1.
-2020-06-27 15:51:38,117   pi_pact      DEBUG      Performing scan #34 at revisit 1.
-2020-06-27 15:51:39,457   pi_pact      DEBUG      Performing scan #35 at revisit 1.
-2020-06-27 15:51:40,123   pi_pact      DEBUG      Performing scan #36 at revisit 1.
-2020-06-27 15:51:42,144   pi_pact      DEBUG      Performing scan #37 at revisit 1.
-2020-06-27 15:51:43,884   pi_pact      DEBUG      Performing scan #38 at revisit 1.
-2020-06-27 15:51:44,175   pi_pact      DEBUG      Performing scan #39 at revisit 1.
-2020-06-27 15:51:46,102   pi_pact      DEBUG      Performing scan #40 at revisit 1.
-2020-06-27 15:51:47,198   pi_pact      DEBUG      Performing scan #41 at revisit 1.
-2020-06-27 15:51:48,045   pi_pact      DEBUG      Performing scan #42 at revisit 1.
-2020-06-27 15:51:49,438   pi_pact      DEBUG      Performing scan #43 at revisit 1.
-2020-06-27 15:51:50,253   pi_pact      DEBUG      Performing scan #44 at revisit 1.
-2020-06-27 15:51:51,297   pi_pact      DEBUG      Performing scan #45 at revisit 1.
-2020-06-27 15:51:52,148   pi_pact      DEBUG      Performing scan #46 at revisit 1.
-2020-06-27 15:51:53,422   pi_pact      DEBUG      Performing scan #47 at revisit 1.
-2020-06-27 15:51:54,054   pi_pact      DEBUG      Performing scan #48 at revisit 1.
-2020-06-27 15:51:55,414   pi_pact      DEBUG      Performing scan #49 at revisit 1.
-2020-06-27 15:51:56,146   pi_pact      DEBUG      Performing scan #50 at revisit 1.
-2020-06-27 15:51:57,119   pi_pact      DEBUG      Performing scan #51 at revisit 1.
-2020-06-27 15:51:59,141   pi_pact      DEBUG      Performing scan #52 at revisit 1.
-2020-06-27 15:52:00,428   pi_pact      DEBUG      Performing scan #53 at revisit 1.
-2020-06-27 15:52:01,429   pi_pact      DEBUG      Performing scan #54 at revisit 1.
-2020-06-27 15:52:02,369   pi_pact      DEBUG      Performing scan #55 at revisit 1.
-2020-06-27 15:52:03,128   pi_pact      DEBUG      Performing scan #56 at revisit 1.
-2020-06-27 15:52:04,273   pi_pact      DEBUG      Performing scan #57 at revisit 1.
-2020-06-27 15:52:05,037   pi_pact      DEBUG      Performing scan #58 at revisit 1.
-2020-06-27 15:52:06,235   pi_pact      DEBUG      Performing scan #59 at revisit 1.
-2020-06-27 15:52:07,021   pi_pact      DEBUG      Performing scan #60 at revisit 1.
-2020-06-27 15:52:08,431   pi_pact      DEBUG      Performing scan #61 at revisit 1.
-2020-06-27 15:52:09,189   pi_pact      DEBUG      Performing scan #62 at revisit 1.
-2020-06-27 15:52:10,589   pi_pact      DEBUG      Performing scan #63 at revisit 1.
-2020-06-27 15:52:11,433   pi_pact      DEBUG      Performing scan #64 at revisit 1.
-2020-06-27 15:52:12,138   pi_pact      DEBUG      Performing scan #65 at revisit 1.
-2020-06-27 15:52:14,013   pi_pact      DEBUG      Performing scan #66 at revisit 1.
-2020-06-27 15:52:15,255   pi_pact      DEBUG      Performing scan #67 at revisit 1.
-2020-06-27 15:52:16,026   pi_pact      DEBUG      Performing scan #68 at revisit 1.
-2020-06-27 15:52:17,318   pi_pact      DEBUG      Performing scan #69 at revisit 1.
-2020-06-27 15:52:18,086   pi_pact      DEBUG      Performing scan #70 at revisit 1.
-2020-06-27 15:52:19,147   pi_pact      DEBUG      Performing scan #71 at revisit 1.
-2020-06-27 15:52:20,319   pi_pact      DEBUG      Performing scan #72 at revisit 1.
-2020-06-27 15:52:21,338   pi_pact      DEBUG      Performing scan #73 at revisit 1.
-2020-06-27 15:52:22,615   pi_pact      DEBUG      Performing scan #74 at revisit 1.
-2020-06-27 15:52:23,045   pi_pact      DEBUG      Performing scan #75 at revisit 1.
-2020-06-27 15:52:24,448   pi_pact      DEBUG      Performing scan #76 at revisit 1.
-2020-06-27 15:52:25,063   pi_pact      DEBUG      Performing scan #77 at revisit 1.
-2020-06-27 15:52:26,040   pi_pact      DEBUG      Performing scan #78 at revisit 1.
-2020-06-27 15:52:27,620   pi_pact      DEBUG      Performing scan #79 at revisit 1.
-2020-06-27 15:52:28,084   pi_pact      DEBUG      Performing scan #80 at revisit 1.
-2020-06-27 15:53:35,615   pi_pact      DEBUG      Beacon configuration - {'control_file': 'advertiser_control', 'timeout': 0.0, 'uuid': '', 'major': 1, 'minor': 1, 'tx_power': 1, 'interval': 200}
-2020-06-27 15:53:35,615   pi_pact      DEBUG      Scanner configuration - {'control_file': 'scanner_control', 'scan_prefix': 'pi_pact_scan', 'timeout': 0.0, 'revisit': 1, 'filters': {}}
-2020-06-27 15:53:35,616   pi_pact      INFO       Beacon scanner mode selected.
-2020-06-27 15:53:35,617   pi_pact      DEBUG      Using default beacon scanner configuration timeout: None.
-2020-06-27 15:53:35,617   pi_pact      DEBUG      Using default beacon scanner configuration filters: {}.
-2020-06-27 15:53:35,617   pi_pact      INFO       Initialized beacon scanner.
-2020-06-27 15:53:35,620   pi_pact      INFO       Starting beacon scanner with timeout None.
-2020-06-27 15:53:35,620   pi_pact      DEBUG      Performing scan #1 at revisit 1.
-2020-06-27 15:53:36,351   pi_pact      DEBUG      Performing scan #2 at revisit 1.
-2020-06-27 15:53:37,048   pi_pact      DEBUG      Performing scan #3 at revisit 1.
-2020-06-27 15:53:38,087   pi_pact      DEBUG      Performing scan #4 at revisit 1.
-2020-06-27 15:53:39,221   pi_pact      DEBUG      Performing scan #5 at revisit 1.
-2020-06-27 15:53:40,530   pi_pact      DEBUG      Performing scan #6 at revisit 1.
-2020-06-27 15:53:41,024   pi_pact      DEBUG      Performing scan #7 at revisit 1.
-2020-06-27 15:53:42,039   pi_pact      DEBUG      Performing scan #8 at revisit 1.
-2020-06-27 15:53:43,946   pi_pact      DEBUG      Performing scan #9 at revisit 1.
-2020-06-27 15:53:44,063   pi_pact      DEBUG      Performing scan #10 at revisit 1.
-2020-06-27 15:53:45,198   pi_pact      DEBUG      Performing scan #11 at revisit 1.
-2020-06-27 15:53:46,408   pi_pact      DEBUG      Performing scan #12 at revisit 1.
-2020-06-27 15:53:47,249   pi_pact      DEBUG      Performing scan #13 at revisit 1.
-2020-06-27 15:53:48,089   pi_pact      DEBUG      Performing scan #14 at revisit 1.
-2020-06-27 15:53:49,445   pi_pact      DEBUG      Performing scan #15 at revisit 1.
-2020-06-27 15:53:50,313   pi_pact      DEBUG      Performing scan #16 at revisit 1.
-2020-06-27 15:53:51,075   pi_pact      DEBUG      Performing scan #17 at revisit 1.
-2020-06-27 15:53:52,754   pi_pact      DEBUG      Performing scan #18 at revisit 1.
-2020-06-27 15:53:53,027   pi_pact      DEBUG      Performing scan #19 at revisit 1.
-2020-06-27 15:53:54,404   pi_pact      DEBUG      Performing scan #20 at revisit 1.
-2020-06-27 15:53:55,814   pi_pact      DEBUG      Performing scan #21 at revisit 1.
-2020-06-27 15:53:56,053   pi_pact      DEBUG      Performing scan #22 at revisit 1.
-2020-06-27 15:53:57,714   pi_pact      DEBUG      Performing scan #23 at revisit 1.
-2020-06-27 15:53:58,031   pi_pact      DEBUG      Performing scan #24 at revisit 1.
-2020-06-27 15:54:00,051   pi_pact      DEBUG      Performing scan #25 at revisit 1.
-2020-06-27 15:54:01,657   pi_pact      DEBUG      Performing scan #26 at revisit 1.
-2020-06-27 15:54:02,273   pi_pact      DEBUG      Performing scan #27 at revisit 1.
-2020-06-27 15:54:03,236   pi_pact      DEBUG      Performing scan #28 at revisit 1.
-2020-06-27 15:54:04,288   pi_pact      DEBUG      Performing scan #29 at revisit 1.
-2020-06-27 15:54:05,475   pi_pact      DEBUG      Performing scan #30 at revisit 1.
-2020-06-27 15:54:06,066   pi_pact      DEBUG      Performing scan #31 at revisit 1.
-2020-06-27 15:54:07,035   pi_pact      DEBUG      Performing scan #32 at revisit 1.
-2020-06-27 15:54:08,864   pi_pact      DEBUG      Performing scan #33 at revisit 1.
-2020-06-27 15:54:09,117   pi_pact      DEBUG      Performing scan #34 at revisit 1.
-2020-06-27 15:54:10,421   pi_pact      DEBUG      Performing scan #35 at revisit 1.
-2020-06-27 15:54:11,547   pi_pact      DEBUG      Performing scan #36 at revisit 1.
-2020-06-27 15:54:12,052   pi_pact      DEBUG      Performing scan #37 at revisit 1.
-2020-06-27 15:54:13,089   pi_pact      DEBUG      Performing scan #38 at revisit 1.
-2020-06-27 15:54:14,082   pi_pact      DEBUG      Performing scan #39 at revisit 1.
-2020-06-27 15:54:15,416   pi_pact      DEBUG      Performing scan #40 at revisit 1.
-2020-06-27 15:54:16,477   pi_pact      DEBUG      Performing scan #41 at revisit 1.
-2020-06-27 15:54:17,595   pi_pact      DEBUG      Performing scan #42 at revisit 1.
-2020-06-27 15:54:18,053   pi_pact      DEBUG      Performing scan #43 at revisit 1.
-2020-06-27 15:54:19,111   pi_pact      DEBUG      Performing scan #44 at revisit 1.
-2020-06-27 15:54:20,889   pi_pact      DEBUG      Performing scan #45 at revisit 1.
-2020-06-27 15:54:21,050   pi_pact      DEBUG      Performing scan #46 at revisit 1.
-2020-06-27 15:54:22,104   pi_pact      DEBUG      Performing scan #47 at revisit 1.
-2020-06-27 15:54:23,557   pi_pact      DEBUG      Performing scan #48 at revisit 1.
-2020-06-27 16:02:07,183   pi_pact      DEBUG      Beacon configuration - {'control_file': 'advertiser_control', 'timeout': 0.0, 'uuid': '', 'major': 1, 'minor': 1, 'tx_power': 1, 'interval': 200}
-2020-06-27 16:02:07,183   pi_pact      DEBUG      Scanner configuration - {'control_file': 'scanner_control', 'scan_prefix': 'pi_pact_scan', 'timeout': 0.0, 'revisit': 1, 'filters': {}}
-2020-06-27 16:02:07,183   pi_pact      INFO       Beacon scanner mode selected.
-2020-06-27 16:02:07,184   pi_pact      DEBUG      Using default beacon scanner configuration timeout: None.
-2020-06-27 16:02:07,184   pi_pact      DEBUG      Using default beacon scanner configuration filters: {}.
-2020-06-27 16:02:07,185   pi_pact      INFO       Initialized beacon scanner.
-2020-06-27 16:02:07,187   pi_pact      INFO       Starting beacon scanner with timeout None.
-2020-06-27 16:02:07,188   pi_pact      DEBUG      Performing scan #1 at revisit 1.
-2020-06-27 16:02:08,822   pi_pact      DEBUG      Performing scan #2 at revisit 1.
-2020-06-27 16:02:09,056   pi_pact      DEBUG      Performing scan #3 at revisit 1.
-2020-06-27 16:02:10,049   pi_pact      DEBUG      Performing scan #4 at revisit 1.
-2020-06-27 16:02:11,786   pi_pact      DEBUG      Performing scan #5 at revisit 1.
-2020-06-27 16:02:12,240   pi_pact      DEBUG      Performing scan #6 at revisit 1.
-2020-06-27 16:02:13,354   pi_pact      DEBUG      Performing scan #7 at revisit 1.
-2020-06-27 16:02:14,104   pi_pact      DEBUG      Performing scan #8 at revisit 1.
-2020-06-27 16:02:15,040   pi_pact      DEBUG      Performing scan #9 at revisit 1.
-2020-06-27 16:02:16,367   pi_pact      DEBUG      Performing scan #10 at revisit 1.
-2020-06-27 16:02:17,751   pi_pact      DEBUG      Performing scan #11 at revisit 1.
-2020-06-27 16:02:18,296   pi_pact      DEBUG      Performing scan #12 at revisit 1.
-2020-06-27 16:02:19,092   pi_pact      DEBUG      Performing scan #13 at revisit 1.
-2020-06-27 16:02:20,117   pi_pact      DEBUG      Performing scan #14 at revisit 1.
-2020-06-27 16:02:21,602   pi_pact      DEBUG      Performing scan #15 at revisit 1.
-2020-06-27 16:02:22,027   pi_pact      DEBUG      Performing scan #16 at revisit 1.
-2020-06-27 16:02:23,271   pi_pact      DEBUG      Performing scan #17 at revisit 1.
-2020-06-27 16:02:24,082   pi_pact      DEBUG      Performing scan #18 at revisit 1.
-2020-06-27 16:02:25,812   pi_pact      DEBUG      Performing scan #19 at revisit 1.
-2020-06-27 16:02:26,049   pi_pact      DEBUG      Performing scan #20 at revisit 1.
-2020-06-27 16:02:27,821   pi_pact      DEBUG      Performing scan #21 at revisit 1.
-2020-06-27 16:02:28,079   pi_pact      DEBUG      Performing scan #22 at revisit 1.
-2020-06-27 16:02:29,322   pi_pact      DEBUG      Performing scan #23 at revisit 1.
-2020-06-27 16:02:30,079   pi_pact      DEBUG      Performing scan #24 at revisit 1.
-2020-06-27 16:02:31,529   pi_pact      DEBUG      Performing scan #25 at revisit 1.
-2020-06-27 16:02:32,231   pi_pact      DEBUG      Performing scan #26 at revisit 1.
-2020-06-27 16:02:33,016   pi_pact      DEBUG      Performing scan #27 at revisit 1.
-2020-06-27 16:02:35,036   pi_pact      DEBUG      Performing scan #28 at revisit 1.
-2020-06-27 16:02:37,055   pi_pact      DEBUG      Performing scan #29 at revisit 1.
-2020-06-27 16:02:39,074   pi_pact      DEBUG      Performing scan #30 at revisit 1.
-2020-06-27 16:02:40,880   pi_pact      DEBUG      Performing scan #31 at revisit 1.
-2020-06-27 16:02:41,038   pi_pact      DEBUG      Performing scan #32 at revisit 1.
-2020-06-27 16:02:43,057   pi_pact      DEBUG      Performing scan #33 at revisit 1.
-2020-06-27 16:02:44,145   pi_pact      DEBUG      Performing scan #34 at revisit 1.
-2020-06-27 16:02:45,880   pi_pact      DEBUG      Performing scan #35 at revisit 1.
-2020-06-27 16:02:46,029   pi_pact      DEBUG      Performing scan #36 at revisit 1.
-2020-06-27 16:02:47,064   pi_pact      DEBUG      Performing scan #37 at revisit 1.
-2020-06-27 16:02:48,034   pi_pact      DEBUG      Performing scan #38 at revisit 1.
-2020-06-27 16:02:49,892   pi_pact      DEBUG      Performing scan #39 at revisit 1.
-2020-06-27 16:02:50,018   pi_pact      DEBUG      Performing scan #40 at revisit 1.
-2020-06-27 16:02:51,059   pi_pact      DEBUG      Performing scan #41 at revisit 1.
-2020-06-27 16:02:53,078   pi_pact      DEBUG      Performing scan #42 at revisit 1.
-2020-06-27 16:02:54,314   pi_pact      DEBUG      Performing scan #43 at revisit 1.
-2020-06-27 16:02:55,911   pi_pact      DEBUG      Performing scan #44 at revisit 1.
-2020-06-27 16:02:56,098   pi_pact      DEBUG      Performing scan #45 at revisit 1.
-2020-06-27 16:02:57,709   pi_pact      DEBUG      Performing scan #46 at revisit 1.
-2020-06-27 16:02:59,711   pi_pact      DEBUG      Performing scan #47 at revisit 1.
-2020-06-27 16:03:00,712   pi_pact      DEBUG      Performing scan #48 at revisit 1.
-2020-06-27 16:03:01,790   pi_pact      DEBUG      Performing scan #49 at revisit 1.
-2020-06-27 16:03:02,191   pi_pact      DEBUG      Performing scan #50 at revisit 1.
-2020-06-27 16:03:03,217   pi_pact      DEBUG      Performing scan #51 at revisit 1.
-2020-06-27 16:03:04,211   pi_pact      DEBUG      Performing scan #52 at revisit 1.
-2020-06-27 16:03:05,538   pi_pact      DEBUG      Performing scan #53 at revisit 1.
-2020-06-27 16:03:06,060   pi_pact      DEBUG      Performing scan #54 at revisit 1.
-2020-06-27 16:03:07,297   pi_pact      DEBUG      Performing scan #55 at revisit 1.
-2020-06-27 16:03:09,316   pi_pact      DEBUG      Performing scan #56 at revisit 1.
-2020-06-27 16:03:10,988   pi_pact      DEBUG      Performing scan #57 at revisit 1.
-2020-06-27 16:03:11,093   pi_pact      DEBUG      Performing scan #58 at revisit 1.
-2020-06-27 16:03:12,239   pi_pact      DEBUG      Performing scan #59 at revisit 1.
-2020-06-27 16:03:13,121   pi_pact      DEBUG      Performing scan #60 at revisit 1.
-2020-06-27 16:03:14,257   pi_pact      DEBUG      Performing scan #61 at revisit 1.
-2020-06-27 16:03:15,354   pi_pact      DEBUG      Performing scan #62 at revisit 1.
-2020-06-27 16:03:16,889   pi_pact      DEBUG      Performing scan #63 at revisit 1.
-2020-06-27 16:03:17,082   pi_pact      DEBUG      Performing scan #64 at revisit 1.
-2020-06-27 16:03:18,318   pi_pact      DEBUG      Performing scan #65 at revisit 1.
-2020-06-27 16:03:19,140   pi_pact      DEBUG      Performing scan #66 at revisit 1.
-2020-06-27 16:03:20,524   pi_pact      DEBUG      Performing scan #67 at revisit 1.
-2020-06-27 16:03:21,309   pi_pact      DEBUG      Performing scan #68 at revisit 1.
-2020-06-27 16:03:22,179   pi_pact      DEBUG      Performing scan #69 at revisit 1.
-2020-06-27 16:03:23,118   pi_pact      DEBUG      Performing scan #70 at revisit 1.
-2020-06-27 16:03:25,139   pi_pact      DEBUG      Performing scan #71 at revisit 1.
-2020-06-27 16:03:26,474   pi_pact      DEBUG      Performing scan #72 at revisit 1.
-2020-06-27 16:03:27,138   pi_pact      DEBUG      Performing scan #73 at revisit 1.
-2020-06-27 16:03:29,158   pi_pact      DEBUG      Performing scan #74 at revisit 1.
-2020-06-27 16:03:31,180   pi_pact      DEBUG      Performing scan #75 at revisit 1.
-2020-06-27 16:03:32,034   pi_pact      DEBUG      Performing scan #76 at revisit 1.
-2020-06-27 16:03:33,171   pi_pact      DEBUG      Performing scan #77 at revisit 1.
-2020-06-27 16:03:34,725   pi_pact      DEBUG      Performing scan #78 at revisit 1.
-2020-06-27 16:03:35,559   pi_pact      DEBUG      Performing scan #79 at revisit 1.
-2020-06-27 16:03:36,030   pi_pact      DEBUG      Performing scan #80 at revisit 1.
-2020-06-27 16:03:38,010   pi_pact      DEBUG      Performing scan #81 at revisit 1.
-2020-06-27 16:03:39,093   pi_pact      DEBUG      Performing scan #82 at revisit 1.
-2020-06-27 16:03:40,018   pi_pact      DEBUG      Performing scan #83 at revisit 1.
-2020-06-27 16:03:42,028   pi_pact      DEBUG      Performing scan #84 at revisit 1.
-2020-06-27 16:03:43,097   pi_pact      DEBUG      Performing scan #85 at revisit 1.
-2020-06-27 16:03:44,033   pi_pact      DEBUG      Performing scan #86 at revisit 1.
-2020-06-27 16:03:45,296   pi_pact      DEBUG      Performing scan #87 at revisit 1.
-2020-06-27 16:03:46,045   pi_pact      DEBUG      Performing scan #88 at revisit 1.
-2020-06-27 16:03:48,041   pi_pact      DEBUG      Performing scan #89 at revisit 1.
-2020-06-27 16:03:49,154   pi_pact      DEBUG      Performing scan #90 at revisit 1.
-2020-06-27 16:03:50,041   pi_pact      DEBUG      Performing scan #91 at revisit 1.
-2020-06-27 16:03:51,879   pi_pact      DEBUG      Performing scan #92 at revisit 1.
-2020-06-27 16:03:52,041   pi_pact      DEBUG      Performing scan #93 at revisit 1.
-2020-06-27 16:03:53,780   pi_pact      DEBUG      Performing scan #94 at revisit 1.
-2020-06-27 16:03:54,050   pi_pact      DEBUG      Performing scan #95 at revisit 1.
-2020-06-27 16:03:55,823   pi_pact      DEBUG      Performing scan #96 at revisit 1.
-2020-06-27 16:03:56,049   pi_pact      DEBUG      Performing scan #97 at revisit 1.
-2020-06-27 16:03:57,408   pi_pact      DEBUG      Performing scan #98 at revisit 1.
-2020-06-27 16:03:58,064   pi_pact      DEBUG      Performing scan #99 at revisit 1.
-2020-06-27 16:03:59,066   pi_pact      DEBUG      Performing scan #100 at revisit 1.
-2020-06-27 16:04:00,065   pi_pact      DEBUG      Performing scan #101 at revisit 1.
-2020-06-27 16:04:01,735   pi_pact      DEBUG      Performing scan #102 at revisit 1.
-2020-06-27 16:04:02,058   pi_pact      DEBUG      Performing scan #103 at revisit 1.
-2020-06-27 16:04:04,065   pi_pact      DEBUG      Performing scan #104 at revisit 1.
-2020-06-27 16:04:05,173   pi_pact      DEBUG      Performing scan #105 at revisit 1.
-2020-06-27 16:04:06,073   pi_pact      DEBUG      Performing scan #106 at revisit 1.
-2020-06-27 16:04:08,073   pi_pact      DEBUG      Performing scan #107 at revisit 1.
-2020-06-27 16:20:29,373   pi_pact      DEBUG      Beacon configuration - {'control_file': 'advertiser_control', 'timeout': 0.0, 'uuid': '', 'major': 1, 'minor': 1, 'tx_power': 1, 'interval': 200}
-2020-06-27 16:20:29,373   pi_pact      DEBUG      Scanner configuration - {'control_file': 'scanner_control', 'scan_prefix': 'pi_pact_scan', 'timeout': 0.0, 'revisit': 1, 'filters': {}}
-2020-06-27 16:20:29,373   pi_pact      INFO       Beacon scanner mode selected.
-2020-06-27 16:20:29,375   pi_pact      DEBUG      Using default beacon scanner configuration timeout: None.
-2020-06-27 16:20:29,375   pi_pact      DEBUG      Using default beacon scanner configuration filters: {}.
-2020-06-27 16:20:29,375   pi_pact      INFO       Initialized beacon scanner.
-2020-06-27 16:20:29,378   pi_pact      INFO       Starting beacon scanner with timeout None.
-2020-06-27 16:20:29,379   pi_pact      DEBUG      Performing scan #1 at revisit 1.
-2020-06-27 16:20:30,120   pi_pact      DEBUG      Performing scan #2 at revisit 1.
-2020-06-27 16:20:31,120   pi_pact      DEBUG      Performing scan #3 at revisit 1.
-2020-06-27 16:20:32,120   pi_pact      DEBUG      Performing scan #4 at revisit 1.
-2020-06-27 16:20:33,119   pi_pact      DEBUG      Performing scan #5 at revisit 1.
-2020-06-27 16:20:34,172   pi_pact      DEBUG      Performing scan #6 at revisit 1.
-2020-06-27 16:20:35,122   pi_pact      DEBUG      Performing scan #7 at revisit 1.
-2020-06-27 16:20:36,122   pi_pact      DEBUG      Performing scan #8 at revisit 1.
-2020-06-27 16:20:37,079   pi_pact      DEBUG      Performing scan #9 at revisit 1.
-2020-06-27 16:20:38,154   pi_pact      DEBUG      Performing scan #10 at revisit 1.
-2020-06-27 16:20:39,124   pi_pact      DEBUG      Performing scan #11 at revisit 1.
-2020-06-27 16:20:40,014   pi_pact      DEBUG      Performing scan #12 at revisit 1.
-2020-06-27 16:20:41,535   pi_pact      DEBUG      Performing scan #13 at revisit 1.
-2020-06-27 16:20:42,124   pi_pact      DEBUG      Performing scan #14 at revisit 1.
-2020-06-27 16:20:43,125   pi_pact      DEBUG      Performing scan #15 at revisit 1.
-2020-06-27 16:20:44,196   pi_pact      DEBUG      Performing scan #16 at revisit 1.
-2020-06-27 16:20:45,271   pi_pact      DEBUG      Performing scan #17 at revisit 1.
-2020-06-27 16:20:46,126   pi_pact      DEBUG      Performing scan #18 at revisit 1.
-2020-06-27 16:20:47,126   pi_pact      DEBUG      Performing scan #19 at revisit 1.
-2020-06-27 16:20:48,126   pi_pact      DEBUG      Performing scan #20 at revisit 1.
-2020-06-27 16:20:49,126   pi_pact      DEBUG      Performing scan #21 at revisit 1.
-2020-06-27 16:21:14,407   pi_pact      DEBUG      Beacon configuration - {'control_file': 'advertiser_control', 'timeout': 0.0, 'uuid': '', 'major': 1, 'minor': 1, 'tx_power': 1, 'interval': 200}
-2020-06-27 16:21:14,408   pi_pact      DEBUG      Scanner configuration - {'control_file': 'scanner_control', 'scan_prefix': 'pi_pact_scan', 'timeout': 0.0, 'revisit': 1, 'filters': {}}
-2020-06-27 16:21:14,408   pi_pact      INFO       Beacon scanner mode selected.
-2020-06-27 16:21:14,409   pi_pact      DEBUG      Using default beacon scanner configuration timeout: None.
-2020-06-27 16:21:14,409   pi_pact      DEBUG      Using default beacon scanner configuration filters: {}.
-2020-06-27 16:21:14,409   pi_pact      INFO       Initialized beacon scanner.
-2020-06-27 16:21:14,412   pi_pact      INFO       Starting beacon scanner with timeout None.
-2020-06-27 16:21:14,412   pi_pact      DEBUG      Performing scan #1 at revisit 1.
-2020-06-27 16:21:15,136   pi_pact      DEBUG      Performing scan #2 at revisit 1.
-2020-06-27 16:21:16,138   pi_pact      DEBUG      Performing scan #3 at revisit 1.
-2020-06-27 16:21:17,138   pi_pact      DEBUG      Performing scan #4 at revisit 1.
-2020-06-27 16:21:18,138   pi_pact      DEBUG      Performing scan #5 at revisit 1.
-2020-06-27 16:21:19,115   pi_pact      DEBUG      Performing scan #6 at revisit 1.
-2020-06-27 16:21:20,138   pi_pact      DEBUG      Performing scan #7 at revisit 1.
-2020-06-27 16:21:21,139   pi_pact      DEBUG      Performing scan #8 at revisit 1.
-2020-06-27 16:21:22,140   pi_pact      DEBUG      Performing scan #9 at revisit 1.
-2020-06-27 16:21:23,140   pi_pact      DEBUG      Performing scan #10 at revisit 1.
-2020-06-27 16:21:24,140   pi_pact      DEBUG      Performing scan #11 at revisit 1.
-2020-06-27 16:21:26,145   pi_pact      DEBUG      Performing scan #12 at revisit 1.
-2020-06-27 16:21:27,143   pi_pact      DEBUG      Performing scan #13 at revisit 1.
-2020-06-27 16:21:28,153   pi_pact      DEBUG      Performing scan #14 at revisit 1.
-2020-06-27 16:21:29,143   pi_pact      DEBUG      Performing scan #15 at revisit 1.
-2020-06-27 16:21:30,335   pi_pact      DEBUG      Performing scan #16 at revisit 1.
-2020-06-27 16:21:31,003   pi_pact      DEBUG      Performing scan #17 at revisit 1.
-2020-06-27 16:21:32,144   pi_pact      DEBUG      Performing scan #18 at revisit 1.
-2020-06-27 16:21:33,145   pi_pact      DEBUG      Performing scan #19 at revisit 1.
-2020-06-27 16:21:34,096   pi_pact      DEBUG      Performing scan #20 at revisit 1.
-2020-06-27 16:21:36,102   pi_pact      DEBUG      Performing scan #21 at revisit 1.
-2020-06-27 16:21:37,357   pi_pact      DEBUG      Performing scan #22 at revisit 1.
-2020-06-27 16:21:38,147   pi_pact      DEBUG      Performing scan #23 at revisit 1.
-2020-06-27 16:21:39,147   pi_pact      DEBUG      Performing scan #24 at revisit 1.
-2020-06-27 16:21:40,013   pi_pact      DEBUG      Performing scan #25 at revisit 1.
-2020-06-27 16:21:41,088   pi_pact      DEBUG      Performing scan #26 at revisit 1.
-2020-06-27 16:21:42,148   pi_pact      DEBUG      Performing scan #27 at revisit 1.
-2020-06-27 16:21:43,148   pi_pact      DEBUG      Performing scan #28 at revisit 1.
-2020-06-27 16:21:44,148   pi_pact      DEBUG      Performing scan #29 at revisit 1.
-2020-06-27 16:21:45,149   pi_pact      DEBUG      Performing scan #30 at revisit 1.
-2020-06-27 16:21:46,149   pi_pact      DEBUG      Performing scan #31 at revisit 1.
-2020-06-27 16:21:47,150   pi_pact      DEBUG      Performing scan #32 at revisit 1.
-2020-06-27 16:21:48,150   pi_pact      DEBUG      Performing scan #33 at revisit 1.
-2020-06-27 16:21:49,150   pi_pact      DEBUG      Performing scan #34 at revisit 1.
-2020-06-27 16:21:50,395   pi_pact      DEBUG      Performing scan #35 at revisit 1.
-2020-06-27 16:21:51,004   pi_pact      DEBUG      Performing scan #36 at revisit 1.
-2020-06-27 16:21:52,153   pi_pact      DEBUG      Performing scan #37 at revisit 1.
-2020-06-27 16:21:53,153   pi_pact      DEBUG      Performing scan #38 at revisit 1.
-2020-06-27 16:21:54,078   pi_pact      DEBUG      Performing scan #39 at revisit 1.
-2020-06-27 16:21:55,009   pi_pact      DEBUG      Performing scan #40 at revisit 1.
-2020-06-27 16:21:56,416   pi_pact      DEBUG      Performing scan #41 at revisit 1.
-2020-06-27 16:21:57,156   pi_pact      DEBUG      Performing scan #42 at revisit 1.
-2020-06-27 16:22:28,131   pi_pact      DEBUG      Beacon configuration - {'control_file': 'advertiser_control', 'timeout': 0.0, 'uuid': '', 'major': 1, 'minor': 1, 'tx_power': 1, 'interval': 200}
-2020-06-27 16:22:28,132   pi_pact      DEBUG      Scanner configuration - {'control_file': 'scanner_control', 'scan_prefix': 'pi_pact_scan', 'timeout': 0.0, 'revisit': 1, 'filters': {}}
-2020-06-27 16:22:28,132   pi_pact      INFO       Beacon scanner mode selected.
-2020-06-27 16:22:28,133   pi_pact      DEBUG      Using default beacon scanner configuration timeout: None.
-2020-06-27 16:22:28,133   pi_pact      DEBUG      Using default beacon scanner configuration filters: {}.
-2020-06-27 16:22:28,134   pi_pact      INFO       Initialized beacon scanner.
-2020-06-27 16:22:28,136   pi_pact      INFO       Starting beacon scanner with timeout None.
-2020-06-27 16:22:28,137   pi_pact      DEBUG      Performing scan #1 at revisit 1.
-2020-06-27 16:22:29,003   pi_pact      DEBUG      Performing scan #2 at revisit 1.
-2020-06-27 16:22:30,107   pi_pact      DEBUG      Performing scan #3 at revisit 1.
-2020-06-27 16:22:31,167   pi_pact      DEBUG      Performing scan #4 at revisit 1.
-2020-06-27 16:22:32,167   pi_pact      DEBUG      Performing scan #5 at revisit 1.
-2020-06-27 16:22:33,169   pi_pact      DEBUG      Performing scan #6 at revisit 1.
-2020-06-27 16:22:34,168   pi_pact      DEBUG      Performing scan #7 at revisit 1.
-2020-06-27 16:22:35,168   pi_pact      DEBUG      Performing scan #8 at revisit 1.
-2020-06-27 16:22:36,169   pi_pact      DEBUG      Performing scan #9 at revisit 1.
-2020-06-27 16:22:37,131   pi_pact      DEBUG      Performing scan #10 at revisit 1.
-2020-06-27 16:22:38,462   pi_pact      DEBUG      Performing scan #11 at revisit 1.
-2020-06-27 16:22:39,170   pi_pact      DEBUG      Performing scan #12 at revisit 1.
-2020-06-27 16:22:40,171   pi_pact      DEBUG      Performing scan #13 at revisit 1.
-2020-06-27 16:22:41,170   pi_pact      DEBUG      Performing scan #14 at revisit 1.
-2020-06-27 16:22:42,545   pi_pact      DEBUG      Performing scan #15 at revisit 1.
-2020-06-27 16:22:43,311   pi_pact      DEBUG      Performing scan #16 at revisit 1.
-2020-06-27 16:22:44,174   pi_pact      DEBUG      Performing scan #17 at revisit 1.
-2020-06-27 16:22:45,174   pi_pact      DEBUG      Performing scan #18 at revisit 1.
-2020-06-27 16:22:46,174   pi_pact      DEBUG      Performing scan #19 at revisit 1.
-2020-06-27 16:22:47,175   pi_pact      DEBUG      Performing scan #20 at revisit 1.
-2020-06-27 16:22:48,745   pi_pact      DEBUG      Performing scan #21 at revisit 1.
-2020-06-27 16:22:49,179   pi_pact      DEBUG      Performing scan #22 at revisit 1.
-2020-06-27 16:22:50,175   pi_pact      DEBUG      Performing scan #23 at revisit 1.
-2020-06-27 16:22:51,176   pi_pact      DEBUG      Performing scan #24 at revisit 1.
-2020-06-27 16:22:52,574   pi_pact      DEBUG      Performing scan #25 at revisit 1.
-2020-06-27 16:22:53,676   pi_pact      DEBUG      Performing scan #26 at revisit 1.
-2020-06-27 16:22:54,177   pi_pact      DEBUG      Performing scan #27 at revisit 1.
-2020-06-27 16:22:55,949   pi_pact      DEBUG      Performing scan #28 at revisit 1.
-2020-06-27 16:22:56,177   pi_pact      DEBUG      Performing scan #29 at revisit 1.
-2020-06-27 16:22:58,155   pi_pact      DEBUG      Performing scan #30 at revisit 1.
-2020-06-27 16:22:59,259   pi_pact      DEBUG      Performing scan #31 at revisit 1.
-2020-06-27 16:23:00,186   pi_pact      DEBUG      Performing scan #32 at revisit 1.
-2020-06-27 16:23:01,287   pi_pact      DEBUG      Performing scan #33 at revisit 1.
-2020-06-27 16:23:02,124   pi_pact      DEBUG      Performing scan #34 at revisit 1.
-2020-06-27 16:23:03,179   pi_pact      DEBUG      Performing scan #35 at revisit 1.
-2020-06-27 16:23:04,179   pi_pact      DEBUG      Performing scan #36 at revisit 1.
-2020-06-27 16:23:05,041   pi_pact      DEBUG      Performing scan #37 at revisit 1.
-2020-06-27 16:23:06,146   pi_pact      DEBUG      Performing scan #38 at revisit 1.
-2020-06-27 16:23:07,934   pi_pact      DEBUG      Performing scan #39 at revisit 1.
-2020-06-27 16:23:08,055   pi_pact      DEBUG      Performing scan #40 at revisit 1.
-2020-06-27 16:23:09,183   pi_pact      DEBUG      Performing scan #41 at revisit 1.
-2020-06-27 16:23:10,184   pi_pact      DEBUG      Performing scan #42 at revisit 1.
-2020-06-27 16:23:11,184   pi_pact      DEBUG      Performing scan #43 at revisit 1.
-2020-06-27 16:23:12,039   pi_pact      DEBUG      Performing scan #44 at revisit 1.
-2020-06-27 16:23:13,291   pi_pact      DEBUG      Performing scan #45 at revisit 1.
-2020-06-27 16:23:14,005   pi_pact      DEBUG      Performing scan #46 at revisit 1.
-2020-06-27 16:23:15,229   pi_pact      DEBUG      Performing scan #47 at revisit 1.
-2020-06-27 16:23:16,011   pi_pact      DEBUG      Performing scan #48 at revisit 1.
-2020-06-27 16:23:17,285   pi_pact      DEBUG      Performing scan #49 at revisit 1.
-2020-06-27 16:23:18,186   pi_pact      DEBUG      Performing scan #50 at revisit 1.
-2020-06-27 16:23:19,188   pi_pact      DEBUG      Performing scan #51 at revisit 1.
-2020-06-27 16:23:20,049   pi_pact      DEBUG      Performing scan #52 at revisit 1.
-2020-06-27 16:23:21,358   pi_pact      DEBUG      Performing scan #53 at revisit 1.
-2020-06-27 16:23:22,045   pi_pact      DEBUG      Performing scan #54 at revisit 1.
-2020-06-27 16:23:23,188   pi_pact      DEBUG      Performing scan #55 at revisit 1.
-2020-06-27 16:23:24,166   pi_pact      DEBUG      Performing scan #56 at revisit 1.
-2020-06-27 16:23:25,626   pi_pact      DEBUG      Performing scan #57 at revisit 1.
-2020-06-27 16:23:26,191   pi_pact      DEBUG      Performing scan #58 at revisit 1.
-2020-06-27 16:23:27,194   pi_pact      DEBUG      Performing scan #59 at revisit 1.
-2020-06-27 16:23:28,568   pi_pact      DEBUG      Performing scan #60 at revisit 1.
-2020-06-27 16:23:29,010   pi_pact      DEBUG      Performing scan #61 at revisit 1.
-2020-06-27 16:23:30,113   pi_pact      DEBUG      Performing scan #62 at revisit 1.
-2020-06-27 16:23:31,220   pi_pact      DEBUG      Performing scan #63 at revisit 1.
-2020-06-27 16:23:32,657   pi_pact      DEBUG      Performing scan #64 at revisit 1.
-2020-06-27 16:23:33,125   pi_pact      DEBUG      Performing scan #65 at revisit 1.
-2020-06-27 16:23:35,130   pi_pact      DEBUG      Performing scan #66 at revisit 1.
-2020-06-27 16:23:36,082   pi_pact      DEBUG      Performing scan #67 at revisit 1.
-2020-06-27 16:23:37,269   pi_pact      DEBUG      Performing scan #68 at revisit 1.
-2020-06-27 16:23:38,195   pi_pact      DEBUG      Performing scan #69 at revisit 1.
-2020-06-27 16:23:39,014   pi_pact      DEBUG      Performing scan #70 at revisit 1.
-2020-06-27 16:23:40,195   pi_pact      DEBUG      Performing scan #71 at revisit 1.
-2020-06-27 16:23:41,197   pi_pact      DEBUG      Performing scan #72 at revisit 1.
-2020-06-27 16:23:42,760   pi_pact      DEBUG      Performing scan #73 at revisit 1.
-2020-06-27 16:23:43,197   pi_pact      DEBUG      Performing scan #74 at revisit 1.
-2020-06-27 16:23:44,085   pi_pact      DEBUG      Performing scan #75 at revisit 1.
-2020-06-27 16:23:45,002   pi_pact      DEBUG      Performing scan #76 at revisit 1.
-2020-06-27 16:23:46,169   pi_pact      DEBUG      Performing scan #77 at revisit 1.
-2020-06-27 16:23:47,538   pi_pact      DEBUG      Performing scan #78 at revisit 1.
-2020-06-27 16:23:48,365   pi_pact      DEBUG      Performing scan #79 at revisit 1.
-2020-06-27 16:23:49,199   pi_pact      DEBUG      Performing scan #80 at revisit 1.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        2020-06-27 17:05:58,367   pi_pact      DEBUG      Beacon configuration - {'control_file': 'advertiser_control', 'timeout': 0.0, 'uuid': '', 'major': 1, 'minor': 1, 'tx_power': 1, 'interval': 200}
-2020-06-27 17:05:58,369   pi_pact      DEBUG      Scanner configuration - {'control_file': 'scanner_control', 'scan_prefix': 'pi_pact_scan', 'timeout': 0.0, 'revisit': 1, 'filters': {}}
-2020-06-27 17:05:58,370   pi_pact      INFO       Beacon scanner mode selected.
-2020-06-27 17:05:58,372   pi_pact      DEBUG      Using default beacon scanner configuration timeout: None.
-2020-06-27 17:05:58,372   pi_pact      DEBUG      Using default beacon scanner configuration filters: {}.
-2020-06-27 17:05:58,373   pi_pact      INFO       Initialized beacon scanner.
-2020-06-27 17:05:58,374   pi_pact      INFO       Starting beacon scanner with timeout None.
-2020-06-27 17:05:58,374   pi_pact      DEBUG      Performing scan #1 at revisit 1.
-2020-06-27 17:05:59,213   pi_pact      DEBUG      Performing scan #2 at revisit 1.
-2020-06-27 17:06:00,215   pi_pact      DEBUG      Performing scan #3 at revisit 1.
-2020-06-27 17:06:01,423   pi_pact      DEBUG      Performing scan #4 at revisit 1.
-2020-06-27 17:06:02,216   pi_pact      DEBUG      Performing scan #5 at revisit 1.
-2020-06-27 17:06:03,072   pi_pact      DEBUG      Performing scan #6 at revisit 1.
-2020-06-27 17:06:04,216   pi_pact      DEBUG      Performing scan #7 at revisit 1.
-2020-06-27 17:06:05,215   pi_pact      DEBUG      Performing scan #8 at revisit 1.
-2020-06-27 17:06:06,077   pi_pact      DEBUG      Performing scan #9 at revisit 1.
-2020-06-27 17:06:07,180   pi_pact      DEBUG      Performing scan #10 at revisit 1.
-2020-06-27 17:06:08,284   pi_pact      DEBUG      Performing scan #11 at revisit 1.
-2020-06-27 17:06:09,217   pi_pact      DEBUG      Performing scan #12 at revisit 1.
-2020-06-27 17:06:10,217   pi_pact      DEBUG      Performing scan #13 at revisit 1.
-2020-06-27 17:06:11,042   pi_pact      DEBUG      Performing scan #14 at revisit 1.
-2020-06-27 17:06:12,115   pi_pact      DEBUG      Performing scan #15 at revisit 1.
-2020-06-27 17:06:13,274   pi_pact      DEBUG      Performing scan #16 at revisit 1.
-2020-06-27 17:06:14,071   pi_pact      DEBUG      Performing scan #17 at revisit 1.
-2020-06-27 17:06:15,219   pi_pact      DEBUG      Performing scan #18 at revisit 1.
-2020-06-27 17:06:16,228   pi_pact      DEBUG      Performing scan #19 at revisit 1.
-2020-06-27 17:06:17,056   pi_pact      DEBUG      Performing scan #20 at revisit 1.
-2020-06-27 17:06:18,163   pi_pact      DEBUG      Performing scan #21 at revisit 1.
-2020-06-27 17:06:19,356   pi_pact      DEBUG      Performing scan #22 at revisit 1.
-2020-06-27 17:06:20,169   pi_pact      DEBUG      Performing scan #23 at revisit 1.
-2020-06-27 17:06:21,453   pi_pact      DEBUG      Performing scan #24 at revisit 1.
-2020-06-27 17:06:22,279   pi_pact      DEBUG      Performing scan #25 at revisit 1.
-2020-06-27 17:06:23,118   pi_pact      DEBUG      Performing scan #26 at revisit 1.
-2020-06-27 17:06:24,286   pi_pact      DEBUG      Performing scan #27 at revisit 1.
-2020-06-27 17:06:25,224   pi_pact      DEBUG      Performing scan #28 at revisit 1.
-2020-06-27 17:06:26,225   pi_pact      DEBUG      Performing scan #29 at revisit 1.
-2020-06-27 17:06:27,158   pi_pact      DEBUG      Performing scan #30 at revisit 1.
-2020-06-27 17:06:28,295   pi_pact      DEBUG      Performing scan #31 at revisit 1.
-2020-06-27 17:06:29,227   pi_pact      DEBUG      Performing scan #32 at revisit 1.
-2020-06-27 17:06:30,034   pi_pact      DEBUG      Performing scan #33 at revisit 1.
-2020-06-27 17:06:32,040   pi_pact      DEBUG      Performing scan #34 at revisit 1.
-2020-06-27 17:06:34,045   pi_pact      DEBUG      Performing scan #35 at revisit 1.
-2020-06-27 17:06:35,990   pi_pact      DEBUG      Performing scan #36 at revisit 1.
-2020-06-27 17:06:36,014   pi_pact      DEBUG      Performing scan #37 at revisit 1.
-2020-06-27 17:06:37,144   pi_pact      DEBUG      Performing scan #38 at revisit 1.
-2020-06-27 17:06:38,188   pi_pact      DEBUG      Performing scan #39 at revisit 1.
-2020-06-27 17:06:39,231   pi_pact      DEBUG      Performing scan #40 at revisit 1.
-2020-06-27 17:06:40,069   pi_pact      DEBUG      Performing scan #41 at revisit 1.
-2020-06-27 17:06:42,074   pi_pact      DEBUG      Performing scan #42 at revisit 1.
-2020-06-27 17:06:43,656   pi_pact      DEBUG      Performing scan #43 at revisit 1.
-2020-06-27 17:06:44,150   pi_pact      DEBUG      Performing scan #44 at revisit 1.
-2020-06-27 17:06:45,303   pi_pact      DEBUG      Performing scan #45 at revisit 1.
-2020-06-27 17:06:46,323   pi_pact      DEBUG      Performing scan #46 at revisit 1.
-2020-06-27 17:06:47,038   pi_pact      DEBUG      Performing scan #47 at revisit 1.
-2020-06-27 17:06:48,293   pi_pact      DEBUG      Performing scan #48 at revisit 1.
-2020-06-27 17:06:49,148   pi_pact      DEBUG      Performing scan #49 at revisit 1.
-2020-06-27 17:06:50,021   pi_pact      DEBUG      Performing scan #50 at revisit 1.
-2020-06-27 17:06:52,026   pi_pact      DEBUG      Performing scan #51 at revisit 1.
-2020-06-27 17:06:53,019   pi_pact      DEBUG      Performing scan #52 at revisit 1.
-2020-06-27 17:06:54,036   pi_pact      DEBUG      Performing scan #53 at revisit 1.
-2020-06-27 17:06:55,135   pi_pact      DEBUG      Performing scan #54 at revisit 1.
-2020-06-27 17:06:56,343   pi_pact      DEBUG      Performing scan #55 at revisit 1.
-2020-06-27 17:06:57,238   pi_pact      DEBUG      Performing scan #56 at revisit 1.
-2020-06-27 17:06:58,163   pi_pact      DEBUG      Performing scan #57 at revisit 1.
-2020-06-27 17:06:59,742   pi_pact      DEBUG      Performing scan #58 at revisit 1.
-2020-06-27 17:07:00,238   pi_pact      DEBUG      Performing scan #59 at revisit 1.
-2020-06-27 17:07:01,106   pi_pact      DEBUG      Performing scan #60 at revisit 1.
-2020-06-27 17:07:03,111   pi_pact      DEBUG      Performing scan #61 at revisit 1.
-2020-06-27 17:07:04,187   pi_pact      DEBUG      Performing scan #62 at revisit 1.
-2020-06-27 17:07:06,192   pi_pact      DEBUG      Performing scan #63 at revisit 1.
-2020-06-27 17:07:07,419   pi_pact      DEBUG      Performing scan #64 at revisit 1.
-2020-06-27 17:12:19,321   pi_pact      DEBUG      Beacon configuration - {'control_file': 'advertiser_control', 'timeout': 0.0, 'uuid': '', 'major': 1, 'minor': 1, 'tx_power': 1, 'interval': 200}
-2020-06-27 17:12:19,321   pi_pact      DEBUG      Scanner configuration - {'control_file': 'scanner_control', 'scan_prefix': 'pi_pact_scan', 'timeout': 0.0, 'revisit': 1, 'filters': {}}
-2020-06-27 17:12:19,321   pi_pact      INFO       Beacon scanner mode selected.
-2020-06-27 17:12:19,323   pi_pact      DEBUG      Using default beacon scanner configuration timeout: None.
-2020-06-27 17:12:19,323   pi_pact      DEBUG      Using default beacon scanner configuration filters: {}.
-2020-06-27 17:12:19,323   pi_pact      INFO       Initialized beacon scanner.
-2020-06-27 17:12:19,326   pi_pact      INFO       Starting beacon scanner with timeout None.
-2020-06-27 17:12:19,327   pi_pact      DEBUG      Performing scan #1 at revisit 1.
-2020-06-27 17:12:20,164   pi_pact      DEBUG      Performing scan #2 at revisit 1.
-2020-06-27 17:12:21,087   pi_pact      DEBUG      Performing scan #3 at revisit 1.
-2020-06-27 17:12:22,137   pi_pact      DEBUG      Performing scan #4 at revisit 1.
-2020-06-27 17:12:23,273   pi_pact      DEBUG      Performing scan #5 at revisit 1.
-2020-06-27 17:12:24,096   pi_pact      DEBUG      Performing scan #6 at revisit 1.
-2020-06-27 17:12:25,046   pi_pact      DEBUG      Performing scan #7 at revisit 1.
-2020-06-27 17:12:26,544   pi_pact      DEBUG      Performing scan #8 at revisit 1.
-2020-06-27 17:12:27,072   pi_pact      DEBUG      Performing scan #9 at revisit 1.
-2020-06-27 17:12:28,363   pi_pact      DEBUG      Performing scan #10 at revisit 1.
-2020-06-27 17:12:29,203   pi_pact      DEBUG      Performing scan #11 at revisit 1.
-2020-06-27 17:12:30,366   pi_pact      DEBUG      Performing scan #12 at revisit 1.
-2020-06-27 17:12:31,136   pi_pact      DEBUG      Performing scan #13 at revisit 1.
-2020-06-27 17:12:32,023   pi_pact      DEBUG      Performing scan #14 at revisit 1.
-2020-06-27 17:12:33,059   pi_pact      DEBUG      Performing scan #15 at revisit 1.
-2020-06-27 17:12:34,071   pi_pact      DEBUG      Performing scan #16 at revisit 1.
-2020-06-27 17:12:35,450   pi_pact      DEBUG      Performing scan #17 at revisit 1.
-2020-06-27 17:12:36,044   pi_pact      DEBUG      Performing scan #18 at revisit 1.
-2020-06-27 17:31:45,505   pi_pact      DEBUG      Beacon configuration - {'control_file': 'advertiser_control', 'timeout': 0.0, 'uuid': '', 'major': 1, 'minor': 1, 'tx_power': 1, 'interval': 200}
-2020-06-27 17:31:45,506   pi_pact      DEBUG      Scanner configuration - {'control_file': 'scanner_control', 'scan_prefix': 'pi_pact_scan', 'timeout': 0.0, 'revisit': 1, 'filters': {}}
-2020-06-27 17:31:45,506   pi_pact      INFO       Beacon scanner mode selected.
-2020-06-27 17:31:45,508   pi_pact      DEBUG      Using default beacon scanner configuration timeout: None.
-2020-06-27 17:31:45,508   pi_pact      DEBUG      Using default beacon scanner configuration filters: {}.
-2020-06-27 17:31:45,508   pi_pact      INFO       Initialized beacon scanner.
-2020-06-27 17:31:45,511   pi_pact      INFO       Starting beacon scanner with timeout None.
-2020-06-27 17:31:45,512   pi_pact      DEBUG      Performing scan #1 at revisit 1.
-2020-06-27 17:31:46,349   pi_pact      DEBUG      Performing scan #2 at revisit 1.
-2020-06-27 17:31:47,458   pi_pact      DEBUG      Performing scan #3 at revisit 1.
-2020-06-27 17:31:48,048   pi_pact      DEBUG      Performing scan #4 at revisit 1.
-2020-06-27 17:31:49,464   pi_pact      DEBUG      Performing scan #5 at revisit 1.
-2020-06-27 17:31:50,088   pi_pact      DEBUG      Performing scan #6 at revisit 1.
-2020-06-27 17:31:52,093   pi_pact      DEBUG      Performing scan #7 at revisit 1.
-2020-06-27 17:31:53,471   pi_pact      DEBUG      Performing scan #8 at revisit 1.
-2020-06-27 17:31:54,026   pi_pact      DEBUG      Performing scan #9 at revisit 1.
-2020-06-27 17:31:55,036   pi_pact      DEBUG      Performing scan #10 at revisit 1.
-2020-06-27 17:31:56,319   pi_pact      DEBUG      Performing scan #11 at revisit 1.
-2020-06-27 17:31:57,106   pi_pact      DEBUG      Performing scan #12 at revisit 1.
-2020-06-27 17:31:58,196   pi_pact      DEBUG      Performing scan #13 at revisit 1.
-2020-06-27 17:31:59,488   pi_pact      DEBUG      Performing scan #14 at revisit 1.
-2020-06-27 17:32:00,097   pi_pact      DEBUG      Performing scan #15 at revisit 1.
-2020-06-27 17:32:01,077   pi_pact      DEBUG      Performing scan #16 at revisit 1.
-2020-06-27 17:32:02,003   pi_pact      DEBUG      Performing scan #17 at revisit 1.
-2020-06-27 17:32:03,500   pi_pact      DEBUG      Performing scan #18 at revisit 1.
-2020-06-27 17:32:04,009   pi_pact      DEBUG      Performing scan #19 at revisit 1.
-2020-06-27 17:32:05,528   pi_pact      DEBUG      Performing scan #20 at revisit 1.
-2020-06-27 17:32:06,178   pi_pact      DEBUG      Performing scan #21 at revisit 1.
-2020-06-27 17:32:07,510   pi_pact      DEBUG      Performing scan #22 at revisit 1.
-2020-06-27 17:32:08,048   pi_pact      DEBUG      Performing scan #23 at revisit 1.
-2020-06-27 17:32:09,513   pi_pact      DEBUG      Performing scan #24 at revisit 1.
-2020-06-27 17:32:10,112   pi_pact      DEBUG      Performing scan #25 at revisit 1.
-2020-06-27 17:32:11,304   pi_pact      DEBUG      Performing scan #26 at revisit 1.
-2020-06-27 17:32:12,052   pi_pact      DEBUG      Performing scan #27 at revisit 1.
-2020-06-27 17:32:13,161   pi_pact      DEBUG      Performing scan #28 at revisit 1.
-2020-06-27 17:32:14,817   pi_pact      DEBUG      Performing scan #29 at revisit 1.
-2020-06-27 17:32:15,137   pi_pact      DEBUG      Performing scan #30 at revisit 1.
-2020-06-27 17:32:16,567   pi_pact      DEBUG      Performing scan #31 at revisit 1.
-2020-06-27 17:32:17,043   pi_pact      DEBUG      Performing scan #32 at revisit 1.
-2020-06-27 17:48:29,102   pi_pact      DEBUG      Beacon configuration - {'control_file': 'advertiser_control', 'timeout': 0.0, 'uuid': '', 'major': 1, 'minor': 1, 'tx_power': 1, 'interval': 200}
-2020-06-27 17:48:29,102   pi_pact      DEBUG      Scanner configuration - {'control_file': 'scanner_control', 'scan_prefix': 'pi_pact_scan', 'timeout': 0.0, 'revisit': 1, 'filters': {}}
-2020-06-27 17:48:29,102   pi_pact      INFO       Beacon scanner mode selected.
-2020-06-27 17:48:29,104   pi_pact      DEBUG      Using default beacon scanner configuration timeout: 0.0.
-2020-06-27 17:48:29,105   pi_pact      ERROR      Fatal exception encountered
-Traceback (most recent call last):
-  File "pi_pact.py", line 717, in main
-    scanner = Scanner(logger, **config['scanner'])
-  File "pi_pact.py", line 360, in __init__
-    setattr(self, key, value)
-  File "pi_pact.py", line 429, in timeout
-    raise ValueError("Beacon scanner timeout must be strictly "
-ValueError: Beacon scanner timeout must be strictly positive.
-2020-06-27 17:48:50,894   pi_pact      DEBUG      Beacon configuration - {'control_file': 'advertiser_control', 'timeout': None, 'uuid': '', 'major': 1, 'minor': 1, 'tx_power': 1, 'interval': 200}
-2020-06-27 17:48:50,894   pi_pact      DEBUG      Scanner configuration - {'control_file': 'scanner_control', 'scan_prefix': 'pi_pact_scan', 'timeout': None, 'revisit': 1, 'filters': {}}
-2020-06-27 17:48:50,894   pi_pact      INFO       Beacon scanner mode selected.
-2020-06-27 17:48:50,896   pi_pact      DEBUG      Using default beacon scanner configuration timeout: None.
-2020-06-27 17:48:50,896   pi_pact      DEBUG      Using default beacon scanner configuration filters: {}.
-2020-06-27 17:48:50,897   pi_pact      INFO       Initialized beacon scanner.
-2020-06-27 17:48:50,899   pi_pact      INFO       Starting beacon scanner with timeout None.
-2020-06-27 17:48:50,900   pi_pact      DEBUG      Performing scan #1 at revisit 1.
-2020-06-27 17:48:51,061   pi_pact      DEBUG      Performing scan #2 at revisit 1.
-2020-06-27 17:48:52,200   pi_pact      DEBUG      Performing scan #3 at revisit 1.
-2020-06-27 17:48:53,202   pi_pact      DEBUG      Performing scan #4 at revisit 1.
-2020-06-27 17:48:54,202   pi_pact      DEBUG      Performing scan #5 at revisit 1.
-2020-06-27 17:48:55,202   pi_pact      DEBUG      Performing scan #6 at revisit 1.
-2020-06-27 17:48:56,074   pi_pact      DEBUG      Performing scan #7 at revisit 1.
-2020-06-27 17:48:57,105   pi_pact      DEBUG      Performing scan #8 at revisit 1.
-2020-06-27 17:48:58,273   pi_pact      DEBUG      Performing scan #9 at revisit 1.
-2020-06-27 17:48:59,113   pi_pact      DEBUG      Performing scan #10 at revisit 1.
-2020-06-27 17:49:00,913   pi_pact      DEBUG      Performing scan #11 at revisit 1.
-2020-06-27 17:49:01,032   pi_pact      DEBUG      Performing scan #12 at revisit 1.
-2020-06-27 17:49:02,212   pi_pact      DEBUG      Performing scan #13 at revisit 1.
-2020-06-27 17:49:03,009   pi_pact      DEBUG      Performing scan #14 at revisit 1.
-2020-06-27 17:49:04,169   pi_pact      DEBUG      Performing scan #15 at revisit 1.
-2020-06-27 17:49:05,932   pi_pact      DEBUG      Performing scan #16 at revisit 1.
-2020-06-27 17:49:06,009   pi_pact      DEBUG      Performing scan #17 at revisit 1.
-2020-06-27 17:49:07,076   pi_pact      DEBUG      Performing scan #18 at revisit 1.
-2020-06-27 17:49:08,030   pi_pact      DEBUG      Performing scan #19 at revisit 1.
-2020-06-27 17:49:09,031   pi_pact      DEBUG      Performing scan #20 at revisit 1.
-2020-06-27 17:49:10,124   pi_pact      DEBUG      Performing scan #21 at revisit 1.
-2020-06-27 17:49:11,039   pi_pact      DEBUG      Performing scan #22 at revisit 1.
+2020-07-02 11:22:13,118   pi_pact      DEBUG      Beacon configuration - {'control_file': 'advertiser_control', 'timeout': 0.0, 'uuid': '', 'major': 1, 'minor': 1, 'tx_power': 1, 'interval': 200}
+2020-07-02 11:22:13,119   pi_pact      DEBUG      Scanner configuration - {'control_file': 'scanner_control', 'scan_prefix': 'pi_pact_scan', 'timeout': 0.0, 'revisit': 1, 'filters': {}}
+2020-07-02 11:22:13,120   pi_pact      INFO       Beacon scanner mode selected.
+2020-07-02 11:22:13,121   pi_pact      DEBUG      Using default beacon scanner configuration timeout: None.
+2020-07-02 11:22:13,122   pi_pact      DEBUG      Using default beacon scanner configuration filters: {}.
+2020-07-02 11:22:13,122   pi_pact      INFO       Initialized beacon scanner.
+2020-07-02 11:22:13,125   pi_pact      INFO       Starting beacon scanner with timeout None.
+2020-07-02 11:22:13,125   pi_pact      DEBUG      Performing scan #1 at revisit 1.
+2020-07-02 11:22:14,398   pi_pact      DEBUG      Performing scan #2 at revisit 1.
+2020-07-02 11:22:15,138   pi_pact      DEBUG      Performing scan #3 at revisit 1.
+2020-07-02 11:22:16,068   pi_pact      DEBUG      Performing scan #4 at revisit 1.
+2020-07-02 11:22:17,148   pi_pact      DEBUG      Performing scan #5 at revisit 1.
+2020-07-02 11:22:18,826   pi_pact      DEBUG      Performing scan #6 at revisit 1.
+2020-07-02 11:22:19,068   pi_pact      DEBUG      Performing scan #7 at revisit 1.
+2020-07-02 11:22:20,833   pi_pact      DEBUG      Performing scan #8 at revisit 1.
+2020-07-02 11:22:21,095   pi_pact      DEBUG      Performing scan #9 at revisit 1.
+2020-07-02 11:22:22,205   pi_pact      DEBUG      Performing scan #10 at revisit 1.
+2020-07-02 11:22:23,087   pi_pact      DEBUG      Performing scan #11 at revisit 1.
+2020-07-02 11:22:25,092   pi_pact      DEBUG      Performing scan #12 at revisit 1.
+2020-07-02 11:22:26,695   pi_pact      DEBUG      Performing scan #13 at revisit 1.
+2020-07-02 11:22:27,083   pi_pact      DEBUG      Performing scan #14 at revisit 1.
+2020-07-02 11:22:29,089   pi_pact      DEBUG      Performing scan #15 at revisit 1.
+2020-07-02 11:22:31,094   pi_pact      DEBUG      Performing scan #16 at revisit 1.
+2020-07-02 11:22:33,099   pi_pact      DEBUG      Performing scan #17 at revisit 1.
+2020-07-02 11:22:34,868   pi_pact      DEBUG      Performing scan #18 at revisit 1.
+2020-07-02 11:22:35,064   pi_pact      DEBUG      Performing scan #19 at revisit 1.
+2020-07-02 11:22:36,867   pi_pact      DEBUG      Performing scan #20 at revisit 1.
+2020-07-02 11:22:37,100   pi_pact      DEBUG      Performing scan #21 at revisit 1.
+2020-07-02 11:22:38,055   pi_pact      DEBUG      Performing scan #22 at revisit 1.
+2020-07-02 11:22:39,087   pi_pact      DEBUG      Performing scan #23 at revisit 1.
+2020-07-02 11:22:40,880   pi_pact      DEBUG      Performing scan #24 at revisit 1.
+2020-07-02 11:22:41,164   pi_pact      DEBUG      Performing scan #25 at revisit 1.
+2020-07-02 11:22:42,025   pi_pact      DEBUG      Performing scan #26 at revisit 1.
+2020-07-02 11:22:44,031   pi_pact      DEBUG      Performing scan #27 at revisit 1.
+2020-07-02 11:22:46,036   pi_pact      DEBUG      Performing scan #28 at revisit 1.
+2020-07-02 11:22:48,041   pi_pact      DEBUG      Performing scan #29 at revisit 1.
+2020-07-02 11:22:50,046   pi_pact      DEBUG      Performing scan #30 at revisit 1.
+2020-07-02 11:22:52,051   pi_pact      DEBUG      Performing scan #31 at revisit 1.
+2020-07-02 11:22:53,274   pi_pact      DEBUG      Performing scan #32 at revisit 1.
+2020-07-02 11:22:54,043   pi_pact      DEBUG      Performing scan #33 at revisit 1.
+2020-07-02 11:22:55,076   pi_pact      DEBUG      Performing scan #34 at revisit 1.
+2020-07-02 11:22:56,906   pi_pact      DEBUG      Performing scan #35 at revisit 1.
+2020-07-02 11:22:57,068   pi_pact      DEBUG      Performing scan #36 at revisit 1.
+2020-07-02 11:22:58,913   pi_pact      DEBUG      Performing scan #37 at revisit 1.
+2020-07-02 11:22:59,047   pi_pact      DEBUG      Performing scan #38 at revisit 1.
+2020-07-02 11:23:00,921   pi_pact      DEBUG      Performing scan #39 at revisit 1.
+2020-07-02 11:23:01,004   pi_pact      DEBUG      Performing scan #40 at revisit 1.
+2020-07-02 11:23:02,927   pi_pact      DEBUG      Performing scan #41 at revisit 1.
+2020-07-02 11:23:03,034   pi_pact      DEBUG      Performing scan #42 at revisit 1.
+2020-07-02 11:23:04,935   pi_pact      DEBUG      Performing scan #43 at revisit 1.
+2020-07-02 11:23:05,073   pi_pact      DEBUG      Performing scan #44 at revisit 1.
+2020-07-02 11:23:06,938   pi_pact      DEBUG      Performing scan #45 at revisit 1.
+2020-07-02 11:23:07,048   pi_pact      DEBUG      Performing scan #46 at revisit 1.
+2020-07-02 11:23:09,053   pi_pact      DEBUG      Performing scan #47 at revisit 1.
+2020-07-02 11:23:10,448   pi_pact      DEBUG      Performing scan #48 at revisit 1.
+2020-07-02 11:23:11,095   pi_pact      DEBUG      Performing scan #49 at revisit 1.
+2020-07-02 11:23:12,948   pi_pact      DEBUG      Performing scan #50 at revisit 1.
+2020-07-02 11:23:13,055   pi_pact      DEBUG      Performing scan #51 at revisit 1.
+2020-07-02 11:23:15,059   pi_pact      DEBUG      Performing scan #52 at revisit 1.
+2020-07-02 11:23:17,065   pi_pact      DEBUG      Performing scan #53 at revisit 1.
+2020-07-02 11:23:18,310   pi_pact      DEBUG      Performing scan #54 at revisit 1.
+2020-07-02 11:23:19,343   pi_pact      DEBUG      Performing scan #55 at revisit 1.
+2020-07-02 11:23:20,056   pi_pact      DEBUG      Performing scan #56 at revisit 1.
+2020-07-02 11:23:21,123   pi_pact      DEBUG      Performing scan #57 at revisit 1.
+2020-07-02 11:23:22,046   pi_pact      DEBUG      Performing scan #58 at revisit 1.
+2020-07-02 11:23:23,458   pi_pact      DEBUG      Performing scan #59 at revisit 1.
+2020-07-02 11:23:24,145   pi_pact      DEBUG      Performing scan #60 at revisit 1.
+2020-07-02 11:23:26,150   pi_pact      DEBUG      Performing scan #61 at revisit 1.
+2020-07-02 11:23:27,306   pi_pact      DEBUG      Performing scan #62 at revisit 1.
+2020-07-02 11:23:28,345   pi_pact      DEBUG      Performing scan #63 at revisit 1.
+2020-07-02 11:23:29,125   pi_pact      DEBUG      Performing scan #64 at revisit 1.
+2020-07-02 11:23:31,129   pi_pact      DEBUG      Performing scan #65 at revisit 1.
+2020-07-02 11:23:33,135   pi_pact      DEBUG      Performing scan #66 at revisit 1.
+2020-07-02 11:23:34,279   pi_pact      DEBUG      Performing scan #67 at revisit 1.
+2020-07-02 11:23:36,284   pi_pact      DEBUG      Performing scan #68 at revisit 1.
+2020-07-02 11:23:38,289   pi_pact      DEBUG      Performing scan #69 at revisit 1.
+2020-07-02 11:23:39,034   pi_pact      DEBUG      Performing scan #70 at revisit 1.
+2020-07-02 11:23:41,039   pi_pact      DEBUG      Performing scan #71 at revisit 1.
+2020-07-02 11:23:43,015   pi_pact      DEBUG      Performing scan #72 at revisit 1.
+2020-07-02 11:23:45,017   pi_pact      DEBUG      Performing scan #73 at revisit 1.
+2020-07-02 11:23:46,595   pi_pact      DEBUG      Performing scan #74 at revisit 1.
+2020-07-02 11:23:47,369   pi_pact      DEBUG      Performing scan #75 at revisit 1.
+2020-07-02 11:23:49,026   pi_pact      DEBUG      Performing scan #76 at revisit 1.
+2020-07-02 11:23:51,033   pi_pact      DEBUG      Performing scan #77 at revisit 1.
+2020-07-02 11:23:53,038   pi_pact      DEBUG      Performing scan #78 at revisit 1.
+2020-07-02 11:23:54,356   pi_pact      DEBUG      Performing scan #79 at revisit 1.
+2020-07-02 11:23:55,396   pi_pact      DEBUG      Performing scan #80 at revisit 1.
+2020-07-02 11:23:56,116   pi_pact      DEBUG      Performing scan #81 at revisit 1.
+2020-07-02 11:23:57,049   pi_pact      DEBUG      Performing scan #82 at revisit 1.
+2020-07-02 11:31:26,726   pi_pact      DEBUG      Beacon configuration - {'control_file': 'advertiser_control', 'timeout': 0.0, 'uuid': '', 'major': 1, 'minor': 1, 'tx_power': 1, 'interval': 200}
+2020-07-02 11:31:26,726   pi_pact      DEBUG      Scanner configuration - {'control_file': 'scanner_control', 'scan_prefix': 'pi_pact_scan', 'timeout': 0.0, 'revisit': 1, 'filters': {}}
+2020-07-02 11:31:26,726   pi_pact      INFO       Beacon scanner mode selected.
+2020-07-02 11:31:26,728   pi_pact      DEBUG      Using default beacon scanner configuration timeout: None.
+2020-07-02 11:31:26,728   pi_pact      DEBUG      Using default beacon scanner configuration filters: {}.
+2020-07-02 11:31:26,729   pi_pact      INFO       Initialized beacon scanner.
+2020-07-02 11:31:26,732   pi_pact      INFO       Starting beacon scanner with timeout None.
+2020-07-02 11:31:26,733   pi_pact      DEBUG      Performing scan #1 at revisit 1.
+2020-07-02 11:31:27,030   pi_pact      DEBUG      Performing scan #2 at revisit 1.
+2020-07-02 11:31:28,210   pi_pact      DEBUG      Performing scan #3 at revisit 1.
+2020-07-02 11:31:30,216   pi_pact      DEBUG      Performing scan #4 at revisit 1.
+2020-07-02 11:31:31,276   pi_pact      DEBUG      Performing scan #5 at revisit 1.
+2020-07-02 11:31:32,216   pi_pact      DEBUG      Performing scan #6 at revisit 1.
+2020-07-02 11:31:33,206   pi_pact      DEBUG      Performing scan #7 at revisit 1.
+2020-07-02 11:31:34,221   pi_pact      DEBUG      Performing scan #8 at revisit 1.
+2020-07-02 11:31:35,649   pi_pact      DEBUG      Performing scan #9 at revisit 1.
+2020-07-02 11:31:36,221   pi_pact      DEBUG      Performing scan #10 at revisit 1.
+2020-07-02 11:31:38,225   pi_pact      DEBUG      Performing scan #11 at revisit 1.
+2020-07-02 11:31:39,542   pi_pact      DEBUG      Performing scan #12 at revisit 1.
+2020-07-02 11:31:40,077   pi_pact      DEBUG      Performing scan #13 at revisit 1.
+2020-07-02 11:31:41,336   pi_pact      DEBUG      Performing scan #14 at revisit 1.
+2020-07-02 11:31:42,228   pi_pact      DEBUG      Performing scan #15 at revisit 1.
+2020-07-02 11:31:44,231   pi_pact      DEBUG      Performing scan #16 at revisit 1.
+2020-07-02 11:31:46,236   pi_pact      DEBUG      Performing scan #17 at revisit 1.
+2020-07-02 11:31:48,239   pi_pact      DEBUG      Performing scan #18 at revisit 1.
+2020-07-02 11:31:50,241   pi_pact      DEBUG      Performing scan #19 at revisit 1.
+2020-07-02 11:31:52,246   pi_pact      DEBUG      Performing scan #20 at revisit 1.
+2020-07-02 11:31:53,971   pi_pact      DEBUG      Performing scan #21 at revisit 1.
+2020-07-02 11:31:54,025   pi_pact      DEBUG      Performing scan #22 at revisit 1.
+2020-07-02 11:31:56,030   pi_pact      DEBUG      Performing scan #23 at revisit 1.
+2020-07-02 11:31:58,039   pi_pact      DEBUG      Performing scan #24 at revisit 1.
+2020-07-02 11:32:00,043   pi_pact      DEBUG      Performing scan #25 at revisit 1.
+2020-07-02 11:32:02,048   pi_pact      DEBUG      Performing scan #26 at revisit 1.
+2020-07-02 11:32:04,053   pi_pact      DEBUG      Performing scan #27 at revisit 1.
+2020-07-02 11:32:43,320   pi_pact      DEBUG      Beacon configuration - {'control_file': 'advertiser_control', 'timeout': 0.0, 'uuid': '', 'major': 1, 'minor': 1, 'tx_power': 1, 'interval': 200}
+2020-07-02 11:32:43,321   pi_pact      DEBUG      Scanner configuration - {'control_file': 'scanner_control', 'scan_prefix': 'pi_pact_scan', 'timeout': 0.0, 'revisit': 1, 'filters': {}}
+2020-07-02 11:32:43,321   pi_pact      INFO       Beacon scanner mode selected.
+2020-07-02 11:32:43,323   pi_pact      DEBUG      Using default beacon scanner configuration timeout: None.
+2020-07-02 11:32:43,323   pi_pact      DEBUG      Using default beacon scanner configuration filters: {}.
+2020-07-02 11:32:43,323   pi_pact      INFO       Initialized beacon scanner.
+2020-07-02 11:32:43,326   pi_pact      INFO       Starting beacon scanner with timeout None.
+2020-07-02 11:32:43,327   pi_pact      DEBUG      Performing scan #1 at revisit 1.
+2020-07-02 11:32:44,359   pi_pact      DEBUG      Performing scan #2 at revisit 1.
+2020-07-02 11:32:46,361   pi_pact      DEBUG      Performing scan #3 at revisit 1.
+2020-07-02 11:32:47,142   pi_pact      DEBUG      Performing scan #4 at revisit 1.
+2020-07-02 11:33:30,141   pi_pact      DEBUG      Beacon configuration - {'control_file': 'advertiser_control', 'timeout': 0.0, 'uuid': '', 'major': 1, 'minor': 1, 'tx_power': 1, 'interval': 200}
+2020-07-02 11:33:30,141   pi_pact      DEBUG      Scanner configuration - {'control_file': 'scanner_control', 'scan_prefix': 'pi_pact_scan', 'timeout': 0.0, 'revisit': 1, 'filters': {}}
+2020-07-02 11:33:30,141   pi_pact      INFO       Beacon scanner mode selected.
+2020-07-02 11:33:30,143   pi_pact      DEBUG      Using default beacon scanner configuration timeout: None.
+2020-07-02 11:33:30,143   pi_pact      DEBUG      Using default beacon scanner configuration filters: {}.
+2020-07-02 11:33:30,144   pi_pact      INFO       Initialized beacon scanner.
+2020-07-02 11:33:30,147   pi_pact      INFO       Starting beacon scanner with timeout None.
+2020-07-02 11:33:30,147   pi_pact      DEBUG      Performing scan #1 at revisit 1.
+2020-07-02 11:33:31,105   pi_pact      DEBUG      Performing scan #2 at revisit 1.
+2020-07-02 11:33:32,285   pi_pact      DEBUG      Performing scan #3 at revisit 1.
+2020-07-02 11:33:34,290   pi_pact      DEBUG      Performing scan #4 at revisit 1.
+2020-07-02 11:33:36,295   pi_pact      DEBUG      Performing scan #5 at revisit 1.
+2020-07-02 11:33:38,300   pi_pact      DEBUG      Performing scan #6 at revisit 1.
+2020-07-02 11:33:40,305   pi_pact      DEBUG      Performing scan #7 at revisit 1.
+2020-07-02 11:33:41,345   pi_pact      DEBUG      Performing scan #8 at revisit 1.
+2020-07-02 11:33:42,326   pi_pact      DEBUG      Performing scan #9 at revisit 1.
+2020-07-02 11:33:43,319   pi_pact      DEBUG      Performing scan #10 at revisit 1.
+2020-07-02 11:33:45,324   pi_pact      DEBUG      Performing scan #11 at revisit 1.
+2020-07-02 11:33:46,526   pi_pact      DEBUG      Performing scan #12 at revisit 1.
+2020-07-02 11:33:47,025   pi_pact      DEBUG      Performing scan #13 at revisit 1.
+2020-07-02 11:33:49,030   pi_pact      DEBUG      Performing scan #14 at revisit 1.
+2020-07-02 11:33:50,162   pi_pact      DEBUG      Performing scan #15 at revisit 1.
+2020-07-02 11:33:52,167   pi_pact      DEBUG      Performing scan #16 at revisit 1.
+2020-07-02 11:33:54,172   pi_pact      DEBUG      Performing scan #17 at revisit 1.
+2020-07-02 11:33:55,657   pi_pact      DEBUG      Performing scan #18 at revisit 1.
+2020-07-02 11:33:56,193   pi_pact      DEBUG      Performing scan #19 at revisit 1.
+2020-07-02 11:33:58,198   pi_pact      DEBUG      Performing scan #20 at revisit 1.
+2020-07-02 11:34:23,073   pi_pact      DEBUG      Performing scan #21 at revisit 1.
+2020-07-02 11:34:24,634   pi_pact      DEBUG      Performing scan #22 at revisit 1.
+2020-07-02 11:34:25,493   pi_pact      DEBUG      Performing scan #23 at revisit 1.
+2020-07-02 11:34:26,138   pi_pact      DEBUG      Performing scan #24 at revisit 1.
+2020-07-02 11:34:28,143   pi_pact      DEBUG      Performing scan #25 at revisit 1.
+2020-07-02 11:34:29,414   pi_pact      DEBUG      Performing scan #26 at revisit 1.
+2020-07-02 11:34:30,024   pi_pact      DEBUG      Performing scan #27 at revisit 1.
+2020-07-02 11:34:32,029   pi_pact      DEBUG      Performing scan #28 at revisit 1.
+2020-07-02 11:34:34,029   pi_pact      DEBUG      Performing scan #29 at revisit 1.
+2020-07-02 11:34:35,073   pi_pact      DEBUG      Performing scan #30 at revisit 1.
+2020-07-02 11:34:36,098   pi_pact      DEBUG      Performing scan #31 at revisit 1.
+2020-07-02 11:34:37,905   pi_pact      DEBUG      Performing scan #32 at revisit 1.
+2020-07-02 11:34:38,009   pi_pact      DEBUG      Performing scan #33 at revisit 1.
+2020-07-02 11:34:39,200   pi_pact      DEBUG      Performing scan #34 at revisit 1.
+2020-07-02 11:34:40,247   pi_pact      DEBUG      Performing scan #35 at revisit 1.
+2020-07-02 11:34:41,271   pi_pact      DEBUG      Performing scan #36 at revisit 1.
+2020-07-02 11:34:42,013   pi_pact      DEBUG      Performing scan #37 at revisit 1.
+2020-07-02 11:34:44,019   pi_pact      DEBUG      Performing scan #38 at revisit 1.
+2020-07-02 11:34:45,876   pi_pact      DEBUG      Performing scan #39 at revisit 1.
+2020-07-02 11:34:46,096   pi_pact      DEBUG      Performing scan #40 at revisit 1.
+2020-07-02 11:34:48,101   pi_pact      DEBUG      Performing scan #41 at revisit 1.
+2020-07-02 11:34:49,084   pi_pact      DEBUG      Performing scan #42 at revisit 1.
+2020-07-02 11:34:50,365   pi_pact      DEBUG      Performing scan #43 at revisit 1.
+2020-07-02 11:34:52,369   pi_pact      DEBUG      Performing scan #44 at revisit 1.
+2020-07-02 11:34:53,031   pi_pact      DEBUG      Performing scan #45 at revisit 1.
+2020-07-02 11:34:54,146   pi_pact      DEBUG      Performing scan #46 at revisit 1.
+2020-07-02 11:34:56,151   pi_pact      DEBUG      Performing scan #47 at revisit 1.
+2020-07-02 11:34:58,157   pi_pact      DEBUG      Performing scan #48 at revisit 1.
+2020-07-02 11:35:00,162   pi_pact      DEBUG      Performing scan #49 at revisit 1.
+2020-07-02 11:35:02,167   pi_pact      DEBUG      Performing scan #50 at revisit 1.
+2020-07-02 11:35:04,172   pi_pact      DEBUG      Performing scan #51 at revisit 1.
+2020-07-02 11:35:05,808   pi_pact      DEBUG      Performing scan #52 at revisit 1.
+2020-07-02 11:35:06,057   pi_pact      DEBUG      Performing scan #53 at revisit 1.
+2020-07-02 11:35:07,037   pi_pact      DEBUG      Performing scan #54 at revisit 1.
+2020-07-02 11:35:08,057   pi_pact      DEBUG      Performing scan #55 at revisit 1.
+2020-07-02 11:35:10,062   pi_pact      DEBUG      Performing scan #56 at revisit 1.
+2020-07-02 11:35:12,067   pi_pact      DEBUG      Performing scan #57 at revisit 1.
+2020-07-02 11:35:13,186   pi_pact      DEBUG      Performing scan #58 at revisit 1.
+2020-07-02 11:35:15,190   pi_pact      DEBUG      Performing scan #59 at revisit 1.
+2020-07-02 11:35:16,780   pi_pact      DEBUG      Performing scan #60 at revisit 1.
+2020-07-02 11:35:17,320   pi_pact      DEBUG      Performing scan #61 at revisit 1.
+2020-07-02 11:35:18,473   pi_pact      DEBUG      Performing scan #62 at revisit 1.
+2020-07-02 11:35:19,108   pi_pact      DEBUG      Performing scan #63 at revisit 1.
+2020-07-02 11:35:20,786   pi_pact      DEBUG      Performing scan #64 at revisit 1.
+2020-07-02 11:35:21,036   pi_pact      DEBUG      Performing scan #65 at revisit 1.
+2020-07-02 11:35:22,795   pi_pact      DEBUG      Performing scan #66 at revisit 1.
+2020-07-02 11:35:23,475   pi_pact      DEBUG      Performing scan #67 at revisit 1.
+2020-07-02 11:35:24,024   pi_pact      DEBUG      Performing scan #68 at revisit 1.
+2020-07-02 11:35:26,030   pi_pact      DEBUG      Performing scan #69 at revisit 1.
+2020-07-02 11:35:27,302   pi_pact      DEBUG      Performing scan #70 at revisit 1.
+2020-07-02 11:35:28,799   pi_pact      DEBUG      Performing scan #71 at revisit 1.
+2020-07-02 11:35:29,824   pi_pact      DEBUG      Performing scan #72 at revisit 1.
+2020-07-02 11:35:30,009   pi_pact      DEBUG      Performing scan #73 at revisit 1.
+2020-07-02 11:35:31,671   pi_pact      DEBUG      Performing scan #74 at revisit 1.
+2020-07-02 11:35:32,148   pi_pact      DEBUG      Performing scan #75 at revisit 1.
+2020-07-02 11:35:34,153   pi_pact      DEBUG      Performing scan #76 at revisit 1.
+2020-07-02 11:35:36,158   pi_pact      DEBUG      Performing scan #77 at revisit 1.
+2020-07-02 11:35:38,163   pi_pact      DEBUG      Performing scan #78 at revisit 1.
+2020-07-02 11:35:40,168   pi_pact      DEBUG      Performing scan #79 at revisit 1.
+2020-07-02 11:35:42,173   pi_pact      DEBUG      Performing scan #80 at revisit 1.
+2020-07-02 11:35:43,011   pi_pact      DEBUG      Performing scan #81 at revisit 1.
+2020-07-02 11:35:45,016   pi_pact      DEBUG      Performing scan #82 at revisit 1.
+2020-07-02 11:35:46,829   pi_pact      DEBUG      Performing scan #83 at revisit 1.
+2020-07-02 11:35:47,136   pi_pact      DEBUG      Performing scan #84 at revisit 1.
+2020-07-02 11:35:48,839   pi_pact      DEBUG      Performing scan #85 at revisit 1.
+2020-07-02 11:35:49,031   pi_pact      DEBUG      Performing scan #86 at revisit 1.
+2020-07-02 11:35:50,397   pi_pact      DEBUG      Performing scan #87 at revisit 1.
+2020-07-02 11:35:52,401   pi_pact      DEBUG      Performing scan #88 at revisit 1.
+2020-07-02 11:35:53,326   pi_pact      DEBUG      Performing scan #89 at revisit 1.
+2020-07-02 11:35:54,092   pi_pact      DEBUG      Performing scan #90 at revisit 1.
+2020-07-02 11:35:56,097   pi_pact      DEBUG      Performing scan #91 at revisit 1.
+2020-07-02 11:35:57,578   pi_pact      DEBUG      Performing scan #92 at revisit 1.
+2020-07-02 11:35:58,027   pi_pact      DEBUG      Performing scan #93 at revisit 1.
+2020-07-02 11:36:00,032   pi_pact      DEBUG      Performing scan #94 at revisit 1.
+2020-07-02 11:36:02,036   pi_pact      DEBUG      Performing scan #95 at revisit 1.
+2020-07-02 11:36:03,101   pi_pact      DEBUG      Performing scan #96 at revisit 1.
+2020-07-02 11:36:04,370   pi_pact      DEBUG      Performing scan #97 at revisit 1.
+2020-07-02 11:36:06,375   pi_pact      DEBUG      Performing scan #98 at revisit 1.
+2020-07-02 11:36:07,394   pi_pact      DEBUG      Performing scan #99 at revisit 1.
+2020-07-02 11:36:08,172   pi_pact      DEBUG      Performing scan #100 at revisit 1.
+2020-07-02 11:36:10,178   pi_pact      DEBUG      Performing scan #101 at revisit 1.
+2020-07-02 11:36:12,183   pi_pact      DEBUG      Performing scan #102 at revisit 1.
+2020-07-02 11:36:13,686   pi_pact      DEBUG      Performing scan #103 at revisit 1.
+2020-07-02 11:36:14,052   pi_pact      DEBUG      Performing scan #104 at revisit 1.
+2020-07-02 11:36:16,057   pi_pact      DEBUG      Performing scan #105 at revisit 1.
+2020-07-02 11:36:18,062   pi_pact      DEBUG      Performing scan #106 at revisit 1.
+2020-07-02 11:36:19,089   pi_pact      DEBUG      Performing scan #107 at revisit 1.
+2020-07-02 11:36:20,107   pi_pact      DEBUG      Performing scan #108 at revisit 1.
+2020-07-02 11:36:21,143   pi_pact      DEBUG      Performing scan #109 at revisit 1.
+2020-07-02 11:36:22,172   pi_pact      DEBUG      Performing scan #110 at revisit 1.
+2020-07-02 11:36:24,177   pi_pact      DEBUG      Performing scan #111 at revisit 1.
+2020-07-02 11:36:25,308   pi_pact      DEBUG      Performing scan #112 at revisit 1.
+2020-07-02 11:36:26,267   pi_pact      DEBUG      Performing scan #113 at revisit 1.
+2020-07-02 11:36:27,302   pi_pact      DEBUG      Performing scan #114 at revisit 1.
+2020-07-02 11:36:28,448   pi_pact      DEBUG      Performing scan #115 at revisit 1.
+2020-07-02 11:38:58,016   pi_pact      DEBUG      Beacon configuration - {'control_file': 'advertiser_control', 'timeout': 0.0, 'uuid': '', 'major': 1, 'minor': 1, 'tx_power': 1, 'interval': 200}
+2020-07-02 11:38:58,017   pi_pact      DEBUG      Scanner configuration - {'control_file': 'scanner_control', 'scan_prefix': 'pi_pact_scan', 'timeout': 0.0, 'revisit': 1, 'filters': {}}
+2020-07-02 11:38:58,017   pi_pact      INFO       Beacon scanner mode selected.
+2020-07-02 11:38:58,019   pi_pact      DEBUG      Using default beacon scanner configuration timeout: None.
+2020-07-02 11:38:58,019   pi_pact      DEBUG      Using default beacon scanner configuration filters: {}.
+2020-07-02 11:38:58,019   pi_pact      INFO       Initialized beacon scanner.
+2020-07-02 11:38:58,022   pi_pact      INFO       Starting beacon scanner with timeout None.
+2020-07-02 11:38:58,023   pi_pact      DEBUG      Performing scan #1 at revisit 1.
+2020-07-02 11:38:59,311   pi_pact      DEBUG      Performing scan #2 at revisit 1.
+2020-07-02 11:39:01,314   pi_pact      DEBUG      Performing scan #3 at revisit 1.
+2020-07-02 11:39:02,161   pi_pact      DEBUG      Performing scan #4 at revisit 1.
+2020-07-02 11:39:03,317   pi_pact      DEBUG      Performing scan #5 at revisit 1.
+2020-07-02 11:39:05,323   pi_pact      DEBUG      Performing scan #6 at revisit 1.
+2020-07-02 11:39:06,063   pi_pact      DEBUG      Performing scan #7 at revisit 1.
+2020-07-02 11:39:07,307   pi_pact      DEBUG      Performing scan #8 at revisit 1.
+2020-07-02 11:39:09,108   pi_pact      DEBUG      Performing scan #9 at revisit 1.
+2020-07-02 11:39:10,123   pi_pact      DEBUG      Performing scan #10 at revisit 1.
+2020-07-02 11:39:11,338   pi_pact      DEBUG      Performing scan #11 at revisit 1.
+2020-07-02 11:39:12,009   pi_pact      DEBUG      Performing scan #12 at revisit 1.
+2020-07-02 11:39:13,002   pi_pact      DEBUG      Performing scan #13 at revisit 1.
+2020-07-02 11:39:15,007   pi_pact      DEBUG      Performing scan #14 at revisit 1.
+2020-07-02 11:39:17,013   pi_pact      DEBUG      Performing scan #15 at revisit 1.
+2020-07-02 11:39:19,018   pi_pact      DEBUG      Performing scan #16 at revisit 1.
+2020-07-02 11:39:21,023   pi_pact      DEBUG      Performing scan #17 at revisit 1.
+2020-07-02 11:39:22,079   pi_pact      DEBUG      Performing scan #18 at revisit 1.
+2020-07-02 11:39:23,355   pi_pact      DEBUG      Performing scan #19 at revisit 1.
+2020-07-02 11:39:25,361   pi_pact      DEBUG      Performing scan #20 at revisit 1.
+2020-07-02 11:39:26,141   pi_pact      DEBUG      Performing scan #21 at revisit 1.
+2020-07-02 11:39:27,367   pi_pact      DEBUG      Performing scan #22 at revisit 1.
+2020-07-02 11:39:29,372   pi_pact      DEBUG      Performing scan #23 at revisit 1.
+2020-07-02 11:39:31,373   pi_pact      DEBUG      Performing scan #24 at revisit 1.
+2020-07-02 11:39:32,066   pi_pact      DEBUG      Performing scan #25 at revisit 1.
+2020-07-02 11:39:33,204   pi_pact      DEBUG      Performing scan #26 at revisit 1.
+2020-07-02 11:39:34,447   pi_pact      DEBUG      Performing scan #27 at revisit 1.
+2020-07-02 11:39:35,142   pi_pact      DEBUG      Performing scan #28 at revisit 1.
+2020-07-02 11:39:36,160   pi_pact      DEBUG      Performing scan #29 at revisit 1.
+2020-07-02 11:39:37,036   pi_pact      DEBUG      Performing scan #30 at revisit 1.
+2020-07-02 11:39:39,041   pi_pact      DEBUG      Performing scan #31 at revisit 1.
+2020-07-02 11:39:41,046   pi_pact      DEBUG      Performing scan #32 at revisit 1.
+2020-07-02 11:39:42,213   pi_pact      DEBUG      Performing scan #33 at revisit 1.
+2020-07-02 11:39:43,292   pi_pact      DEBUG      Performing scan #34 at revisit 1.
+2020-07-02 11:39:45,297   pi_pact      DEBUG      Performing scan #35 at revisit 1.
+2020-07-02 11:39:47,302   pi_pact      DEBUG      Performing scan #36 at revisit 1.
+2020-07-02 11:39:49,307   pi_pact      DEBUG      Performing scan #37 at revisit 1.
+2020-07-02 11:39:50,111   pi_pact      DEBUG      Performing scan #38 at revisit 1.
+2020-07-02 11:39:51,412   pi_pact      DEBUG      Performing scan #39 at revisit 1.
+2020-07-02 11:39:52,015   pi_pact      DEBUG      Performing scan #40 at revisit 1.
+2020-07-02 11:39:53,418   pi_pact      DEBUG      Performing scan #41 at revisit 1.
+2020-07-02 11:39:55,419   pi_pact      DEBUG      Performing scan #42 at revisit 1.
+2020-07-02 11:39:56,206   pi_pact      DEBUG      Performing scan #43 at revisit 1.
+2020-07-02 11:43:19,135   pi_pact      DEBUG      Beacon configuration - {'control_file': 'advertiser_control', 'timeout': None, 'uuid': '', 'major': 1, 'minor': 1, 'tx_power': 1, 'interval': 200}
+2020-07-02 11:43:19,135   pi_pact      DEBUG      Scanner configuration - {'control_file': 'scanner_control', 'scan_prefix': 'pi_pact_scan', 'timeout': None, 'revisit': 1, 'filters': {}}
+2020-07-02 11:43:19,135   pi_pact      INFO       Beacon advertiser mode selected.
+2020-07-02 11:43:19,137   pi_pact      DEBUG      Using default beacon advertiser configuration timeout: None.
+2020-07-02 11:43:19,137   pi_pact      DEBUG      Using default beacon advertiser configuration uuid: .
+2020-07-02 11:43:19,138   pi_pact      DEBUG      Beacon advertiser UUID set to c097184e-bc7a-11ea-a5a2-dca63233afb9
+2020-07-02 11:43:19,138   pi_pact      INFO       Initialized beacon advertiser.
+2020-07-02 11:43:19,140   pi_pact      INFO       Starting beacon advertiser with timeout None.
+2020-07-02 11:52:29,078   pi_pact      DEBUG      Beacon configuration - {'control_file': 'advertiser_control', 'timeout': 0.0, 'uuid': '', 'major': 1, 'minor': 1, 'tx_power': 1, 'interval': 200}
+2020-07-02 11:52:29,080   pi_pact      DEBUG      Scanner configuration - {'control_file': 'scanner_control', 'scan_prefix': 'pi_pact_scan', 'timeout': 0.0, 'revisit': 1, 'filters': {}}
+2020-07-02 11:52:29,082   pi_pact      INFO       Beacon scanner mode selected.
+2020-07-02 11:52:29,087   pi_pact      DEBUG      Using default beacon scanner configuration timeout: None.
+2020-07-02 11:52:29,087   pi_pact      DEBUG      Using default beacon scanner configuration filters: {}.
+2020-07-02 11:52:29,088   pi_pact      INFO       Initialized beacon scanner.
+2020-07-02 11:52:29,090   pi_pact      INFO       Starting beacon scanner with timeout None.
+2020-07-02 11:52:29,091   pi_pact      DEBUG      Performing scan #1 at revisit 1.
+2020-07-02 11:52:30,536   pi_pact      DEBUG      Performing scan #2 at revisit 1.
+2020-07-02 11:52:31,038   pi_pact      DEBUG      Performing scan #3 at revisit 1.
+2020-07-02 11:52:33,043   pi_pact      DEBUG      Performing scan #4 at revisit 1.
+2020-07-02 11:52:35,048   pi_pact      DEBUG      Performing scan #5 at revisit 1.
+2020-07-02 11:52:37,053   pi_pact      DEBUG      Performing scan #6 at revisit 1.
+2020-07-02 11:52:39,058   pi_pact      DEBUG      Performing scan #7 at revisit 1.
+2020-07-02 11:52:41,063   pi_pact      DEBUG      Performing scan #8 at revisit 1.
+2020-07-02 11:52:43,058   pi_pact      DEBUG      Performing scan #9 at revisit 1.
+2020-07-02 11:52:45,063   pi_pact      DEBUG      Performing scan #10 at revisit 1.
+2020-07-02 11:52:46,917   pi_pact      DEBUG      Performing scan #11 at revisit 1.
+2020-07-02 11:52:47,014   pi_pact      DEBUG      Performing scan #12 at revisit 1.
+2020-07-02 11:52:49,020   pi_pact      DEBUG      Performing scan #13 at revisit 1.
+2020-07-02 11:52:51,025   pi_pact      DEBUG      Performing scan #14 at revisit 1.
+2020-07-02 11:52:53,030   pi_pact      DEBUG      Performing scan #15 at revisit 1.
+2020-07-02 11:52:54,045   pi_pact      DEBUG      Performing scan #16 at revisit 1.
+2020-07-02 11:52:56,051   pi_pact      DEBUG      Performing scan #17 at revisit 1.
+2020-07-02 11:52:57,122   pi_pact      DEBUG      Performing scan #18 at revisit 1.
+2020-07-02 11:52:58,663   pi_pact      DEBUG      Performing scan #19 at revisit 1.
+2020-07-02 11:52:59,157   pi_pact      DEBUG      Performing scan #20 at revisit 1.
+2020-07-02 11:53:00,695   pi_pact      DEBUG      Performing scan #21 at revisit 1.
+2020-07-02 11:53:01,062   pi_pact      DEBUG      Performing scan #22 at revisit 1.
+2020-07-02 11:53:02,254   pi_pact      DEBUG      Performing scan #23 at revisit 1.
+2020-07-02 11:53:03,062   pi_pact      DEBUG      Performing scan #24 at revisit 1.
+2020-07-02 11:53:05,067   pi_pact      DEBUG      Performing scan #25 at revisit 1.
+2020-07-02 11:53:06,282   pi_pact      DEBUG      Performing scan #26 at revisit 1.
+2020-07-02 11:53:07,424   pi_pact      DEBUG      Performing scan #27 at revisit 1.
+2020-07-02 11:53:09,145   pi_pact      DEBUG      Performing scan #28 at revisit 1.
+2020-07-02 11:53:11,150   pi_pact      DEBUG      Performing scan #29 at revisit 1.
+2020-07-02 11:53:13,154   pi_pact      DEBUG      Performing scan #30 at revisit 1.
+2020-07-02 11:53:14,121   pi_pact      DEBUG      Performing scan #31 at revisit 1.
+2020-07-02 11:53:15,104   pi_pact      DEBUG      Performing scan #32 at revisit 1.
+2020-07-02 11:58:21,823   pi_pact      DEBUG      Beacon configuration - {'control_file': 'advertiser_control', 'timeout': 0.0, 'uuid': '', 'major': 1, 'minor': 1, 'tx_power': 1, 'interval': 200}
+2020-07-02 11:58:21,825   pi_pact      DEBUG      Scanner configuration - {'control_file': 'scanner_control', 'scan_prefix': 'pi_pact_scan', 'timeout': 0.0, 'revisit': 1, 'filters': {}}
+2020-07-02 11:58:21,828   pi_pact      INFO       Beacon scanner mode selected.
+2020-07-02 11:58:21,837   pi_pact      DEBUG      Using default beacon scanner configuration timeout: None.
+2020-07-02 11:58:21,837   pi_pact      DEBUG      Using default beacon scanner configuration filters: {}.
+2020-07-02 11:58:21,837   pi_pact      INFO       Initialized beacon scanner.
+2020-07-02 11:58:21,838   pi_pact      INFO       Starting beacon scanner with timeout None.
+2020-07-02 11:58:21,839   pi_pact      DEBUG      Performing scan #1 at revisit 1.
+2020-07-02 11:58:22,055   pi_pact      DEBUG      Performing scan #2 at revisit 1.
+2020-07-02 11:58:23,546   pi_pact      DEBUG      Performing scan #3 at revisit 1.
+2020-07-02 11:58:24,045   pi_pact      DEBUG      Performing scan #4 at revisit 1.
+2020-07-02 11:58:26,049   pi_pact      DEBUG      Performing scan #5 at revisit 1.
+2020-07-02 11:58:27,550   pi_pact      DEBUG      Performing scan #6 at revisit 1.
+2020-07-02 11:58:28,282   pi_pact      DEBUG      Performing scan #7 at revisit 1.
+2020-07-02 11:58:30,288   pi_pact      DEBUG      Performing scan #8 at revisit 1.
+2020-07-02 11:58:31,003   pi_pact      DEBUG      Performing scan #9 at revisit 1.
+2020-07-02 11:58:32,378   pi_pact      DEBUG      Performing scan #10 at revisit 1.
+2020-07-02 11:58:34,024   pi_pact      DEBUG      Performing scan #11 at revisit 1.
+2020-07-02 11:58:35,123   pi_pact      DEBUG      Performing scan #12 at revisit 1.
+2020-07-02 11:58:37,128   pi_pact      DEBUG      Performing scan #13 at revisit 1.
+2020-07-02 11:58:38,028   pi_pact      DEBUG      Performing scan #14 at revisit 1.
+2020-07-02 11:58:40,033   pi_pact      DEBUG      Performing scan #15 at revisit 1.
+2020-07-02 11:58:41,047   pi_pact      DEBUG      Performing scan #16 at revisit 1.
+2020-07-02 11:58:43,052   pi_pact      DEBUG      Performing scan #17 at revisit 1.
+2020-07-02 11:58:44,396   pi_pact      DEBUG      Performing scan #18 at revisit 1.
+2020-07-02 11:58:45,938   pi_pact      DEBUG      Performing scan #19 at revisit 1.
+2020-07-02 11:58:46,057   pi_pact      DEBUG      Performing scan #20 at revisit 1.
+2020-07-02 11:58:47,215   pi_pact      DEBUG      Performing scan #21 at revisit 1.
+2020-07-02 11:58:48,317   pi_pact      DEBUG      Performing scan #22 at revisit 1.
+2020-07-02 11:58:49,029   pi_pact      DEBUG      Performing scan #23 at revisit 1.
+2020-07-02 11:58:50,310   pi_pact      DEBUG      Performing scan #24 at revisit 1.
+2020-07-02 11:58:51,054   pi_pact      DEBUG      Performing scan #25 at revisit 1.
+2020-07-02 11:58:53,059   pi_pact      DEBUG      Performing scan #26 at revisit 1.
+2020-07-02 11:58:54,936   pi_pact      DEBUG      Performing scan #27 at revisit 1.
+2020-07-02 11:58:55,049   pi_pact      DEBUG      Performing scan #28 at revisit 1.
+2020-07-02 11:58:57,054   pi_pact      DEBUG      Performing scan #29 at revisit 1.
+2020-07-02 11:58:58,027   pi_pact      DEBUG      Performing scan #30 at revisit 1.
+2020-07-02 11:59:00,032   pi_pact      DEBUG      Performing scan #31 at revisit 1.
+2020-07-02 11:59:01,132   pi_pact      DEBUG      Performing scan #32 at revisit 1.
+2020-07-02 11:59:02,527   pi_pact      DEBUG      Performing scan #33 at revisit 1.
+2020-07-02 11:59:03,190   pi_pact      DEBUG      Performing scan #34 at revisit 1.
+2020-07-02 11:59:05,195   pi_pact      DEBUG      Performing scan #35 at revisit 1.
+2020-07-02 11:59:07,200   pi_pact      DEBUG      Performing scan #36 at revisit 1.
+2020-07-02 11:59:08,747   pi_pact      DEBUG      Performing scan #37 at revisit 1.
+2020-07-02 11:59:09,165   pi_pact      DEBUG      Performing scan #38 at revisit 1.
+2020-07-02 11:59:10,270   pi_pact      DEBUG      Performing scan #39 at revisit 1.
+2020-07-02 11:59:11,015   pi_pact      DEBUG      Performing scan #40 at revisit 1.
+2020-07-02 11:59:12,240   pi_pact      DEBUG      Performing scan #41 at revisit 1.
+2020-07-02 11:59:13,005   pi_pact      DEBUG      Performing scan #42 at revisit 1.
+2020-07-02 11:59:14,032   pi_pact      DEBUG      Performing scan #43 at revisit 1.
+2020-07-02 11:59:15,647   pi_pact      DEBUG      Performing scan #44 at revisit 1.
+2020-07-02 11:59:16,270   pi_pact      DEBUG      Performing scan #45 at revisit 1.
+2020-07-02 11:59:17,650   pi_pact      DEBUG      Performing scan #46 at revisit 1.
+2020-07-02 11:59:18,677   pi_pact      DEBUG      Performing scan #47 at revisit 1.
+2020-07-02 11:59:19,186   pi_pact      DEBUG      Performing scan #48 at revisit 1.
+2020-07-02 11:59:21,191   pi_pact      DEBUG      Beacon scanner control flag set to stop.
+2020-07-02 11:59:21,192   pi_pact      INFO       Stopping beacon scanner.

@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 # -*- mode: python; coding: utf-8 -*-
 """Bluetooth Low Energy (BLE) beacon advertisement and scanning.
-
 Execution of a BLE beacon for use in BWSI PiPact independent project. 
 Configuration of beacon done via external YAML. Underlying functionality 
 provided by PyBluez module (https://github.com/pybluez/pybluez). Beacon 
@@ -109,7 +108,6 @@ class Advertiser(object):
 
     def __init__(self, logger, **kwargs):
         """Instance initialization.
-
         Args:
             logger (logging.Logger): Configured logger.
             **kwargs: Keyword arguments corresponding to instance attributes. 
@@ -165,7 +163,6 @@ class Advertiser(object):
     @timeout.setter
     def timeout(self, value):
         """BLE beacon advertiser timeout setter.
-
         Raises:
             TypeError: Beacon advertiser timeout must be a float, integer, or 
                 NoneType.
@@ -193,7 +190,6 @@ class Advertiser(object):
     @uuid.setter
     def uuid(self, value):
         """BLE beacon advertiser UUID setter.
-
         Raises:
             TypeError: Beacon advertiser UUID must be a string.
         """
@@ -213,7 +209,6 @@ class Advertiser(object):
     @major.setter
     def major(self, value):
         """BLE beacon advertiser major value setter.
-
         Raises:
             TypeError: Beacon advertiser major value must be an integer.
             ValueError: Beacon advertiser major value must be in [1, 65535].
@@ -233,7 +228,6 @@ class Advertiser(object):
     @minor.setter
     def minor(self, value):
         """BLE beacon advertiser minor value setter.
-
         Raises:
             TypeError: Beacon advertiser minor value must be an integer.
             ValueError: Beacon advertiser minor value must be in [1, 65535].
@@ -253,7 +247,6 @@ class Advertiser(object):
     @tx_power.setter
     def tx_power(self, value):
         """BLE beacon Beacon advertiser TX power setter.
-
         Raises:
             TypeError: Beacon advertiser TX power must be an integer.
             ValueError: Beacon advertiser TX power must be in [-40, 4].
@@ -273,7 +266,6 @@ class Advertiser(object):
     @interval.setter
     def interval(self, value):
         """BLE beacon advertiser interval setter.
-
         Raises:
             TypeError: Beacon advertiser interval must be an integer.
             ValueError: Beacon advertiser interval must be in [20, 10000].
@@ -342,7 +334,6 @@ class Scanner(object):
 
     def __init__(self, logger, **kwargs):
         """Instance initialization.
-
         Args:
             logger (logging.Logger): Configured logger.
             **kwargs: Keyword arguments corresponding to instance attributes. 
@@ -414,7 +405,6 @@ class Scanner(object):
     @timeout.setter
     def timeout(self, value):
         """BLE beacon scanner timeout setter.
-
         Raises:
             TypeError: Beacon scanner timeout must be a float, integer, or 
                 NoneType.
@@ -441,7 +431,6 @@ class Scanner(object):
     @revisit.setter
     def revisit(self, value):
         """BLE beacon scanner revisit interval setter.
-
         Raises:
             TypeError: Beacon scanner revisit interval must be an integer.
             ValueError: Beacon scanner revisit interval must be strictly 
@@ -463,7 +452,6 @@ class Scanner(object):
     @filters.setter
     def filters(self, value):
         """BLE beacon scanner filters setter.
-
         Raises:
             TypeError: Beacon scanner filters must be a dictionary.
             KeyError: Beacon scanner filters must be one of allowable filters.
@@ -488,7 +476,7 @@ class Scanner(object):
         for key, value in self.filters.items():
             # Filter based on fixed identifiers
             if key in ID_FILTERS:
-                advertisements = advertisements[advertisements[key].isin(value)]
+                advertisements = advertisements[advertisements[key].isin([value])]
             # Filter based on measurements
             else:
                 query_str = f"{value[0]} <= {key} and {key} <= {value[1]}"
@@ -501,7 +489,6 @@ class Scanner(object):
         
         Organize collection of received beacon advertisement scans according 
         to address, payload, and measurements.
-
         Args:
             scans (list): Received beacon advertisement scans. Each element 
                 contains all advertisements received from one scan. Elements 
@@ -524,7 +511,6 @@ class Scanner(object):
                 advertisement['TX POWER'] = payload[3]
                 advertisement['RSSI'] = payload[4]
                 advertisements.append(advertisement)
-                               
         # Format into DataFrame
         return  pd.DataFrame(advertisements,columns=['ADDRESS', 'TIMESTAMP', 
             'UUID', 'MAJOR', 'MINOR', 'TX POWER', 'RSSI'])
@@ -564,19 +550,12 @@ class Scanner(object):
         scans = []
         scan_count = 0
         start_time = time.monotonic()
-        advertisements = []
         while run:
             scan_count += 1
             self.__logger.debug(f"Performing scan #{scan_count} at revisit "
                     f"{self.revisit}.")
-            timestamps = []
             timestamps.append(datetime.now())
-            scans = []
             scans.append(self.__service.scan(self.revisit))
-            #advertisements = self.process_scans(scans, timestamps)
-            #advertisements = self.filter_advertisements(advertisements)
-            #advertisements.to_csv(scan_file, index_label='SCAN')
-            print(scans[-1])
             # Stop advertising based on either timeout or control file
             if timeout is not None:
                 if (time.monotonic()-start_time) > timeout:
@@ -611,10 +590,8 @@ def close_logger(logger):
     
 def load_config(parsed_args):
     """Load configuration.
-
     Loads beacon/scanner configuration from parsed input argument. Any
     expected keys not specified use values from default configuration.
-
     Args:
         parsed_args (Namespace): Parsed input arguments.
         
@@ -643,7 +620,9 @@ def load_config(parsed_args):
     if config['scanner']['filters'] is not None:
         filters_to_remove = []
         for key, value in config['scanner']['filters'].items():
-            if key not in ALLOWABLE_FILTERS or not isinstance(value, list):
+            if key not in ALLOWABLE_FILTERS:
+                filters_to_remove.append(key)
+            elif value is None:
                 filters_to_remove.append(key)
             elif key in MEASUREMENT_FILTERS and len(value) != 2:
                 filters_to_remove.append(key)
@@ -653,7 +632,6 @@ def load_config(parsed_args):
     
 def parse_args(args):
     """Input argument parser.
-
     Args:
         args (list): Input arguments as taken from sys.argv.
         
@@ -684,7 +662,7 @@ def parse_args(args):
             help="Beacon advertiser TX power.")
     parser.add_argument('--interval', type=int,
             help="Beacon advertiser interval (ms).")
-    parser.add_argument('--revist', type=int, 
+    parser.add_argument('--revisit', type=int, 
             help="Beacon scanner revisit interval (s)")
     return vars(parser.parse_args(args))
     
@@ -693,7 +671,6 @@ def main(args):
     
     Args:
         args (list): Arguments as provided by sys.argv.
-
     Returns:
         If advertising then no output (None) is returned. If scanning 
         then scanned advertisements are returned in pandas.DataFrame.
